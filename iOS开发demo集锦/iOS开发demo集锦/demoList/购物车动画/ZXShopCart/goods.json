@@ -1,0 +1,176 @@
+ [
+  {
+  "name": "蔬菜",
+  "desciption": "新鲜的蔬菜",
+  "goods": [
+            {
+            "id": "001",
+            "icon": "guess_wawacai",
+            "name": "娃娃菜超级大白菜",
+            "originalPrice": "10.00",
+            "salePrice": "5.50",
+            "stock": "80",
+            "desc": "超级大白菜"
+            },
+            {
+            "id": "002",
+            "icon": "guess_chashugu",
+            "name": "茶树菇",
+            "originalPrice": "20.00",
+            "salePrice": "10.05",
+            "stock": "20",
+            "desc": "茶树菇"
+            },
+            {
+            "id": "003",
+            "icon": "guess_luobo",
+            "name": "萝卜",
+            "originalPrice": "15.00",
+            "salePrice": "8.99",
+            "stock": "50",
+            "desc": "萝卜"
+            },
+            {
+            "id": "004",
+            "icon": "guess_fanqie",
+            "name": "番茄",
+            "originalPrice": "20",
+            "salePrice": "10",
+            "stock": "50",
+            "desc": "番茄"
+            },
+            {
+            "id": "005",
+            "icon": "guess_lianou",
+            "name": "莲藕莲藕莲藕莲藕莲藕莲藕莲藕莲藕",
+            "originalPrice": "50",
+            "salePrice": "28",
+            "stock": "50",
+            "desc": "莲藕"
+            }
+            ]
+  },
+  {
+  "name": "海鲜",
+  "desciption": "仅有的一点海鲜",
+  "goods": [
+            {
+            "id": "101",
+            "icon": "guess_xiapi",
+            "name": "无敌小虾米",
+            "originalPrice": "80",
+            "salePrice": "59.99",
+            "stock": "1",
+            "desc": "小虾米"
+            },
+            {
+            "id": "102",
+            "icon": "guess_yu",
+            "name": "鱼",
+            "originalPrice": "20",
+            "salePrice": "18",
+            "stock": "12",
+            "desc": "鱼"
+            }
+            ]
+  },
+  {
+  "name": "水果",
+  "desciption": "新鲜水果",
+  "goods": [
+            {
+            "id": "201",
+            "icon": "guess_nimeng",
+            "name": "柠檬",
+            "originalPrice": "10",
+            "salePrice": "5",
+            "stock": "80",
+            "desc": "超级大白菜"
+            },
+            {
+            "id": "202",
+            "icon": "guess_mugua",
+            "name": "木瓜",
+            "originalPrice": "20",
+            "salePrice": "10",
+            "stock": "50",
+            "desc": "茶树菇"
+            },
+            {
+            "id": "203",
+            "icon": "guess_putao",
+            "name": "酸酸甜甜就是我葡萄",
+            "originalPrice": "15",
+            "salePrice": "8",
+            "stock": "50",
+            "desc": "萝卜"
+            },
+            {
+            "id": "204",
+            "icon": "guess_taozi",
+            "name": "桃子",
+            "originalPrice": "20",
+            "salePrice": "10",
+            "stock": "50",
+            "desc": "番茄"
+            }
+            ]
+  },
+  {
+  "name": "饮品",
+  "desciption": "自制饮品",
+  "goods": [
+            {
+            "id": "301",
+            "icon": "guess_fengmi",
+            "name": "蜂蜜",
+            "originalPrice": "10",
+            "salePrice": "5",
+            "stock": "80",
+            "desc": "超级大白菜"
+            },
+            {
+            "id": "302",
+            "icon": "guess_guozhi",
+            "name": "果汁",
+            "originalPrice": "20",
+            "salePrice": "10",
+            "stock": "50",
+            "desc": "茶树菇"
+            },
+            {
+            "id": "303",
+            "icon": "guess_tuanmeitang",
+            "name": "酸梅汤",
+            "originalPrice": "15",
+            "salePrice": "8",
+            "stock": "50",
+            "desc": "萝卜"
+            }
+            ]
+  },
+  {
+  "name": "主食",
+  "desciption": "主食项目",
+  "goods": [
+            {
+            "id": "401",
+            "icon": "guess_bancai",
+            "name": "拌菜",
+            "originalPrice": "10",
+            "salePrice": "5",
+            "stock": "0",
+            "desc": "超级大白菜"
+            },
+            {
+            "id": "402",
+            "icon": "guess_zhou",
+            "name": "粥",
+            "originalPrice": "20",
+            "salePrice": "10",
+            "stock": "50",
+            "desc": "茶树菇"
+            }
+            ]
+  }
+  ]

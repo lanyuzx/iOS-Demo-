@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XMGPublishViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shareBottomBackground" translatesAutoresizingMaskIntoConstraints="NO" id="0Yw-SH-GFf" userLabel="背景">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3b-xh-qjN" userLabel="取消">
+                    <rect key="frame" x="156" y="530" width="289" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="6wT-Az-bQW"/>
+                        <constraint firstAttribute="width" constant="289" id="7yx-C2-aCE"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="shareButtonCancel">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="shareButtonCancelClick"/>
+                    <connections>
+                        <action selector="cancel" destination="-1" eventType="touchUpInside" id="c56-Zw-HNj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0Yw-SH-GFf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BkC-5F-d6N"/>
+                <constraint firstAttribute="trailing" secondItem="0Yw-SH-GFf" secondAttribute="trailing" id="aVK-me-BcI"/>
+                <constraint firstAttribute="bottom" secondItem="0Yw-SH-GFf" secondAttribute="bottom" id="c2d-8B-Msg"/>
+                <constraint firstItem="0Yw-SH-GFf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hOR-9w-YOP"/>
+                <constraint firstAttribute="bottom" secondItem="d3b-xh-qjN" secondAttribute="bottom" constant="30" id="uGl-sf-d8G"/>
+                <constraint firstAttribute="centerX" secondItem="d3b-xh-qjN" secondAttribute="centerX" id="vWo-82-KgL"/>
+            </constraints>
+            <point key="canvasLocation" x="407" y="379"/>
+        </view>
+        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="哈哈哈哈" minimumFontSize="17" id="o5T-JF-9JF">
+            <rect key="frame" x="0.0" y="0.0" width="214" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+            <textInputTraits key="textInputTraits"/>
+            <point key="canvasLocation" x="933" y="551"/>
+        </textField>
+        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="s9h-Gi-oZa">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="297"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+            <point key="canvasLocation" x="994" y="299.5"/>
+        </textView>
+    </objects>
+    <resources>
+        <image name="shareBottomBackground" width="320" height="343"/>
+        <image name="shareButtonCancel" width="289" height="40"/>
+        <image name="shareButtonCancelClick" width="289" height="40"/>
+    </resources>
+</document>
