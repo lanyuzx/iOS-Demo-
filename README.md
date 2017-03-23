@@ -32,6 +32,35 @@
    }];
 
 }
+ /// MARK: ---- 懒加载
+
+-(LLMVVMTabView *)tabView {
+         if (_tabView == nil) {
+        _tabView = [[LLMVVMTabView alloc]initWithFrame:CGRectMake(0, 0, LLScreenW, LLScreenH ) style:UITableViewStylePlain];
+      
+             __weak typeof(self) weak = self;
+
+        //tabViewcell的点击跳转方法
+       _tabView.block = ^(LLMVVMModel * model) {
+            [[LLMVVMViewModel shareViewModel]movieDetailWithPublicModel:model WithViewController:weak];
+        };
+             
+             //下拉刷新方法
+             _tabView.blockHeader = ^(NSInteger pageNum) {
+                 weak.pageIndex = pageNum;
+                 [weak setupData];
+             };
+             //上拉加载的回掉方法
+             _tabView.blockFooter = ^(NSInteger pageNum) {
+                 weak.pageIndex = pageNum;
+                 [weak setupData];
+             };
+             
+           }
+    return _tabView;
+
+}
+
 ```
 * 根据标题宽度来决定一屏现实多少个标题
 
