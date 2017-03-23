@@ -1,6 +1,6 @@
 # iOS-Demo-开发中遇到的需求,抽成demo进行分享 (长期更新)
 <br> 2017 -03-23号更新,新增如下: </br>
-* MVVM设计模式 控制代码如下
+* MVVM设计模式 控制代码如下 逻辑试图与控制器分开,控制器只干自己的事情
 ```Objective-C
 - (void)viewDidLoad {
     [super viewDidLoad];
