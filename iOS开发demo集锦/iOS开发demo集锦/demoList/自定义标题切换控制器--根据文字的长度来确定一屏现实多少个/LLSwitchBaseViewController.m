@@ -305,7 +305,7 @@
 -(NSArray *)titleArr {
     
     if (_titleArr == nil) {
-        _titleArr = @[@"要闻专题视频",@"你你你你我饿我饿我饿"];
+        _titleArr = @[@"要闻专题视频",@"你你你你我饿我饿我饿",@"每每大",@"懒懒的",@"很爱很爱"];
     }
     return _titleArr;
 }
