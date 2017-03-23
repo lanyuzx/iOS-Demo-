@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 @class LLMVVMModel;
+//定义每个cell点击的block
 typedef void(^MVVMTabViewBlock)(LLMVVMModel*);
+//上下拉刷新的页码传递
 typedef void(^refreshHeaderBlock)(NSInteger pageNum);
 typedef void(^refreshFooterBlock)(NSInteger pageNum);
-@interface LLMVVMTabView : UITableView
 
+@interface LLMVVMTabView : UITableView
+//模型数组
 @property (nonatomic,strong)  NSArray * modelArr;
 
 @property (nonatomic,copy)  MVVMTabViewBlock  block;

@@ -12,9 +12,9 @@ typedef void(^ErrorBlock)(id );
 #import <UIKit/UIKit.h>
 
 @interface LLMVVMViewModel : NSObject
-
+//回调网络请求的模型数据
 -(void)setupRequsetDate :(NSInteger)pageIndex :(SuccessBlock)successblock :(ErrorBlock) errorblock;
-
+//创建该类的单例,防止重复创建
 +(LLMVVMViewModel *)shareViewModel;
 //跳转到电影详情页
 - (void)movieDetailWithPublicModel: (LLMVVMModel *)movieModel WithViewController: (UIViewController *)superController;

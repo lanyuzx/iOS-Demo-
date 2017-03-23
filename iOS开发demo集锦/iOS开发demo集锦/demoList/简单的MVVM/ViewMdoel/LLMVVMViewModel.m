@@ -14,11 +14,12 @@
 #import "MovieViewController.h"
 #import "LLMVVMDetailModel.h"
 @interface LLMVVMViewModel()
-
+//创建一个数组,记录网络请求的数据
  @property (nonatomic,strong)  NSMutableArray * modelArr;
 @end
 @implementation LLMVVMViewModel
 
+//创建一个单例,防止重复创建
 +(LLMVVMViewModel *)shareViewModel{
     
     static LLMVVMViewModel * shareViewModel  ;
@@ -33,7 +34,7 @@
 -(void)setupRequsetDate :(NSInteger)pageIndex :(SuccessBlock)successblock :(ErrorBlock) errorblock {
     
 
-    //模拟异步加载数据
+    //模拟异步加载数据 ,从本地去数据
     __weak typeof(self) weakSelf = self;
     dispatch_sync(dispatch_get_global_queue(0, 0), ^{
         
@@ -54,16 +55,16 @@
             [weakSelf.modelArr addObjectsFromArray:weakSelf.modelArr];
                 NSLog(@"上拉加载");
         }
+        //回掉给请求者
         successblock( weakSelf.modelArr);
     });
     
 }
-
+//这里是点击cell跳转的方法
 -(void)movieDetailWithPublicModel:(LLMVVMModel *)movieModel WithViewController:(UIViewController *)superController {
     
     MovieViewController *movieVC = [[MovieViewController alloc] init];
    
-    
   LLMVVMDetailModel * model =  movieModel.casts.firstObject;
    movieVC.url = model.alt;
     [superController.navigationController pushViewController:movieVC animated:YES];

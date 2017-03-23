@@ -13,12 +13,14 @@
 #import "LLMVVMTabView.h"
 #import "MJRefresh.h"
 @interface LLMVVMViewController ()
+//自定义一个tabView
 @property (nonatomic,strong)  LLMVVMTabView * tabView;
+//记录下拉刷洗的索引
 @property (nonatomic,assign)  NSInteger  pageIndex;
 @end
 
 @implementation LLMVVMViewController
-
+  /// MARK: ---- 试图控制器
 - (void)viewDidLoad {
     [super viewDidLoad];
      self.pageIndex = 1;
@@ -38,6 +40,7 @@
     NSLog(@"*******************MVVM使用很多的回掉方法,一定要注意循环引用问题*********************");
     NSLog(@"***********------------*************");
 }
+  /// MARK: ---- 请求网络
 -(void)setupData {
     
     __weak typeof(self) weak = self;
@@ -50,7 +53,6 @@
    }];
 
 }
-
    /// MARK: ---- 懒加载
 
 -(LLMVVMTabView *)tabView {
