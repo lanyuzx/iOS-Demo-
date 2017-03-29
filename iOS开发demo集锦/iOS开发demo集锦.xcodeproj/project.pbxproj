@@ -59,6 +59,10 @@
 		063E9F731E8B97C000953AC8 /* LLTimeLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F6D1E8B97C000953AC8 /* LLTimeLineController.m */; };
 		063E9F741E8B97C000953AC8 /* TimelineCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F701E8B97C000953AC8 /* TimelineCellTableViewCell.m */; };
 		063E9F751E8B97C000953AC8 /* TimelineCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F711E8B97C000953AC8 /* TimelineCellTableViewCell.xib */; };
+		063E9F7F1E8B9D2800953AC8 /* NetWoringCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F791E8B9D2800953AC8 /* NetWoringCacheViewController.m */; };
+		063E9F801E8B9D2800953AC8 /* NetWoringCacheViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F7A1E8B9D2800953AC8 /* NetWoringCacheViewController.storyboard */; };
+		063E9F811E8B9D2800953AC8 /* PPNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F7C1E8B9D2800953AC8 /* PPNetworkCache.m */; };
+		063E9F821E8B9D2800953AC8 /* PPNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F7E1E8B9D2800953AC8 /* PPNetworkHelper.m */; };
 		068E62E31E7A26FD0014636F /* clothes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 068E62D91E7A26FD0014636F /* clothes.plist */; };
 		068E62E51E7A26FD0014636F /* ZZXClothers.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E62DC1E7A26FD0014636F /* ZZXClothers.m */; };
 		068E62E61E7A26FD0014636F /* ZZXClothesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E62DE1E7A26FD0014636F /* ZZXClothesCollectionViewController.m */; };
@@ -105,11 +109,7 @@
 		06BF76B11E77CC4B00371E48 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF769E1E77CC4B00371E48 /* UIProgressView+AFNetworking.m */; };
 		06BF76B21E77CC4B00371E48 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76A01E77CC4B00371E48 /* UIRefreshControl+AFNetworking.m */; };
 		06BF76B31E77CC4B00371E48 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76A21E77CC4B00371E48 /* UIWebView+AFNetworking.m */; };
-		06BF76B91E77CC6400371E48 /* PPNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76B61E77CC6400371E48 /* PPNetworkCache.m */; };
-		06BF76BA1E77CC6400371E48 /* PPNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76B81E77CC6400371E48 /* PPNetworkHelper.m */; };
-		06BF76BD1E77CC8000371E48 /* NetWoringCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76BC1E77CC8000371E48 /* NetWoringCacheViewController.m */; };
 		06BF76C01E77CCCB00371E48 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BF76BF1E77CCCB00371E48 /* libsqlite3.tbd */; };
-		06BF76C21E77CDE800371E48 /* NetWoringCacheViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BF76C11E77CDE800371E48 /* NetWoringCacheViewController.storyboard */; };
 		06BF76E21E77D2D000371E48 /* AcknowledgementOfOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76C71E77D2D000371E48 /* AcknowledgementOfOrder.m */; };
 		06BF76E31E77D2D000371E48 /* AcknowledgementOfOrder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BF76C81E77D2D000371E48 /* AcknowledgementOfOrder.xib */; };
 		06BF76E41E77D2D000371E48 /* ZXShopCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76CA1E77D2D000371E48 /* ZXShopCartViewController.m */; };
@@ -419,6 +419,13 @@
 		063E9F6F1E8B97C000953AC8 /* TimelineCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineCellTableViewCell.h; sourceTree = "<group>"; };
 		063E9F701E8B97C000953AC8 /* TimelineCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineCellTableViewCell.m; sourceTree = "<group>"; };
 		063E9F711E8B97C000953AC8 /* TimelineCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineCellTableViewCell.xib; sourceTree = "<group>"; };
+		063E9F781E8B9D2800953AC8 /* NetWoringCacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWoringCacheViewController.h; sourceTree = "<group>"; };
+		063E9F791E8B9D2800953AC8 /* NetWoringCacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWoringCacheViewController.m; sourceTree = "<group>"; };
+		063E9F7A1E8B9D2800953AC8 /* NetWoringCacheViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NetWoringCacheViewController.storyboard; sourceTree = "<group>"; };
+		063E9F7B1E8B9D2800953AC8 /* PPNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkCache.h; sourceTree = "<group>"; };
+		063E9F7C1E8B9D2800953AC8 /* PPNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkCache.m; sourceTree = "<group>"; };
+		063E9F7D1E8B9D2800953AC8 /* PPNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkHelper.h; sourceTree = "<group>"; };
+		063E9F7E1E8B9D2800953AC8 /* PPNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkHelper.m; sourceTree = "<group>"; };
 		068E62D91E7A26FD0014636F /* clothes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = clothes.plist; sourceTree = "<group>"; };
 		068E62DB1E7A26FD0014636F /* ZZXClothers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZXClothers.h; sourceTree = "<group>"; };
 		068E62DC1E7A26FD0014636F /* ZZXClothers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZXClothers.m; sourceTree = "<group>"; };
@@ -509,14 +516,7 @@
 		06BF76A01E77CC4B00371E48 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		06BF76A11E77CC4B00371E48 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		06BF76A21E77CC4B00371E48 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		06BF76B51E77CC6400371E48 /* PPNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkCache.h; sourceTree = "<group>"; };
-		06BF76B61E77CC6400371E48 /* PPNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkCache.m; sourceTree = "<group>"; };
-		06BF76B71E77CC6400371E48 /* PPNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkHelper.h; sourceTree = "<group>"; };
-		06BF76B81E77CC6400371E48 /* PPNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkHelper.m; sourceTree = "<group>"; };
-		06BF76BB1E77CC8000371E48 /* NetWoringCacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWoringCacheViewController.h; sourceTree = "<group>"; };
-		06BF76BC1E77CC8000371E48 /* NetWoringCacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWoringCacheViewController.m; sourceTree = "<group>"; };
 		06BF76BF1E77CCCB00371E48 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		06BF76C11E77CDE800371E48 /* NetWoringCacheViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NetWoringCacheViewController.storyboard; sourceTree = "<group>"; };
 		06BF76C61E77D2D000371E48 /* AcknowledgementOfOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcknowledgementOfOrder.h; sourceTree = "<group>"; };
 		06BF76C71E77D2D000371E48 /* AcknowledgementOfOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcknowledgementOfOrder.m; sourceTree = "<group>"; };
 		06BF76C81E77D2D000371E48 /* AcknowledgementOfOrder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AcknowledgementOfOrder.xib; sourceTree = "<group>"; };
@@ -1171,6 +1171,28 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		063E9F761E8B9D2800953AC8 /* 网络接口缓存带文件上传和下载机制 */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F771E8B9D2800953AC8 /* PPNetworkHelper */,
+			);
+			path = "网络接口缓存带文件上传和下载机制";
+			sourceTree = "<group>";
+		};
+		063E9F771E8B9D2800953AC8 /* PPNetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F781E8B9D2800953AC8 /* NetWoringCacheViewController.h */,
+				063E9F791E8B9D2800953AC8 /* NetWoringCacheViewController.m */,
+				063E9F7A1E8B9D2800953AC8 /* NetWoringCacheViewController.storyboard */,
+				063E9F7B1E8B9D2800953AC8 /* PPNetworkCache.h */,
+				063E9F7C1E8B9D2800953AC8 /* PPNetworkCache.m */,
+				063E9F7D1E8B9D2800953AC8 /* PPNetworkHelper.h */,
+				063E9F7E1E8B9D2800953AC8 /* PPNetworkHelper.m */,
+			);
+			path = PPNetworkHelper;
+			sourceTree = "<group>";
+		};
 		068E62D81E7A26FD0014636F /* 瀑布流 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1307,6 +1329,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				063E9F761E8B9D2800953AC8 /* 网络接口缓存带文件上传和下载机制 */,
 				063E9F671E8B97C000953AC8 /* 时间轴 */,
 				063E9F4B1E8B963F00953AC8 /* 模仿淘宝选衣服 */,
 				063E9F361E8B93A900953AC8 /* 模仿淘宝部分购物界面 */,
@@ -1327,7 +1350,6 @@
 				06BF772D1E77DCDE00371E48 /* 放简书个人中心页带下拉刷新 */,
 				06BF76C31E77D2CA00371E48 /* 购物车动画 */,
 				06BF766D1E77CBB700371E48 /* 日历 */,
-				06BF766E1E77CBB700371E48 /* 网络接口缓存 */,
 			);
 			path = demoList;
 			sourceTree = "<group>";
@@ -1340,14 +1362,6 @@
 				06BF77271E77D5C400371E48 /* LLCalendarViewController.m */,
 			);
 			path = "日历";
-			sourceTree = "<group>";
-		};
-		06BF766E1E77CBB700371E48 /* 网络接口缓存 */ = {
-			isa = PBXGroup;
-			children = (
-				06BF76B41E77CC6400371E48 /* PPNetworkHelper */,
-			);
-			path = "网络接口缓存";
 			sourceTree = "<group>";
 		};
 		06BF766F1E77CC3400371E48 /* resources */ = {
@@ -1438,20 +1452,6 @@
 				06BF76A21E77CC4B00371E48 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
-			sourceTree = "<group>";
-		};
-		06BF76B41E77CC6400371E48 /* PPNetworkHelper */ = {
-			isa = PBXGroup;
-			children = (
-				06BF76BB1E77CC8000371E48 /* NetWoringCacheViewController.h */,
-				06BF76BC1E77CC8000371E48 /* NetWoringCacheViewController.m */,
-				06BF76C11E77CDE800371E48 /* NetWoringCacheViewController.storyboard */,
-				06BF76B51E77CC6400371E48 /* PPNetworkCache.h */,
-				06BF76B61E77CC6400371E48 /* PPNetworkCache.m */,
-				06BF76B71E77CC6400371E48 /* PPNetworkHelper.h */,
-				06BF76B81E77CC6400371E48 /* PPNetworkHelper.m */,
-			);
-			path = PPNetworkHelper;
 			sourceTree = "<group>";
 		};
 		06BF76BE1E77CCCB00371E48 /* Frameworks */ = {
@@ -2449,6 +2449,7 @@
 				063E9F331E8B8F6700953AC8 /* ZFDownloadViewController.storyboard in Resources */,
 				06BF76EA1E77D2D000371E48 /* DetailListCell.xib in Resources */,
 				06BF76401E77941A00371E48 /* LaunchScreen.storyboard in Resources */,
+				063E9F801E8B9D2800953AC8 /* NetWoringCacheViewController.storyboard in Resources */,
 				063E9F5E1E8B963F00953AC8 /* 3.jpg in Resources */,
 				06BF78CB1E78CB5200371E48 /* XMGFriendTrendsViewController.xib in Resources */,
 				06BF763D1E77941900371E48 /* Assets.xcassets in Resources */,
@@ -2476,7 +2477,6 @@
 				063E9F5F1E8B963F00953AC8 /* 4.jpg in Resources */,
 				06BF78F31E78CB5200371E48 /* XMGPublishViewController.xib in Resources */,
 				068E62EC1E7A29300014636F /* ZZXClothesCollectionViewController.storyboard in Resources */,
-				06BF76C21E77CDE800371E48 /* NetWoringCacheViewController.storyboard in Resources */,
 				068E62F41E7A2B4E0014636F /* v2_pullRefresh2@2x.png in Resources */,
 				06BF78D51E78CB5200371E48 /* XMGRecommendUserCell.xib in Resources */,
 				063E9F641E8B963F00953AC8 /* stock.plist in Resources */,
@@ -2525,7 +2525,6 @@
 				06BF770E1E77D36000371E48 /* NSObject+MJClass.m in Sources */,
 				06BF78F71E78CB5200371E48 /* XMGTagButton.m in Sources */,
 				06BF79861E78D42600371E48 /* XMGNavigationController.m in Sources */,
-				06BF76BD1E77CC8000371E48 /* NetWoringCacheViewController.m in Sources */,
 				063202781E835F2F00AA4B5A /* LLMVVMViewController.m in Sources */,
 				06BF79551E78D04700371E48 /* POPCustomAnimation.mm in Sources */,
 				06BF78DE1E78CB5200371E48 /* XMGSqaureButton.m in Sources */,
@@ -2533,6 +2532,8 @@
 				06BF77911E77E7A000371E48 /* LLContentTableView.m in Sources */,
 				06BF780E1E77F6B600371E48 /* LLModel.m in Sources */,
 				063202B61E837A3300AA4B5A /* MovieViewController.m in Sources */,
+				063E9F821E8B9D2800953AC8 /* PPNetworkHelper.m in Sources */,
+				063E9F811E8B9D2800953AC8 /* PPNetworkCache.m in Sources */,
 				06BF78CC1E78CB5200371E48 /* XMGLoginRegisterViewController.m in Sources */,
 				06BF78C81E78CB5200371E48 /* XMGTopicVoiceView.m in Sources */,
 				06BF767A1E77CC4000371E48 /* YYDiskCache.m in Sources */,
@@ -2681,7 +2682,6 @@
 				06BF78C41E78CB5200371E48 /* XMGTopicPictureView.m in Sources */,
 				06BF76EF1E77D2D000371E48 /* ShopCartView.m in Sources */,
 				06BF77AC1E77E7EA00371E48 /* MASCompositeConstraint.m in Sources */,
-				06BF76B91E77CC6400371E48 /* PPNetworkCache.m in Sources */,
 				06BF76E81E77D2D000371E48 /* BadgeView.m in Sources */,
 				06BF78C61E78CB5200371E48 /* XMGTopicVideoView.m in Sources */,
 				063E9F661E8B963F00953AC8 /* LLSelectClothesController.m in Sources */,
@@ -2700,7 +2700,6 @@
 				068E62FD1E7A2D5E0014636F /* LLRefreshTableViewController.m in Sources */,
 				06BF77811E77E48700371E48 /* BAButton.m in Sources */,
 				063E9F151E8B88E200953AC8 /* PhotoViewController.m in Sources */,
-				06BF76BA1E77CC6400371E48 /* PPNetworkHelper.m in Sources */,
 				06BF78101E77F6B600371E48 /* SDTimeLineCellOperationMenu.m in Sources */,
 				06BF77E71E77E7F600371E48 /* MJRefreshComponent.m in Sources */,
 				06BF79971E78D68000371E48 /* LLDataSource.m in Sources */,
@@ -2730,6 +2729,7 @@
 				06BF79841E78D42600371E48 /* UIImageView+XMGExtension.m in Sources */,
 				068E63181E7A34AA0014636F /* LLRightViewController.m in Sources */,
 				06BF78191E77F6C500371E48 /* UIView+SDAutoLayout.m in Sources */,
+				063E9F7F1E8B9D2800953AC8 /* NetWoringCacheViewController.m in Sources */,
 				063E9F301E8B8F2800953AC8 /* ZFListCell.m in Sources */,
 				06BF77F61E77E7F600371E48 /* UIScrollView+MJExtension.m in Sources */,
 				06BF77581E77DFC700371E48 /* SDWebImageDownloader.m in Sources */,
