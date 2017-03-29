@@ -19,6 +19,46 @@
 		063202B61E837A3300AA4B5A /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063202B51E837A3300AA4B5A /* MovieViewController.m */; };
 		063202B91E837B8D00AA4B5A /* LLMVVMDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 063202B81E837B8D00AA4B5A /* LLMVVMDetailModel.m */; };
 		063202BC1E83886D00AA4B5A /* LLMVVMTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 063202BB1E83886D00AA4B5A /* LLMVVMTabView.m */; };
+		063E9F101E8B88E200953AC8 /* add-img.png in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F011E8B88E200953AC8 /* add-img.png */; };
+		063E9F111E8B88E200953AC8 /* AlbumViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F031E8B88E200953AC8 /* AlbumViewCell.m */; };
+		063E9F121E8B88E200953AC8 /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F041E8B88E200953AC8 /* p.png */; };
+		063E9F131E8B88E200953AC8 /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F051E8B88E200953AC8 /* p1.png */; };
+		063E9F141E8B88E200953AC8 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F071E8B88E200953AC8 /* PhotoCell.m */; };
+		063E9F151E8B88E200953AC8 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F091E8B88E200953AC8 /* PhotoViewController.m */; };
+		063E9F161E8B88E200953AC8 /* postPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F0B1E8B88E200953AC8 /* postPicViewController.m */; };
+		063E9F171E8B88E200953AC8 /* SelectedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F0D1E8B88E200953AC8 /* SelectedCell.m */; };
+		063E9F181E8B88E200953AC8 /* LLSelectPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F0F1E8B88E200953AC8 /* LLSelectPhotoController.m */; };
+		063E9F261E8B8CD900953AC8 /* ZFDownloadedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F1D1E8B8CD900953AC8 /* ZFDownloadedCell.m */; };
+		063E9F271E8B8CD900953AC8 /* ZFDownloadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F1F1E8B8CD900953AC8 /* ZFDownloadingCell.m */; };
+		063E9F291E8B8CD900953AC8 /* ZFDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F231E8B8CD900953AC8 /* ZFDownloadManager.m */; };
+		063E9F2A1E8B8CD900953AC8 /* ZFSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F251E8B8CD900953AC8 /* ZFSessionModel.m */; };
+		063E9F301E8B8F2800953AC8 /* ZFListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F2D1E8B8F2800953AC8 /* ZFListCell.m */; };
+		063E9F311E8B8F2800953AC8 /* ZFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F2F1E8B8F2800953AC8 /* ZFListViewController.m */; };
+		063E9F331E8B8F6700953AC8 /* ZFDownloadViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F321E8B8F6700953AC8 /* ZFDownloadViewController.storyboard */; };
+		063E9F351E8B902700953AC8 /* ZFDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F341E8B902700953AC8 /* ZFDownloadViewController.m */; };
+		063E9F431E8B93A900953AC8 /* LLShoppingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F371E8B93A900953AC8 /* LLShoppingViewController.storyboard */; };
+		063E9F441E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F391E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.m */; };
+		063E9F451E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F3A1E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.xib */; };
+		063E9F461E8B93A900953AC8 /* MerchandiseCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F3C1E8B93A900953AC8 /* MerchandiseCommentTableViewCell.m */; };
+		063E9F471E8B93A900953AC8 /* MerchandiseCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F3D1E8B93A900953AC8 /* MerchandiseCommentTableViewCell.xib */; };
+		063E9F481E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F3F1E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.m */; };
+		063E9F491E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F401E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.xib */; };
+		063E9F4A1E8B93A900953AC8 /* LLShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F421E8B93A900953AC8 /* LLShoppingViewController.m */; };
+		063E9F5C1E8B963F00953AC8 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F4C1E8B963F00953AC8 /* 1.jpg */; };
+		063E9F5D1E8B963F00953AC8 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F4D1E8B963F00953AC8 /* 2.jpg */; };
+		063E9F5E1E8B963F00953AC8 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F4E1E8B963F00953AC8 /* 3.jpg */; };
+		063E9F5F1E8B963F00953AC8 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F4F1E8B963F00953AC8 /* 4.jpg */; };
+		063E9F601E8B963F00953AC8 /* BuyCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F511E8B963F00953AC8 /* BuyCountView.m */; };
+		063E9F611E8B963F00953AC8 /* ChoseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F531E8B963F00953AC8 /* ChoseView.m */; };
+		063E9F621E8B963F00953AC8 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F541E8B963F00953AC8 /* close@3x.png */; };
+		063E9F631E8B963F00953AC8 /* shangdaohang.png in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F551E8B963F00953AC8 /* shangdaohang.png */; };
+		063E9F641E8B963F00953AC8 /* stock.plist in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F571E8B963F00953AC8 /* stock.plist */; };
+		063E9F651E8B963F00953AC8 /* TypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F591E8B963F00953AC8 /* TypeView.m */; };
+		063E9F661E8B963F00953AC8 /* LLSelectClothesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F5B1E8B963F00953AC8 /* LLSelectClothesController.m */; };
+		063E9F721E8B97C000953AC8 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F6A1E8B97C000953AC8 /* UIColor+Hex.m */; };
+		063E9F731E8B97C000953AC8 /* LLTimeLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F6D1E8B97C000953AC8 /* LLTimeLineController.m */; };
+		063E9F741E8B97C000953AC8 /* TimelineCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E9F701E8B97C000953AC8 /* TimelineCellTableViewCell.m */; };
+		063E9F751E8B97C000953AC8 /* TimelineCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 063E9F711E8B97C000953AC8 /* TimelineCellTableViewCell.xib */; };
 		068E62E31E7A26FD0014636F /* clothes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 068E62D91E7A26FD0014636F /* clothes.plist */; };
 		068E62E51E7A26FD0014636F /* ZZXClothers.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E62DC1E7A26FD0014636F /* ZZXClothers.m */; };
 		068E62E61E7A26FD0014636F /* ZZXClothesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E62DE1E7A26FD0014636F /* ZZXClothesCollectionViewController.m */; };
@@ -315,6 +355,70 @@
 		063202B81E837B8D00AA4B5A /* LLMVVMDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMVVMDetailModel.m; sourceTree = "<group>"; };
 		063202BA1E83886D00AA4B5A /* LLMVVMTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMVVMTabView.h; sourceTree = "<group>"; };
 		063202BB1E83886D00AA4B5A /* LLMVVMTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMVVMTabView.m; sourceTree = "<group>"; };
+		063E9F011E8B88E200953AC8 /* add-img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-img.png"; sourceTree = "<group>"; };
+		063E9F021E8B88E200953AC8 /* AlbumViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewCell.h; sourceTree = "<group>"; };
+		063E9F031E8B88E200953AC8 /* AlbumViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewCell.m; sourceTree = "<group>"; };
+		063E9F041E8B88E200953AC8 /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
+		063E9F051E8B88E200953AC8 /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p1.png; sourceTree = "<group>"; };
+		063E9F061E8B88E200953AC8 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		063E9F071E8B88E200953AC8 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		063E9F081E8B88E200953AC8 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		063E9F091E8B88E200953AC8 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		063E9F0A1E8B88E200953AC8 /* postPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postPicViewController.h; sourceTree = "<group>"; };
+		063E9F0B1E8B88E200953AC8 /* postPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = postPicViewController.m; sourceTree = "<group>"; };
+		063E9F0C1E8B88E200953AC8 /* SelectedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedCell.h; sourceTree = "<group>"; };
+		063E9F0D1E8B88E200953AC8 /* SelectedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedCell.m; sourceTree = "<group>"; };
+		063E9F0E1E8B88E200953AC8 /* LLSelectPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSelectPhotoController.h; sourceTree = "<group>"; };
+		063E9F0F1E8B88E200953AC8 /* LLSelectPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSelectPhotoController.m; sourceTree = "<group>"; };
+		063E9F1C1E8B8CD900953AC8 /* ZFDownloadedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloadedCell.h; sourceTree = "<group>"; };
+		063E9F1D1E8B8CD900953AC8 /* ZFDownloadedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDownloadedCell.m; sourceTree = "<group>"; };
+		063E9F1E1E8B8CD900953AC8 /* ZFDownloadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloadingCell.h; sourceTree = "<group>"; };
+		063E9F1F1E8B8CD900953AC8 /* ZFDownloadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDownloadingCell.m; sourceTree = "<group>"; };
+		063E9F201E8B8CD900953AC8 /* ZFDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloadViewController.h; sourceTree = "<group>"; };
+		063E9F221E8B8CD900953AC8 /* ZFDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloadManager.h; sourceTree = "<group>"; };
+		063E9F231E8B8CD900953AC8 /* ZFDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDownloadManager.m; sourceTree = "<group>"; };
+		063E9F241E8B8CD900953AC8 /* ZFSessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSessionModel.h; sourceTree = "<group>"; };
+		063E9F251E8B8CD900953AC8 /* ZFSessionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSessionModel.m; sourceTree = "<group>"; };
+		063E9F2C1E8B8F2800953AC8 /* ZFListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFListCell.h; sourceTree = "<group>"; };
+		063E9F2D1E8B8F2800953AC8 /* ZFListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFListCell.m; sourceTree = "<group>"; };
+		063E9F2E1E8B8F2800953AC8 /* ZFListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFListViewController.h; sourceTree = "<group>"; };
+		063E9F2F1E8B8F2800953AC8 /* ZFListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFListViewController.m; sourceTree = "<group>"; };
+		063E9F321E8B8F6700953AC8 /* ZFDownloadViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ZFDownloadViewController.storyboard; sourceTree = "<group>"; };
+		063E9F341E8B902700953AC8 /* ZFDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDownloadViewController.m; sourceTree = "<group>"; };
+		063E9F371E8B93A900953AC8 /* LLShoppingViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LLShoppingViewController.storyboard; sourceTree = "<group>"; };
+		063E9F381E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchandiseBasicInfoTableViewCell.h; sourceTree = "<group>"; };
+		063E9F391E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchandiseBasicInfoTableViewCell.m; sourceTree = "<group>"; };
+		063E9F3A1E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchandiseBasicInfoTableViewCell.xib; sourceTree = "<group>"; };
+		063E9F3B1E8B93A900953AC8 /* MerchandiseCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchandiseCommentTableViewCell.h; sourceTree = "<group>"; };
+		063E9F3C1E8B93A900953AC8 /* MerchandiseCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchandiseCommentTableViewCell.m; sourceTree = "<group>"; };
+		063E9F3D1E8B93A900953AC8 /* MerchandiseCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchandiseCommentTableViewCell.xib; sourceTree = "<group>"; };
+		063E9F3E1E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchandiseShopBasicInfoTableViewCell.h; sourceTree = "<group>"; };
+		063E9F3F1E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchandiseShopBasicInfoTableViewCell.m; sourceTree = "<group>"; };
+		063E9F401E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchandiseShopBasicInfoTableViewCell.xib; sourceTree = "<group>"; };
+		063E9F411E8B93A900953AC8 /* LLShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShoppingViewController.h; sourceTree = "<group>"; };
+		063E9F421E8B93A900953AC8 /* LLShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShoppingViewController.m; sourceTree = "<group>"; };
+		063E9F4C1E8B963F00953AC8 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		063E9F4D1E8B963F00953AC8 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		063E9F4E1E8B963F00953AC8 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		063E9F4F1E8B963F00953AC8 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		063E9F501E8B963F00953AC8 /* BuyCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyCountView.h; sourceTree = "<group>"; };
+		063E9F511E8B963F00953AC8 /* BuyCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyCountView.m; sourceTree = "<group>"; };
+		063E9F521E8B963F00953AC8 /* ChoseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoseView.h; sourceTree = "<group>"; };
+		063E9F531E8B963F00953AC8 /* ChoseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoseView.m; sourceTree = "<group>"; };
+		063E9F541E8B963F00953AC8 /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		063E9F551E8B963F00953AC8 /* shangdaohang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shangdaohang.png; sourceTree = "<group>"; };
+		063E9F571E8B963F00953AC8 /* stock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stock.plist; sourceTree = "<group>"; };
+		063E9F581E8B963F00953AC8 /* TypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeView.h; sourceTree = "<group>"; };
+		063E9F591E8B963F00953AC8 /* TypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeView.m; sourceTree = "<group>"; };
+		063E9F5A1E8B963F00953AC8 /* LLSelectClothesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSelectClothesController.h; sourceTree = "<group>"; };
+		063E9F5B1E8B963F00953AC8 /* LLSelectClothesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSelectClothesController.m; sourceTree = "<group>"; };
+		063E9F691E8B97C000953AC8 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		063E9F6A1E8B97C000953AC8 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		063E9F6C1E8B97C000953AC8 /* LLTimeLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTimeLineController.h; sourceTree = "<group>"; };
+		063E9F6D1E8B97C000953AC8 /* LLTimeLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTimeLineController.m; sourceTree = "<group>"; };
+		063E9F6F1E8B97C000953AC8 /* TimelineCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineCellTableViewCell.h; sourceTree = "<group>"; };
+		063E9F701E8B97C000953AC8 /* TimelineCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineCellTableViewCell.m; sourceTree = "<group>"; };
+		063E9F711E8B97C000953AC8 /* TimelineCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineCellTableViewCell.xib; sourceTree = "<group>"; };
 		068E62D91E7A26FD0014636F /* clothes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = clothes.plist; sourceTree = "<group>"; };
 		068E62DB1E7A26FD0014636F /* ZZXClothers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZXClothers.h; sourceTree = "<group>"; };
 		068E62DC1E7A26FD0014636F /* ZZXClothers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZXClothers.m; sourceTree = "<group>"; };
@@ -912,6 +1016,161 @@
 			path = ViewMdoel;
 			sourceTree = "<group>";
 		};
+		063E9F001E8B88E200953AC8 /* 调用相机选择多张图片 */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F011E8B88E200953AC8 /* add-img.png */,
+				063E9F021E8B88E200953AC8 /* AlbumViewCell.h */,
+				063E9F031E8B88E200953AC8 /* AlbumViewCell.m */,
+				063E9F041E8B88E200953AC8 /* p.png */,
+				063E9F051E8B88E200953AC8 /* p1.png */,
+				063E9F061E8B88E200953AC8 /* PhotoCell.h */,
+				063E9F071E8B88E200953AC8 /* PhotoCell.m */,
+				063E9F081E8B88E200953AC8 /* PhotoViewController.h */,
+				063E9F091E8B88E200953AC8 /* PhotoViewController.m */,
+				063E9F0A1E8B88E200953AC8 /* postPicViewController.h */,
+				063E9F0B1E8B88E200953AC8 /* postPicViewController.m */,
+				063E9F0C1E8B88E200953AC8 /* SelectedCell.h */,
+				063E9F0D1E8B88E200953AC8 /* SelectedCell.m */,
+				063E9F0E1E8B88E200953AC8 /* LLSelectPhotoController.h */,
+				063E9F0F1E8B88E200953AC8 /* LLSelectPhotoController.m */,
+			);
+			path = "调用相机选择多张图片";
+			sourceTree = "<group>";
+		};
+		063E9F191E8B8CD900953AC8 /* 断点下载，支持后台下载，再次打开程序、异常退出记录下载进度 */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F1A1E8B8CD900953AC8 /* ZFDownload */,
+			);
+			path = "断点下载，支持后台下载，再次打开程序、异常退出记录下载进度";
+			sourceTree = "<group>";
+		};
+		063E9F1A1E8B8CD900953AC8 /* ZFDownload */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F2B1E8B8F2800953AC8 /* List */,
+				063E9F1B1E8B8CD900953AC8 /* Download */,
+				063E9F221E8B8CD900953AC8 /* ZFDownloadManager.h */,
+				063E9F231E8B8CD900953AC8 /* ZFDownloadManager.m */,
+				063E9F241E8B8CD900953AC8 /* ZFSessionModel.h */,
+				063E9F251E8B8CD900953AC8 /* ZFSessionModel.m */,
+				063E9F321E8B8F6700953AC8 /* ZFDownloadViewController.storyboard */,
+			);
+			path = ZFDownload;
+			sourceTree = "<group>";
+		};
+		063E9F1B1E8B8CD900953AC8 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F1C1E8B8CD900953AC8 /* ZFDownloadedCell.h */,
+				063E9F1D1E8B8CD900953AC8 /* ZFDownloadedCell.m */,
+				063E9F1E1E8B8CD900953AC8 /* ZFDownloadingCell.h */,
+				063E9F1F1E8B8CD900953AC8 /* ZFDownloadingCell.m */,
+				063E9F201E8B8CD900953AC8 /* ZFDownloadViewController.h */,
+				063E9F341E8B902700953AC8 /* ZFDownloadViewController.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		063E9F2B1E8B8F2800953AC8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F2C1E8B8F2800953AC8 /* ZFListCell.h */,
+				063E9F2D1E8B8F2800953AC8 /* ZFListCell.m */,
+				063E9F2E1E8B8F2800953AC8 /* ZFListViewController.h */,
+				063E9F2F1E8B8F2800953AC8 /* ZFListViewController.m */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		063E9F361E8B93A900953AC8 /* 模仿淘宝部分购物界面 */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F371E8B93A900953AC8 /* LLShoppingViewController.storyboard */,
+				063E9F381E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.h */,
+				063E9F391E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.m */,
+				063E9F3A1E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.xib */,
+				063E9F3B1E8B93A900953AC8 /* MerchandiseCommentTableViewCell.h */,
+				063E9F3C1E8B93A900953AC8 /* MerchandiseCommentTableViewCell.m */,
+				063E9F3D1E8B93A900953AC8 /* MerchandiseCommentTableViewCell.xib */,
+				063E9F3E1E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.h */,
+				063E9F3F1E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.m */,
+				063E9F401E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.xib */,
+				063E9F411E8B93A900953AC8 /* LLShoppingViewController.h */,
+				063E9F421E8B93A900953AC8 /* LLShoppingViewController.m */,
+			);
+			path = "模仿淘宝部分购物界面";
+			sourceTree = "<group>";
+		};
+		063E9F4B1E8B963F00953AC8 /* 模仿淘宝选衣服 */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F4C1E8B963F00953AC8 /* 1.jpg */,
+				063E9F4D1E8B963F00953AC8 /* 2.jpg */,
+				063E9F4E1E8B963F00953AC8 /* 3.jpg */,
+				063E9F4F1E8B963F00953AC8 /* 4.jpg */,
+				063E9F501E8B963F00953AC8 /* BuyCountView.h */,
+				063E9F511E8B963F00953AC8 /* BuyCountView.m */,
+				063E9F521E8B963F00953AC8 /* ChoseView.h */,
+				063E9F531E8B963F00953AC8 /* ChoseView.m */,
+				063E9F541E8B963F00953AC8 /* close@3x.png */,
+				063E9F551E8B963F00953AC8 /* shangdaohang.png */,
+				063E9F561E8B963F00953AC8 /* SJAvatarBrowser */,
+				063E9F571E8B963F00953AC8 /* stock.plist */,
+				063E9F581E8B963F00953AC8 /* TypeView.h */,
+				063E9F591E8B963F00953AC8 /* TypeView.m */,
+				063E9F5A1E8B963F00953AC8 /* LLSelectClothesController.h */,
+				063E9F5B1E8B963F00953AC8 /* LLSelectClothesController.m */,
+			);
+			path = "模仿淘宝选衣服";
+			sourceTree = "<group>";
+		};
+		063E9F561E8B963F00953AC8 /* SJAvatarBrowser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SJAvatarBrowser;
+			sourceTree = "<group>";
+		};
+		063E9F671E8B97C000953AC8 /* 时间轴 */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F681E8B97C000953AC8 /* Category */,
+				063E9F6B1E8B97C000953AC8 /* Controllers */,
+				063E9F6E1E8B97C000953AC8 /* Views */,
+			);
+			path = "时间轴";
+			sourceTree = "<group>";
+		};
+		063E9F681E8B97C000953AC8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F691E8B97C000953AC8 /* UIColor+Hex.h */,
+				063E9F6A1E8B97C000953AC8 /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		063E9F6B1E8B97C000953AC8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F6C1E8B97C000953AC8 /* LLTimeLineController.h */,
+				063E9F6D1E8B97C000953AC8 /* LLTimeLineController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		063E9F6E1E8B97C000953AC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				063E9F6F1E8B97C000953AC8 /* TimelineCellTableViewCell.h */,
+				063E9F701E8B97C000953AC8 /* TimelineCellTableViewCell.m */,
+				063E9F711E8B97C000953AC8 /* TimelineCellTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		068E62D81E7A26FD0014636F /* 瀑布流 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1048,6 +1307,11 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				063E9F671E8B97C000953AC8 /* 时间轴 */,
+				063E9F4B1E8B963F00953AC8 /* 模仿淘宝选衣服 */,
+				063E9F361E8B93A900953AC8 /* 模仿淘宝部分购物界面 */,
+				063E9F191E8B8CD900953AC8 /* 断点下载，支持后台下载，再次打开程序、异常退出记录下载进度 */,
+				063E9F001E8B88E200953AC8 /* 调用相机选择多张图片 */,
 				063202711E835ED500AA4B5A /* 简单的MVVM */,
 				063202661E835AF500AA4B5A /* 自定义标题切换控制器--根据文字的长度来确定一屏现实多少个 */,
 				068E630B1E7A33990014636F /* iOS侧滑栏 */,
@@ -2173,33 +2437,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063E9F491E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.xib in Resources */,
 				063202B31E836F2F00AA4B5A /* MVVM in Resources */,
 				06BF78C51E78CB5200371E48 /* XMGTopicPictureView.xib in Resources */,
+				063E9F5D1E8B963F00953AC8 /* 2.jpg in Resources */,
 				06BF76A91E77CC4B00371E48 /* LICENSE in Resources */,
 				06BF78C11E78CB5200371E48 /* XMGRecommendTagCell.xib in Resources */,
+				063E9F751E8B97C000953AC8 /* TimelineCellTableViewCell.xib in Resources */,
 				06BF78C71E78CB5200371E48 /* XMGTopicVideoView.xib in Resources */,
 				06BF76E31E77D2D000371E48 /* AcknowledgementOfOrder.xib in Resources */,
+				063E9F331E8B8F6700953AC8 /* ZFDownloadViewController.storyboard in Resources */,
 				06BF76EA1E77D2D000371E48 /* DetailListCell.xib in Resources */,
 				06BF76401E77941A00371E48 /* LaunchScreen.storyboard in Resources */,
+				063E9F5E1E8B963F00953AC8 /* 3.jpg in Resources */,
 				06BF78CB1E78CB5200371E48 /* XMGFriendTrendsViewController.xib in Resources */,
 				06BF763D1E77941900371E48 /* Assets.xcassets in Resources */,
 				068E62E31E7A26FD0014636F /* clothes.plist in Resources */,
+				063E9F631E8B963F00953AC8 /* shangdaohang.png in Resources */,
+				063E9F101E8B88E200953AC8 /* add-img.png in Resources */,
+				063E9F621E8B963F00953AC8 /* close@3x.png in Resources */,
+				063E9F471E8B93A900953AC8 /* MerchandiseCommentTableViewCell.xib in Resources */,
+				063E9F451E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.xib in Resources */,
 				068E62F31E7A2B4E0014636F /* v2_pullRefresh1@2x.png in Resources */,
+				063E9F121E8B88E200953AC8 /* p.png in Resources */,
 				06BF798B1E78D42600371E48 /* XMGPushGuideView.xib in Resources */,
 				06BF76EC1E77D2D000371E48 /* MenuItemCell.xib in Resources */,
+				063E9F431E8B93A900953AC8 /* LLShoppingViewController.storyboard in Resources */,
 				06BF790E1E78CE2E00371E48 /* SVProgressHUD.bundle in Resources */,
 				06BF78BD1E78CB5200371E48 /* XMGCommentCell.xib in Resources */,
 				068E62EA1E7A28DE0014636F /* loading.png in Resources */,
 				06BF78C91E78CB5200371E48 /* XMGTopicVoiceView.xib in Resources */,
 				06BF78DA1E78CB5200371E48 /* XMGWebViewController.xib in Resources */,
 				06BF77141E77D3EC00371E48 /* goods.json in Resources */,
+				063E9F5C1E8B963F00953AC8 /* 1.jpg in Resources */,
+				063E9F131E8B88E200953AC8 /* p1.png in Resources */,
 				06BF78B21E78CB5200371E48 /* XMGCommentViewController.xib in Resources */,
 				06BF78C31E78CB5200371E48 /* XMGTopicCell.xib in Resources */,
+				063E9F5F1E8B963F00953AC8 /* 4.jpg in Resources */,
 				06BF78F31E78CB5200371E48 /* XMGPublishViewController.xib in Resources */,
 				068E62EC1E7A29300014636F /* ZZXClothesCollectionViewController.storyboard in Resources */,
 				06BF76C21E77CDE800371E48 /* NetWoringCacheViewController.storyboard in Resources */,
 				068E62F41E7A2B4E0014636F /* v2_pullRefresh2@2x.png in Resources */,
 				06BF78D51E78CB5200371E48 /* XMGRecommendUserCell.xib in Resources */,
+				063E9F641E8B963F00953AC8 /* stock.plist in Resources */,
 				06BF78F51E78CB5200371E48 /* XMGAddTagToolbar.xib in Resources */,
 				06BF78CF1E78CB5200371E48 /* XMGRecommendViewController.xib in Resources */,
 				06BF77F31E77E7F600371E48 /* MJRefresh.bundle in Resources */,
@@ -2249,6 +2529,7 @@
 				063202781E835F2F00AA4B5A /* LLMVVMViewController.m in Sources */,
 				06BF79551E78D04700371E48 /* POPCustomAnimation.mm in Sources */,
 				06BF78DE1E78CB5200371E48 /* XMGSqaureButton.m in Sources */,
+				063E9F161E8B88E200953AC8 /* postPicViewController.m in Sources */,
 				06BF77911E77E7A000371E48 /* LLContentTableView.m in Sources */,
 				06BF780E1E77F6B600371E48 /* LLModel.m in Sources */,
 				063202B61E837A3300AA4B5A /* MovieViewController.m in Sources */,
@@ -2260,6 +2541,9 @@
 				06BF798E1E78D42600371E48 /* XMGConst.m in Sources */,
 				06BF78B91E78CB5200371E48 /* XMGRecommendTag.m in Sources */,
 				06BF795A1E78D04700371E48 /* POPPropertyAnimation.mm in Sources */,
+				063E9F601E8B963F00953AC8 /* BuyCountView.m in Sources */,
+				063E9F731E8B97C000953AC8 /* LLTimeLineController.m in Sources */,
+				063E9F311E8B8F2800953AC8 /* ZFListViewController.m in Sources */,
 				06BF77541E77DFC700371E48 /* NSData+ImageContentType.m in Sources */,
 				06BF78D01E78CB5200371E48 /* XMGRecommendCategory.m in Sources */,
 				068E62FA1E7A2C0C0014636F /* MJRefreshGifHeader+LLRefeshGitHeader.m in Sources */,
@@ -2268,6 +2552,7 @@
 				06BF77FF1E77F04F00371E48 /* LLSynchronousRequestController.m in Sources */,
 				06BF794C1E78D04700371E48 /* POPAnimatableProperty.mm in Sources */,
 				06BF79571E78D04700371E48 /* POPGeometry.mm in Sources */,
+				063E9F261E8B8CD900953AC8 /* ZFDownloadedCell.m in Sources */,
 				068E62E61E7A26FD0014636F /* ZZXClothesCollectionViewController.m in Sources */,
 				06BF79981E78D68000371E48 /* LLDemoHeaderFooterView.m in Sources */,
 				06BF795C1E78D04700371E48 /* POPVector.mm in Sources */,
@@ -2284,16 +2569,21 @@
 				06BF78F01E78CB5200371E48 /* XMGAddTagViewController.m in Sources */,
 				06BF77231E77D58E00371E48 /* GFCalendarScrollView.m in Sources */,
 				06BF78121E77F6B600371E48 /* LLSDAutoLayoutController.m in Sources */,
+				063E9F651E8B963F00953AC8 /* TypeView.m in Sources */,
 				06BF77E61E77E7F600371E48 /* MJRefreshBackFooter.m in Sources */,
+				063E9F111E8B88E200953AC8 /* AlbumViewCell.m in Sources */,
+				063E9F461E8B93A900953AC8 /* MerchandiseCommentTableViewCell.m in Sources */,
 				06BF77F81E77E7F600371E48 /* UIView+MJExtension.m in Sources */,
 				06BF76AD1E77CC4B00371E48 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				06BF76B01E77CC4B00371E48 /* UIImageView+AFNetworking.m in Sources */,
+				063E9F611E8B963F00953AC8 /* ChoseView.m in Sources */,
 				068E62E51E7A26FD0014636F /* ZZXClothers.m in Sources */,
 				06BF77101E77D36000371E48 /* NSObject+MJKeyValue.m in Sources */,
 				06BF76EB1E77D2D000371E48 /* MenuItemCell.m in Sources */,
 				06BF77241E77D58E00371E48 /* GFCalendarView.m in Sources */,
 				06BF78C21E78CB5200371E48 /* XMGTopicCell.m in Sources */,
 				06BF77B31E77E7EA00371E48 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				063E9F351E8B902700953AC8 /* ZFDownloadViewController.m in Sources */,
 				06BF79541E78D04700371E48 /* POPCGUtils.mm in Sources */,
 				06BF77AE1E77E7EA00371E48 /* MASConstraintMaker.m in Sources */,
 				06BF77F41E77E7F600371E48 /* MJRefreshConst.m in Sources */,
@@ -2342,6 +2632,7 @@
 				06BF78B41E78CB5200371E48 /* XMGRecommendTagsViewController.m in Sources */,
 				068E63121E7A33DC0014636F /* LLSideBarViewController.m in Sources */,
 				06BF77881E77E71100371E48 /* LLPersnonalCenterController.m in Sources */,
+				063E9F721E8B97C000953AC8 /* UIColor+Hex.m in Sources */,
 				06BF76A31E77CC4B00371E48 /* AFHTTPSessionManager.m in Sources */,
 				06BF775A1E77DFC700371E48 /* SDWebImageManager.m in Sources */,
 				06BF78C01E78CB5200371E48 /* XMGRecommendTagCell.m in Sources */,
@@ -2351,8 +2642,10 @@
 				06BF79151E78CEBD00371E48 /* NJKWebViewProgress.m in Sources */,
 				06BF790F1E78CE2E00371E48 /* SVProgressHUD.m in Sources */,
 				06BF76351E77941900371E48 /* AppDelegate.m in Sources */,
+				063E9F741E8B97C000953AC8 /* TimelineCellTableViewCell.m in Sources */,
 				06BF78D61E78CB5200371E48 /* XMGTextField.m in Sources */,
 				06BF794D1E78D04700371E48 /* POPAnimation.mm in Sources */,
+				063E9F291E8B8CD900953AC8 /* ZFDownloadManager.m in Sources */,
 				06BF78F11E78CB5200371E48 /* XMGPostWordViewController.m in Sources */,
 				06BF78DD1E78CB5200371E48 /* XMGMeFooterView.m in Sources */,
 				06BF772B1E77D71500371E48 /* getData.m in Sources */,
@@ -2371,6 +2664,7 @@
 				06BF78181E77F6C500371E48 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				06BF79511E78D04700371E48 /* POPAnimationTracer.mm in Sources */,
 				06BF78B31E78CB5200371E48 /* XMGEssenceViewController.m in Sources */,
+				063E9F271E8B8CD900953AC8 /* ZFDownloadingCell.m in Sources */,
 				06BF77B01E77E7EA00371E48 /* MASViewAttribute.m in Sources */,
 				06BF794E1E78D04700371E48 /* POPAnimationEvent.mm in Sources */,
 				06BF775B1E77DFC700371E48 /* SDWebImagePrefetcher.m in Sources */,
@@ -2390,6 +2684,8 @@
 				06BF76B91E77CC6400371E48 /* PPNetworkCache.m in Sources */,
 				06BF76E81E77D2D000371E48 /* BadgeView.m in Sources */,
 				06BF78C61E78CB5200371E48 /* XMGTopicVideoView.m in Sources */,
+				063E9F661E8B963F00953AC8 /* LLSelectClothesController.m in Sources */,
+				063E9F181E8B88E200953AC8 /* LLSelectPhotoController.m in Sources */,
 				06BF770A1E77D36000371E48 /* MJFoundation.m in Sources */,
 				06BF76B11E77CC4B00371E48 /* UIProgressView+AFNetworking.m in Sources */,
 				06BF76E41E77D2D000371E48 /* ZXShopCartViewController.m in Sources */,
@@ -2403,6 +2699,7 @@
 				06BF76A51E77CC4B00371E48 /* AFSecurityPolicy.m in Sources */,
 				068E62FD1E7A2D5E0014636F /* LLRefreshTableViewController.m in Sources */,
 				06BF77811E77E48700371E48 /* BAButton.m in Sources */,
+				063E9F151E8B88E200953AC8 /* PhotoViewController.m in Sources */,
 				06BF76BA1E77CC6400371E48 /* PPNetworkHelper.m in Sources */,
 				06BF78101E77F6B600371E48 /* SDTimeLineCellOperationMenu.m in Sources */,
 				06BF77E71E77E7F600371E48 /* MJRefreshComponent.m in Sources */,
@@ -2426,19 +2723,25 @@
 				06BF77351E77DF9700371E48 /* TestViewController.m in Sources */,
 				06BF79581E78D04700371E48 /* POPLayerExtras.mm in Sources */,
 				06BF77221E77D58E00371E48 /* GFCalendarMonth.m in Sources */,
+				063E9F2A1E8B8CD900953AC8 /* ZFSessionModel.m in Sources */,
 				06BF78B51E78CB5200371E48 /* XMGShowPictureViewController.m in Sources */,
 				06BF79871E78D42600371E48 /* XMGTabBarController.m in Sources */,
 				06BF78BE1E78CB5200371E48 /* XMGCommentHeaderView.m in Sources */,
 				06BF79841E78D42600371E48 /* UIImageView+XMGExtension.m in Sources */,
 				068E63181E7A34AA0014636F /* LLRightViewController.m in Sources */,
 				06BF78191E77F6C500371E48 /* UIView+SDAutoLayout.m in Sources */,
+				063E9F301E8B8F2800953AC8 /* ZFListCell.m in Sources */,
 				06BF77F61E77E7F600371E48 /* UIScrollView+MJExtension.m in Sources */,
 				06BF77581E77DFC700371E48 /* SDWebImageDownloader.m in Sources */,
+				063E9F481E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.m in Sources */,
 				06BF77771E77E1F000371E48 /* SDCollectionViewCell.m in Sources */,
+				063E9F171E8B88E200953AC8 /* SelectedCell.m in Sources */,
 				06BF77EF1E77E7F600371E48 /* MJRefreshBackStateFooter.m in Sources */,
 				063202BC1E83886D00AA4B5A /* LLMVVMTabView.m in Sources */,
 				06BF77F01E77E7F600371E48 /* MJRefreshGifHeader.m in Sources */,
+				063E9F441E8B93A900953AC8 /* MerchandiseBasicInfoTableViewCell.m in Sources */,
 				06BF775E1E77DFC700371E48 /* UIImage+MultiFormat.m in Sources */,
+				063E9F4A1E8B93A900953AC8 /* LLShoppingViewController.m in Sources */,
 				068E63091E7A32780014636F /* LLTempModel.m in Sources */,
 				06BF778E1E77E74D00371E48 /* LLContentScrollView.m in Sources */,
 				06BF79531E78D04700371E48 /* POPBasicAnimation.mm in Sources */,
@@ -2455,6 +2758,7 @@
 				068E62E81E7A26FD0014636F /* ZZXWaterfalllayout.m in Sources */,
 				06BF76791E77CC3F00371E48 /* YYCache.m in Sources */,
 				06BF775D1E77DFC700371E48 /* UIImage+GIF.m in Sources */,
+				063E9F141E8B88E200953AC8 /* PhotoCell.m in Sources */,
 				06BF770B1E77D36000371E48 /* MJProperty.m in Sources */,
 				0632026F1E835AF500AA4B5A /* LLSwitchViewController.m in Sources */,
 				06BF77781E77E1F000371E48 /* SDCycleScrollView.m in Sources */,

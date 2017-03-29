@@ -30,6 +30,11 @@
 #import "LLRightViewController.h"
 #import "LLSwitchBaseViewController.h"
 #import "LLMVVMViewController.h"
+#import "LLSelectPhotoController.h"
+#import "ZFDownloadViewController.h"
+#import "LLShoppingViewController.h"
+#import "LLSelectClothesController.h"
+#import "LLTimeLineController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -232,6 +237,32 @@
         }
     
     
+    }else if (indexPath.section == 3) {// 2017-03-29更新
+
+        if (indexPath.row == 0) {
+            
+            LLSelectPhotoController * selectPhotoVc = [LLSelectPhotoController new];
+            selectPhotoVc.title = @"调用相机选择多张图片";
+            [self.navigationController pushViewController:selectPhotoVc animated:true];
+        }else if (indexPath.row == 1) {//断点下载，支持后台下载，再次打开程序、异常退出记录下载进度
+           UIStoryboard * sb = [UIStoryboard storyboardWithName:@"ZFDownloadViewController" bundle:nil];
+            UITabBarController * tabVc = sb.instantiateInitialViewController;
+           [self.navigationController pushViewController:tabVc animated:true];
+        }else if (indexPath.row == 2) {//模仿淘宝部分购物界面
+            UIStoryboard * sb = [UIStoryboard storyboardWithName:@"LLShoppingViewController" bundle:nil];
+            LLShoppingViewController * shopVC = sb.instantiateInitialViewController;
+             [self.navigationController pushViewController:shopVC animated:true];
+
+        }else if (indexPath.row == 3) {//模仿淘宝选衣服
+            LLSelectClothesController * selectClothesVc = [LLSelectClothesController new];
+            selectClothesVc.title = @"模仿淘宝选衣服";
+            [self.navigationController pushViewController:selectClothesVc animated:true];
+        }else if (indexPath.row == 4) {//时间轴
+            LLTimeLineController * TimeLineVc = [LLTimeLineController new];
+            TimeLineVc.title = @"时间轴";
+            [self.navigationController pushViewController:TimeLineVc animated:true];
+        }
+
     }
 
 }
