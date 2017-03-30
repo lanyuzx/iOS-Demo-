@@ -30,7 +30,7 @@
                     model.demoArr = [NSMutableArray arrayWithObjects:@"百思不得姐项目小马哥MVC",@"ios瀑布流",@"下拉刷新git图",@"根据可重用标识符,加载不同的cell,实现cell的不同加载方式",@"侧滑栏" ,nil];
                     break;
                 case 2:
-                    model.demoArr = [NSMutableArray arrayWithObjects:@"自定义标题切换,根据文字的宽度确定一屏现实多少个",@"简单的MVVM设计模式",@"首页动画较为实用",@"tabView旋转90度使用" ,nil];
+                    model.demoArr = [NSMutableArray arrayWithObjects:@"自定义标题切换,根据文字的宽度确定一屏现实多少个",@"简单的MVVM设计模式",@"首页动画较为实用仿工商银行首页",@"tabView旋转90度使用" ,nil];
                     break;
                 case 3:
                     model.demoArr = [NSMutableArray arrayWithObjects:@"调用相机选择多张图片",@"断点下载，支持后台下载，再次打开程序、异常退出记录下载进度",@"模仿淘宝部分购物界面" ,@"模仿淘宝选衣服",@"时间轴",nil];
