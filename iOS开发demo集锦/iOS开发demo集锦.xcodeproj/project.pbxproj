@@ -311,6 +311,15 @@
 		06BF79971E78D68000371E48 /* LLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF79921E78D68000371E48 /* LLDataSource.m */; };
 		06BF79981E78D68000371E48 /* LLDemoHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF79941E78D68000371E48 /* LLDemoHeaderFooterView.m */; };
 		06BF79991E78D68000371E48 /* LLDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF79961E78D68000371E48 /* LLDemoModel.m */; };
+		06EEED7A1E8C9BFF00E5DCBB /* BtnList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06EEED6D1E8C9BFF00E5DCBB /* BtnList.plist */; };
+		06EEED7B1E8C9BFF00E5DCBB /* BtnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEED6F1E8C9BFF00E5DCBB /* BtnModel.m */; };
+		06EEED7C1E8C9BFF00E5DCBB /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEED721E8C9BFF00E5DCBB /* Demo.m */; };
+		06EEED7D1E8C9BFF00E5DCBB /* FTT_Roundview.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEED751E8C9BFF00E5DCBB /* FTT_Roundview.m */; };
+		06EEED7E1E8C9BFF00E5DCBB /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEED771E8C9BFF00E5DCBB /* KTOneFingerRotationGestureRecognizer.m */; };
+		06EEED7F1E8C9BFF00E5DCBB /* LLAnimitaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEED791E8C9BFF00E5DCBB /* LLAnimitaController.m */; };
+		06EEED851E8CA1FB00E5DCBB /* LLTransformCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEED821E8CA1FB00E5DCBB /* LLTransformCell.m */; };
+		06EEED861E8CA1FB00E5DCBB /* LLTransformTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEED841E8CA1FB00E5DCBB /* LLTransformTableViewController.m */; };
+		06EEED891E8CA41800E5DCBB /* LLMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEED881E8CA41800E5DCBB /* LLMainTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -920,6 +929,23 @@
 		06BF79941E78D68000371E48 /* LLDemoHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDemoHeaderFooterView.m; sourceTree = "<group>"; };
 		06BF79951E78D68000371E48 /* LLDemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDemoModel.h; sourceTree = "<group>"; };
 		06BF79961E78D68000371E48 /* LLDemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDemoModel.m; sourceTree = "<group>"; };
+		06EEED6D1E8C9BFF00E5DCBB /* BtnList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BtnList.plist; sourceTree = "<group>"; };
+		06EEED6E1E8C9BFF00E5DCBB /* BtnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnModel.h; sourceTree = "<group>"; };
+		06EEED6F1E8C9BFF00E5DCBB /* BtnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnModel.m; sourceTree = "<group>"; };
+		06EEED711E8C9BFF00E5DCBB /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		06EEED721E8C9BFF00E5DCBB /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
+		06EEED741E8C9BFF00E5DCBB /* FTT_Roundview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTT_Roundview.h; sourceTree = "<group>"; };
+		06EEED751E8C9BFF00E5DCBB /* FTT_Roundview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTT_Roundview.m; sourceTree = "<group>"; };
+		06EEED761E8C9BFF00E5DCBB /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		06EEED771E8C9BFF00E5DCBB /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		06EEED781E8C9BFF00E5DCBB /* LLAnimitaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAnimitaController.h; sourceTree = "<group>"; };
+		06EEED791E8C9BFF00E5DCBB /* LLAnimitaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAnimitaController.m; sourceTree = "<group>"; };
+		06EEED811E8CA1FB00E5DCBB /* LLTransformCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTransformCell.h; sourceTree = "<group>"; };
+		06EEED821E8CA1FB00E5DCBB /* LLTransformCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTransformCell.m; sourceTree = "<group>"; };
+		06EEED831E8CA1FB00E5DCBB /* LLTransformTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTransformTableViewController.h; sourceTree = "<group>"; };
+		06EEED841E8CA1FB00E5DCBB /* LLTransformTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTransformTableViewController.m; sourceTree = "<group>"; };
+		06EEED871E8CA41800E5DCBB /* LLMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMainTableViewCell.h; sourceTree = "<group>"; };
+		06EEED881E8CA41800E5DCBB /* LLMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMainTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1329,6 +1355,8 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				06EEED801E8CA1FA00E5DCBB /* tabView旋转90度使用 */,
+				06EEED6C1E8C9BFF00E5DCBB /* 首页动画较为实用 */,
 				063E9F761E8B9D2800953AC8 /* 网络接口缓存带文件上传和下载机制 */,
 				063E9F671E8B97C000953AC8 /* 时间轴 */,
 				063E9F4B1E8B963F00953AC8 /* 模仿淘宝选衣服 */,
@@ -2323,8 +2351,55 @@
 				06BF79961E78D68000371E48 /* LLDemoModel.m */,
 				063202AC1E83683C00AA4B5A /* NSObject+BAMJParse.h */,
 				063202AD1E83683C00AA4B5A /* NSObject+BAMJParse.m */,
+				06EEED871E8CA41800E5DCBB /* LLMainTableViewCell.h */,
+				06EEED881E8CA41800E5DCBB /* LLMainTableViewCell.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		06EEED6C1E8C9BFF00E5DCBB /* 首页动画较为实用 */ = {
+			isa = PBXGroup;
+			children = (
+				06EEED6D1E8C9BFF00E5DCBB /* BtnList.plist */,
+				06EEED6E1E8C9BFF00E5DCBB /* BtnModel.h */,
+				06EEED6F1E8C9BFF00E5DCBB /* BtnModel.m */,
+				06EEED701E8C9BFF00E5DCBB /* Controller */,
+				06EEED731E8C9BFF00E5DCBB /* FTT_RoundView */,
+				06EEED781E8C9BFF00E5DCBB /* LLAnimitaController.h */,
+				06EEED791E8C9BFF00E5DCBB /* LLAnimitaController.m */,
+			);
+			path = "首页动画较为实用";
+			sourceTree = "<group>";
+		};
+		06EEED701E8C9BFF00E5DCBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06EEED711E8C9BFF00E5DCBB /* Demo.h */,
+				06EEED721E8C9BFF00E5DCBB /* Demo.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		06EEED731E8C9BFF00E5DCBB /* FTT_RoundView */ = {
+			isa = PBXGroup;
+			children = (
+				06EEED741E8C9BFF00E5DCBB /* FTT_Roundview.h */,
+				06EEED751E8C9BFF00E5DCBB /* FTT_Roundview.m */,
+				06EEED761E8C9BFF00E5DCBB /* KTOneFingerRotationGestureRecognizer.h */,
+				06EEED771E8C9BFF00E5DCBB /* KTOneFingerRotationGestureRecognizer.m */,
+			);
+			path = FTT_RoundView;
+			sourceTree = "<group>";
+		};
+		06EEED801E8CA1FA00E5DCBB /* tabView旋转90度使用 */ = {
+			isa = PBXGroup;
+			children = (
+				06EEED811E8CA1FB00E5DCBB /* LLTransformCell.h */,
+				06EEED821E8CA1FB00E5DCBB /* LLTransformCell.m */,
+				06EEED831E8CA1FB00E5DCBB /* LLTransformTableViewController.h */,
+				06EEED841E8CA1FB00E5DCBB /* LLTransformTableViewController.m */,
+			);
+			path = "tabView旋转90度使用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2444,6 +2519,7 @@
 				06BF76A91E77CC4B00371E48 /* LICENSE in Resources */,
 				06BF78C11E78CB5200371E48 /* XMGRecommendTagCell.xib in Resources */,
 				063E9F751E8B97C000953AC8 /* TimelineCellTableViewCell.xib in Resources */,
+				06EEED7A1E8C9BFF00E5DCBB /* BtnList.plist in Resources */,
 				06BF78C71E78CB5200371E48 /* XMGTopicVideoView.xib in Resources */,
 				06BF76E31E77D2D000371E48 /* AcknowledgementOfOrder.xib in Resources */,
 				063E9F331E8B8F6700953AC8 /* ZFDownloadViewController.storyboard in Resources */,
@@ -2546,6 +2622,7 @@
 				063E9F731E8B97C000953AC8 /* LLTimeLineController.m in Sources */,
 				063E9F311E8B8F2800953AC8 /* ZFListViewController.m in Sources */,
 				06BF77541E77DFC700371E48 /* NSData+ImageContentType.m in Sources */,
+				06EEED7E1E8C9BFF00E5DCBB /* KTOneFingerRotationGestureRecognizer.m in Sources */,
 				06BF78D01E78CB5200371E48 /* XMGRecommendCategory.m in Sources */,
 				068E62FA1E7A2C0C0014636F /* MJRefreshGifHeader+LLRefeshGitHeader.m in Sources */,
 				06BF77081E77D36000371E48 /* MJDictionaryCache.m in Sources */,
@@ -2572,6 +2649,7 @@
 				06BF78121E77F6B600371E48 /* LLSDAutoLayoutController.m in Sources */,
 				063E9F651E8B963F00953AC8 /* TypeView.m in Sources */,
 				06BF77E61E77E7F600371E48 /* MJRefreshBackFooter.m in Sources */,
+				06EEED7F1E8C9BFF00E5DCBB /* LLAnimitaController.m in Sources */,
 				063E9F111E8B88E200953AC8 /* AlbumViewCell.m in Sources */,
 				063E9F461E8B93A900953AC8 /* MerchandiseCommentTableViewCell.m in Sources */,
 				06BF77F81E77E7F600371E48 /* UIView+MJExtension.m in Sources */,
@@ -2581,6 +2659,7 @@
 				068E62E51E7A26FD0014636F /* ZZXClothers.m in Sources */,
 				06BF77101E77D36000371E48 /* NSObject+MJKeyValue.m in Sources */,
 				06BF76EB1E77D2D000371E48 /* MenuItemCell.m in Sources */,
+				06EEED851E8CA1FB00E5DCBB /* LLTransformCell.m in Sources */,
 				06BF77241E77D58E00371E48 /* GFCalendarView.m in Sources */,
 				06BF78C21E78CB5200371E48 /* XMGTopicCell.m in Sources */,
 				06BF77B31E77E7EA00371E48 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -2602,6 +2681,7 @@
 				06BF78B81E78CB5200371E48 /* XMGComment.m in Sources */,
 				06BF78D11E78CB5200371E48 /* XMGRecommendUser.m in Sources */,
 				06BF77E91E77E7F600371E48 /* MJRefreshHeader.m in Sources */,
+				06EEED7C1E8C9BFF00E5DCBB /* Demo.m in Sources */,
 				06BF76A71E77CC4B00371E48 /* AFURLResponseSerialization.m in Sources */,
 				06BF77321E77DF8A00371E48 /* WMDragView.m in Sources */,
 				06BF77121E77D36000371E48 /* NSString+MJExtension.m in Sources */,
@@ -2614,6 +2694,7 @@
 				06BF76E71E77D2D000371E48 /* ThrowLineTool.m in Sources */,
 				06BF78CE1E78CB5200371E48 /* XMGRecommendViewController.m in Sources */,
 				06BF79521E78D04700371E48 /* POPAnimator.mm in Sources */,
+				06EEED7D1E8C9BFF00E5DCBB /* FTT_Roundview.m in Sources */,
 				06BF76ED1E77D2D000371E48 /* OrderDetailListView.m in Sources */,
 				06BF77091E77D36000371E48 /* MJExtensionConst.m in Sources */,
 				06BF767B1E77CC4000371E48 /* YYKVStorage.m in Sources */,
@@ -2621,6 +2702,7 @@
 				06BF76A61E77CC4B00371E48 /* AFURLRequestSerialization.m in Sources */,
 				06BF77E81E77E7F600371E48 /* MJRefreshFooter.m in Sources */,
 				06BF78FF1E78CC0D00371E48 /* DALabeledCircularProgressView.m in Sources */,
+				06EEED7B1E8C9BFF00E5DCBB /* BtnModel.m in Sources */,
 				06BF77211E77D58E00371E48 /* GFCalendarCell.m in Sources */,
 				06BF798F1E78D42600371E48 /* XMGExtensionConfig.m in Sources */,
 				06BF78D41E78CB5200371E48 /* XMGRecommendUserCell.m in Sources */,
@@ -2707,6 +2789,7 @@
 				06BF78FE1E78CC0D00371E48 /* DACircularProgressView.m in Sources */,
 				06BF76321E77941900371E48 /* main.m in Sources */,
 				06BF77EC1E77E7F600371E48 /* MJRefreshAutoStateFooter.m in Sources */,
+				06EEED861E8CA1FB00E5DCBB /* LLTransformTableViewController.m in Sources */,
 				06BF780D1E77F6B600371E48 /* LLCollectionViewCell.m in Sources */,
 				06BF78B71E78CB5200371E48 /* XMGTopicViewController.m in Sources */,
 				06BF798A1E78D42600371E48 /* XMGPushGuideView.m in Sources */,
@@ -2731,6 +2814,7 @@
 				06BF78191E77F6C500371E48 /* UIView+SDAutoLayout.m in Sources */,
 				063E9F7F1E8B9D2800953AC8 /* NetWoringCacheViewController.m in Sources */,
 				063E9F301E8B8F2800953AC8 /* ZFListCell.m in Sources */,
+				06EEED891E8CA41800E5DCBB /* LLMainTableViewCell.m in Sources */,
 				06BF77F61E77E7F600371E48 /* UIScrollView+MJExtension.m in Sources */,
 				06BF77581E77DFC700371E48 /* SDWebImageDownloader.m in Sources */,
 				063E9F481E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.m in Sources */,

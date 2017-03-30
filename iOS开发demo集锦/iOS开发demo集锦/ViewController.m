@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "LLDemoModel.h"
+#import "LLMainTableViewCell.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
 #import "LLDemoHeaderFooterView.h"
 #import "LLDataSource.h"
 #import "NetWoringCacheViewController.h"
@@ -35,6 +37,8 @@
 #import "LLShoppingViewController.h"
 #import "LLSelectClothesController.h"
 #import "LLTimeLineController.h"
+#import "LLAnimitaController.h"
+#import "LLTransformTableViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -47,12 +51,12 @@
     self.title = @"iOS Demo 集锦";
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
+    [self.tableView registerClass:[LLMainTableViewCell class] forCellReuseIdentifier:@"LLMainTableViewCell"];
     [self.tableView registerClass:[LLDemoHeaderFooterView class] forHeaderFooterViewReuseIdentifier:@"LLDemoHeaderFooterView"];
     [self setupData];
     self.tableView.tableFooterView = [UIView new];
     
-   
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 
@@ -83,10 +87,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     LLDemoModel * model = self.demoTitleArr[indexPath.section];
     if (model.headFootClick) {
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
+        LLMainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LLMainTableViewCell"];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
-        cell.textLabel.text = model.demoArr[indexPath.row];
-        
+        cell.indexPath = indexPath;
+        cell.model = model;
         return cell;
     }else {
         
@@ -101,7 +105,7 @@
     LLDemoModel * model = self.demoTitleArr[indexPath.section];
     
     if (model.headFootClick) {
-        return 44;
+        return [tableView cellHeightForIndexPath:indexPath model:model keyPath:@"model" cellClass:[LLMainTableViewCell class] contentViewWidth:[UIScreen mainScreen].bounds.size.width];
     }else {
         return 0.0001;
     }
@@ -112,10 +116,11 @@
     LLDemoHeaderFooterView * headFootView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"LLDemoHeaderFooterView"];
     LLDemoModel * model = self.demoTitleArr[section];
     headFootView.model =model;
+    __weak typeof(self) weak = self;
     headFootView.block = ^(LLDemoHeaderFooterView * headFootView) {
         model.headFootClick = !model.headFootClick;
         NSIndexSet *indexSet = [[NSIndexSet alloc]initWithIndex:section];
-        [self.tableView reloadSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
+        [weak.tableView reloadSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
     
     };
     return headFootView;
@@ -234,6 +239,14 @@
             LLMVVMViewController * mvvmVc = [LLMVVMViewController new];
             mvvmVc.title = @"简单的MVVM设计模式";
             [self.navigationController pushViewController:mvvmVc animated:true];
+        }else if (indexPath.row == 2) {//首页动画较为实用
+            LLAnimitaController * AnimitaVc = [LLAnimitaController new];
+            AnimitaVc.title = @"首页动画较为实用";
+            [self.navigationController pushViewController:AnimitaVc animated:true];
+        }else if (indexPath.row == 3) { //tabView旋转90度使用
+            LLTransformTableViewController * TransformTable = [LLTransformTableViewController new];
+            TransformTable.title = @"首页动画较为实用";
+            [self.navigationController pushViewController:TransformTable animated:true];
         }
     
     

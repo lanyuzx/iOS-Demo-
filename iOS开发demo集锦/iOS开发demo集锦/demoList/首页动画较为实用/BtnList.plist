@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ClassName</key>
+		<string>Demo</string>
+		<key>Image1</key>
+		<string>business_center_2</string>
+		<key>Image2</key>
+		<string>business_center_2</string>
+		<key>title</key>
+		<string>神奇</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>Demo</string>
+		<key>Image1</key>
+		<string>home_2</string>
+		<key>Image2</key>
+		<string>home_2</string>
+		<key>title</key>
+		<string>弹性</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>Demo</string>
+		<key>Image1</key>
+		<string>message_2</string>
+		<key>Image2</key>
+		<string>message_2</string>
+		<key>title</key>
+		<string>翻页</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>Demo</string>
+		<key>Image1</key>
+		<string>task_management_2</string>
+		<key>Image2</key>
+		<string>task_management_2</string>
+		<key>title</key>
+		<string>扩散</string>
+	</dict>
+	<dict>
+		<key>ClassName</key>
+		<string>Demo</string>
+		<key>Image1</key>
+		<string>btn_increase</string>
+		<key>Image2</key>
+		<string>btn_increase</string>
+		<key>title</key>
+		<string>抖动</string>
+	</dict>
+</array>
+</plist>
