@@ -39,6 +39,8 @@
 #import "LLTimeLineController.h"
 #import "LLAnimitaController.h"
 #import "LLTransformTableViewController.h"
+#import "LLBezierPathController.h"
+#import "LLWeiboPhotoController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -105,7 +107,7 @@
     LLDemoModel * model = self.demoTitleArr[indexPath.section];
     
     if (model.headFootClick) {
-        return [tableView cellHeightForIndexPath:indexPath model:model keyPath:@"model" cellClass:[LLMainTableViewCell class] contentViewWidth:[UIScreen mainScreen].bounds.size.width];
+        return [tableView cellHeightForIndexPath:indexPath model:model keyPath:@"model" cellClass:[LLMainTableViewCell class] contentViewWidth:[UIScreen mainScreen].bounds.size.width] +5;
     }else {
         return 0.0001;
     }
@@ -274,6 +276,16 @@
             LLTimeLineController * TimeLineVc = [LLTimeLineController new];
             TimeLineVc.title = @"时间轴";
             [self.navigationController pushViewController:TimeLineVc animated:true];
+        }else if (indexPath.row == 5) {
+            UIStoryboard * sb = [UIStoryboard storyboardWithName:@"LLBezierPathController" bundle:nil];
+            LLBezierPathController * BezierPathVC = sb.instantiateInitialViewController;
+            BezierPathVC.title = @"动画的微妙之处之贝塞尔曲线一部分";
+
+            [self.navigationController pushViewController:BezierPathVC animated:true];
+        }else if (indexPath.row == 6){
+            LLWeiboPhotoController *WeiboPhotoVc = [LLWeiboPhotoController new];
+            WeiboPhotoVc.title = @"仿新浪微博图片选择器";
+            [self.navigationController pushViewController:WeiboPhotoVc animated:true];
         }
 
     }

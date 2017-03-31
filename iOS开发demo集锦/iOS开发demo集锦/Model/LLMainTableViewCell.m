@@ -18,6 +18,7 @@
 -(void)setModel:(LLDemoModel *)model {
     _model = model;
     _nameLable.text = model.demoArr[self.indexPath.row];
+    [self setupAutoHeightWithBottomView:_nameLable bottomMargin:12];
       }
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -35,7 +36,7 @@
         
         _nameLable = [UILabel new];
         _nameLable.textColor = [UIColor darkGrayColor];
-        _nameLable.font = [UIFont systemFontOfSize:15];
+        _nameLable.font = [UIFont systemFontOfSize:16];
         _nameLable.textAlignment = NSTextAlignmentLeft;
         _nameLable.numberOfLines = 0;
         [self.contentView addSubview:_nameLable];
@@ -44,9 +45,6 @@
         .topSpaceToView(self.contentView,12)
         .rightSpaceToView(self.contentView,12)
         .autoHeightRatio(0);
-        
-        
-        [self setupAutoHeightWithBottomView:_nameLable bottomMargin:15];
 
     }
     return self;

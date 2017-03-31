@@ -26,7 +26,7 @@ static NSString *const dataUrl = @"http://api.budejie.com/api/api_open.php";
     [self.view addSubview:detaiLable];
     detaiLable.numberOfLines = 0;
     detaiLable.textColor = [UIColor orangeColor];
-    detaiLable.frame = CGRectMake(0, 200, 120, 35);
+    detaiLable.frame = CGRectMake(10, 200, 200, 35);
     
     
     //该方法一定要使用开启一个异步线程,不然会卡死主线程

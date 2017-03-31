@@ -33,7 +33,7 @@
                     model.demoArr = [NSMutableArray arrayWithObjects:@"自定义标题切换,根据文字的宽度确定一屏现实多少个",@"简单的MVVM设计模式",@"首页动画较为实用仿工商银行首页",@"tabView旋转90度使用" ,nil];
                     break;
                 case 3:
-                    model.demoArr = [NSMutableArray arrayWithObjects:@"调用相机选择多张图片",@"断点下载，支持后台下载，再次打开程序、异常退出记录下载进度",@"模仿淘宝部分购物界面" ,@"模仿淘宝选衣服",@"时间轴",nil];
+                    model.demoArr = [NSMutableArray arrayWithObjects:@"调用相机选择多张图片",@"断点下载，支持后台下载，再次打开程序、异常退出记录下载进度",@"模仿淘宝部分购物界面" ,@"模仿淘宝选衣服",@"时间轴",@"动画的微妙之处之贝塞尔曲线一部分",@"仿新浪微博图片选择器",nil];
                     break;
                 default:
                     break;
