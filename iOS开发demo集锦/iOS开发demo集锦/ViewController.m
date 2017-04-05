@@ -41,6 +41,7 @@
 #import "LLTransformTableViewController.h"
 #import "LLBezierPathController.h"
 #import "LLWeiboPhotoController.h"
+#import "LLChartLineController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -288,6 +289,15 @@
             [self.navigationController pushViewController:WeiboPhotoVc animated:true];
         }
 
+    }else if (indexPath.section == 4) {// 2017-04-05更新
+        if (indexPath.row == 0) {//ios股票曲线
+            
+            LLChartLineController *ChartLineVc = [LLChartLineController new];
+            ChartLineVc.title = @"ios股票曲线";
+            [self.navigationController pushViewController:ChartLineVc animated:true];
+        }
+    
+    
     }
 
 }

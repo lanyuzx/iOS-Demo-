@@ -81,6 +81,19 @@
 		068E63121E7A33DC0014636F /* LLSideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E63111E7A33DC0014636F /* LLSideBarViewController.m */; };
 		068E63151E7A349D0014636F /* LLLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E63141E7A349D0014636F /* LLLeftViewController.m */; };
 		068E63181E7A34AA0014636F /* LLRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E63171E7A34AA0014636F /* LLRightViewController.m */; };
+		06A15EAD1E947DA2001988AF /* JHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15E931E947DA2001988AF /* JHChart.m */; };
+		06A15EAE1E947DA2001988AF /* JHColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15E961E947DA2001988AF /* JHColumnChart.m */; };
+		06A15EAF1E947DA2001988AF /* JHLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15E981E947DA2001988AF /* JHLineChart.m */; };
+		06A15EB01E947DA2001988AF /* JHPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15E9A1E947DA2001988AF /* JHPieChart.m */; };
+		06A15EB11E947DA2001988AF /* JHPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15E9C1E947DA2001988AF /* JHPieForeBGView.m */; };
+		06A15EB21E947DA2001988AF /* JHPieItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15E9E1E947DA2001988AF /* JHPieItemsView.m */; };
+		06A15EB31E947DA2001988AF /* JHRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EA01E947DA2001988AF /* JHRingChart.m */; };
+		06A15EB41E947DA2001988AF /* JHShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EA21E947DA2001988AF /* JHShowInfoView.m */; };
+		06A15EB51E947DA2001988AF /* JHTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EA41E947DA2001988AF /* JHTableChart.m */; };
+		06A15EB61E947DA2001988AF /* JHTableDataRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EA61E947DA2001988AF /* JHTableDataRowModel.m */; };
+		06A15EB71E947DA2001988AF /* JHWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EA81E947DA2001988AF /* JHWaveChart.m */; };
+		06A15EB81E947DA2001988AF /* JHShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EAA1E947DA2001988AF /* JHShowController.m */; };
+		06A15EB91E947DA2001988AF /* LLChartLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EAC1E947DA2001988AF /* LLChartLineController.m */; };
 		06BF76321E77941900371E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76311E77941900371E48 /* main.m */; };
 		06BF76351E77941900371E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76341E77941900371E48 /* AppDelegate.m */; };
 		06BF76381E77941900371E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76371E77941900371E48 /* ViewController.m */; };
@@ -571,6 +584,33 @@
 		068E63141E7A349D0014636F /* LLLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLeftViewController.m; sourceTree = "<group>"; };
 		068E63161E7A34AA0014636F /* LLRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRightViewController.h; sourceTree = "<group>"; };
 		068E63171E7A34AA0014636F /* LLRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRightViewController.m; sourceTree = "<group>"; };
+		06A15E921E947DA2001988AF /* JHChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChart.h; sourceTree = "<group>"; };
+		06A15E931E947DA2001988AF /* JHChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChart.m; sourceTree = "<group>"; };
+		06A15E941E947DA2001988AF /* JHChartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChartHeader.h; sourceTree = "<group>"; };
+		06A15E951E947DA2001988AF /* JHColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHColumnChart.h; sourceTree = "<group>"; };
+		06A15E961E947DA2001988AF /* JHColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHColumnChart.m; sourceTree = "<group>"; };
+		06A15E971E947DA2001988AF /* JHLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineChart.h; sourceTree = "<group>"; };
+		06A15E981E947DA2001988AF /* JHLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLineChart.m; sourceTree = "<group>"; };
+		06A15E991E947DA2001988AF /* JHPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieChart.h; sourceTree = "<group>"; };
+		06A15E9A1E947DA2001988AF /* JHPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieChart.m; sourceTree = "<group>"; };
+		06A15E9B1E947DA2001988AF /* JHPieForeBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieForeBGView.h; sourceTree = "<group>"; };
+		06A15E9C1E947DA2001988AF /* JHPieForeBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieForeBGView.m; sourceTree = "<group>"; };
+		06A15E9D1E947DA2001988AF /* JHPieItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieItemsView.h; sourceTree = "<group>"; };
+		06A15E9E1E947DA2001988AF /* JHPieItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieItemsView.m; sourceTree = "<group>"; };
+		06A15E9F1E947DA2001988AF /* JHRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRingChart.h; sourceTree = "<group>"; };
+		06A15EA01E947DA2001988AF /* JHRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRingChart.m; sourceTree = "<group>"; };
+		06A15EA11E947DA2001988AF /* JHShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHShowInfoView.h; sourceTree = "<group>"; };
+		06A15EA21E947DA2001988AF /* JHShowInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowInfoView.m; sourceTree = "<group>"; };
+		06A15EA31E947DA2001988AF /* JHTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTableChart.h; sourceTree = "<group>"; };
+		06A15EA41E947DA2001988AF /* JHTableChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTableChart.m; sourceTree = "<group>"; };
+		06A15EA51E947DA2001988AF /* JHTableDataRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTableDataRowModel.h; sourceTree = "<group>"; };
+		06A15EA61E947DA2001988AF /* JHTableDataRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTableDataRowModel.m; sourceTree = "<group>"; };
+		06A15EA71E947DA2001988AF /* JHWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWaveChart.h; sourceTree = "<group>"; };
+		06A15EA81E947DA2001988AF /* JHWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWaveChart.m; sourceTree = "<group>"; };
+		06A15EA91E947DA2001988AF /* JHShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHShowController.h; sourceTree = "<group>"; };
+		06A15EAA1E947DA2001988AF /* JHShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowController.m; sourceTree = "<group>"; };
+		06A15EAB1E947DA2001988AF /* LLChartLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChartLineController.h; sourceTree = "<group>"; };
+		06A15EAC1E947DA2001988AF /* LLChartLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChartLineController.m; sourceTree = "<group>"; };
 		06BF762D1E77941800371E48 /* iOS开发demo集锦.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS开发demo集锦.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BF76311E77941900371E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06BF76331E77941900371E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1530,6 +1570,48 @@
 			path = DDMenu;
 			sourceTree = "<group>";
 		};
+		06A15E901E947DA2001988AF /* iOS股票折线图 */ = {
+			isa = PBXGroup;
+			children = (
+				06A15E911E947DA2001988AF /* JHChart */,
+				06A15EA91E947DA2001988AF /* JHShowController.h */,
+				06A15EAA1E947DA2001988AF /* JHShowController.m */,
+				06A15EAB1E947DA2001988AF /* LLChartLineController.h */,
+				06A15EAC1E947DA2001988AF /* LLChartLineController.m */,
+			);
+			path = "iOS股票折线图";
+			sourceTree = "<group>";
+		};
+		06A15E911E947DA2001988AF /* JHChart */ = {
+			isa = PBXGroup;
+			children = (
+				06A15E921E947DA2001988AF /* JHChart.h */,
+				06A15E931E947DA2001988AF /* JHChart.m */,
+				06A15E941E947DA2001988AF /* JHChartHeader.h */,
+				06A15E951E947DA2001988AF /* JHColumnChart.h */,
+				06A15E961E947DA2001988AF /* JHColumnChart.m */,
+				06A15E971E947DA2001988AF /* JHLineChart.h */,
+				06A15E981E947DA2001988AF /* JHLineChart.m */,
+				06A15E991E947DA2001988AF /* JHPieChart.h */,
+				06A15E9A1E947DA2001988AF /* JHPieChart.m */,
+				06A15E9B1E947DA2001988AF /* JHPieForeBGView.h */,
+				06A15E9C1E947DA2001988AF /* JHPieForeBGView.m */,
+				06A15E9D1E947DA2001988AF /* JHPieItemsView.h */,
+				06A15E9E1E947DA2001988AF /* JHPieItemsView.m */,
+				06A15E9F1E947DA2001988AF /* JHRingChart.h */,
+				06A15EA01E947DA2001988AF /* JHRingChart.m */,
+				06A15EA11E947DA2001988AF /* JHShowInfoView.h */,
+				06A15EA21E947DA2001988AF /* JHShowInfoView.m */,
+				06A15EA31E947DA2001988AF /* JHTableChart.h */,
+				06A15EA41E947DA2001988AF /* JHTableChart.m */,
+				06A15EA51E947DA2001988AF /* JHTableDataRowModel.h */,
+				06A15EA61E947DA2001988AF /* JHTableDataRowModel.m */,
+				06A15EA71E947DA2001988AF /* JHWaveChart.h */,
+				06A15EA81E947DA2001988AF /* JHWaveChart.m */,
+			);
+			path = JHChart;
+			sourceTree = "<group>";
+		};
 		06BF76241E77941600371E48 = {
 			isa = PBXGroup;
 			children = (
@@ -1598,6 +1680,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				06A15E901E947DA2001988AF /* iOS股票折线图 */,
 				06EEEDB61E8E2EDF00E5DCBB /* 仿新浪微博图片选择器 */,
 				06EEED8A1E8E2B5D00E5DCBB /* 动画的微妙之处之贝塞尔曲线一部分 */,
 				06EEED801E8CA1FA00E5DCBB /* tabView旋转90度使用 */,
@@ -3210,6 +3293,7 @@
 				06BF77101E77D36000371E48 /* NSObject+MJKeyValue.m in Sources */,
 				06BF76EB1E77D2D000371E48 /* MenuItemCell.m in Sources */,
 				06EEED851E8CA1FB00E5DCBB /* LLTransformCell.m in Sources */,
+				06A15EB81E947DA2001988AF /* JHShowController.m in Sources */,
 				06BF77241E77D58E00371E48 /* GFCalendarView.m in Sources */,
 				06BF78C21E78CB5200371E48 /* XMGTopicCell.m in Sources */,
 				06BF77B31E77E7EA00371E48 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -3242,6 +3326,7 @@
 				06BF78DC1E78CB5200371E48 /* XMGMeCell.m in Sources */,
 				06BF79831E78D42600371E48 /* UIImage+XMGExtension.m in Sources */,
 				06BF76AE1E77CC4B00371E48 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				06A15EB11E947DA2001988AF /* JHPieForeBGView.m in Sources */,
 				06EEEE861E8E2EE000E5DCBB /* UIView+HXExtension.m in Sources */,
 				06BF76B31E77CC4B00371E48 /* UIWebView+AFNetworking.m in Sources */,
 				06BF77B41E77E7EA00371E48 /* View+MASAdditions.m in Sources */,
@@ -3252,6 +3337,7 @@
 				06EEED7D1E8C9BFF00E5DCBB /* FTT_Roundview.m in Sources */,
 				06BF76ED1E77D2D000371E48 /* OrderDetailListView.m in Sources */,
 				06BF77091E77D36000371E48 /* MJExtensionConst.m in Sources */,
+				06A15EB51E947DA2001988AF /* JHTableChart.m in Sources */,
 				06EEEE871E8E2EE000E5DCBB /* LLWeiboPhotoController.m in Sources */,
 				06EEEE851E8E2EE000E5DCBB /* UIImage+HXExtension.m in Sources */,
 				06BF767B1E77CC4000371E48 /* YYKVStorage.m in Sources */,
@@ -3263,10 +3349,12 @@
 				06EEEDA91E8E2B5D00E5DCBB /* LLBezierPathController.m in Sources */,
 				06BF77211E77D58E00371E48 /* GFCalendarCell.m in Sources */,
 				06BF798F1E78D42600371E48 /* XMGExtensionConfig.m in Sources */,
+				06A15EB01E947DA2001988AF /* JHPieChart.m in Sources */,
 				06BF78D41E78CB5200371E48 /* XMGRecommendUserCell.m in Sources */,
 				06BF77731E77E1F000371E48 /* TAAbstractDotView.m in Sources */,
 				06BF76E21E77D2D000371E48 /* AcknowledgementOfOrder.m in Sources */,
 				06BF78F61E78CB5200371E48 /* XMGPlaceholderTextView.m in Sources */,
+				06A15EAD1E947DA2001988AF /* JHChart.m in Sources */,
 				06BF79811E78D42600371E48 /* NSDate+XMGExtension.m in Sources */,
 				0632026E1E835AF500AA4B5A /* LLSwitchBaseViewController.m in Sources */,
 				06BF77E51E77E7F600371E48 /* MJRefreshAutoFooter.m in Sources */,
@@ -3295,6 +3383,7 @@
 				06BF78F11E78CB5200371E48 /* XMGPostWordViewController.m in Sources */,
 				06BF78DD1E78CB5200371E48 /* XMGMeFooterView.m in Sources */,
 				06BF772B1E77D71500371E48 /* getData.m in Sources */,
+				06A15EB21E947DA2001988AF /* JHPieItemsView.m in Sources */,
 				06BF77841E77E48F00371E48 /* LLButtonViewController.m in Sources */,
 				06BF78DB1E78CB5200371E48 /* XMGSquare.m in Sources */,
 				06BF770C1E77D36000371E48 /* MJPropertyKey.m in Sources */,
@@ -3305,13 +3394,16 @@
 				06BF78F81E78CB5200371E48 /* XMGTagTextField.m in Sources */,
 				063202B91E837B8D00AA4B5A /* LLMVVMDetailModel.m in Sources */,
 				06EEEDAE1E8E2B5D00E5DCBB /* XHCenterView.m in Sources */,
+				06A15EAE1E947DA2001988AF /* JHColumnChart.m in Sources */,
 				06BF78F21E78CB5200371E48 /* XMGPublishViewController.m in Sources */,
 				06BF76AA1E77CC4B00371E48 /* README.md in Sources */,
 				06EEEDAB1E8E2B5D00E5DCBB /* XHFocusLayer.m in Sources */,
 				068E63151E7A349D0014636F /* LLLeftViewController.m in Sources */,
 				06BF78181E77F6C500371E48 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				06EEEE3E1E8E2EE000E5DCBB /* HXPhotoTools.m in Sources */,
+				06A15EB91E947DA2001988AF /* LLChartLineController.m in Sources */,
 				06BF79511E78D04700371E48 /* POPAnimationTracer.mm in Sources */,
+				06A15EB41E947DA2001988AF /* JHShowInfoView.m in Sources */,
 				06BF78B31E78CB5200371E48 /* XMGEssenceViewController.m in Sources */,
 				063E9F271E8B8CD900953AC8 /* ZFDownloadingCell.m in Sources */,
 				06BF77B01E77E7EA00371E48 /* MASViewAttribute.m in Sources */,
@@ -3332,6 +3424,7 @@
 				06BF77AC1E77E7EA00371E48 /* MASCompositeConstraint.m in Sources */,
 				06BF76E81E77D2D000371E48 /* BadgeView.m in Sources */,
 				06BF78C61E78CB5200371E48 /* XMGTopicVideoView.m in Sources */,
+				06A15EB31E947DA2001988AF /* JHRingChart.m in Sources */,
 				063E9F661E8B963F00953AC8 /* LLSelectClothesController.m in Sources */,
 				063E9F181E8B88E200953AC8 /* LLSelectPhotoController.m in Sources */,
 				06BF770A1E77D36000371E48 /* MJFoundation.m in Sources */,
@@ -3355,6 +3448,7 @@
 				06BF77E71E77E7F600371E48 /* MJRefreshComponent.m in Sources */,
 				06BF79971E78D68000371E48 /* LLDataSource.m in Sources */,
 				06BF76E91E77D2D000371E48 /* DetailListCell.m in Sources */,
+				06A15EB61E947DA2001988AF /* JHTableDataRowModel.m in Sources */,
 				06BF78FE1E78CC0D00371E48 /* DACircularProgressView.m in Sources */,
 				06BF76321E77941900371E48 /* main.m in Sources */,
 				06BF77EC1E77E7F600371E48 /* MJRefreshAutoStateFooter.m in Sources */,
@@ -3401,6 +3495,7 @@
 				068E63091E7A32780014636F /* LLTempModel.m in Sources */,
 				06BF778E1E77E74D00371E48 /* LLContentScrollView.m in Sources */,
 				06BF79531E78D04700371E48 /* POPBasicAnimation.mm in Sources */,
+				06A15EAF1E947DA2001988AF /* JHLineChart.m in Sources */,
 				06BF780F1E77F6B600371E48 /* LLPhotoesView.m in Sources */,
 				06BF77EA1E77E7F600371E48 /* MJRefreshAutoGifFooter.m in Sources */,
 				06BF77761E77E1F000371E48 /* TAPageControl.m in Sources */,
@@ -3415,6 +3510,7 @@
 				06BF795B1E78D04700371E48 /* POPSpringAnimation.mm in Sources */,
 				068E62E81E7A26FD0014636F /* ZZXWaterfalllayout.m in Sources */,
 				06BF76791E77CC3F00371E48 /* YYCache.m in Sources */,
+				06A15EB71E947DA2001988AF /* JHWaveChart.m in Sources */,
 				06BF775D1E77DFC700371E48 /* UIImage+GIF.m in Sources */,
 				063E9F141E8B88E200953AC8 /* PhotoCell.m in Sources */,
 				06BF770B1E77D36000371E48 /* MJProperty.m in Sources */,
