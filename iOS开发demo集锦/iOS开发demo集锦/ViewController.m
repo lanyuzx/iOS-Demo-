@@ -43,6 +43,7 @@
 #import "LLWeiboPhotoController.h"
 #import "LLChartLineController.h"
 #import "LLMemunViewController.h"
+#import "LLFaceRecognitionController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -300,6 +301,11 @@
             LLMemunViewController *MemunVc = [LLMemunViewController new];
             MemunVc.title = @"仿京东商品选择器";
             [self.navigationController pushViewController:MemunVc animated:true];
+
+        }else if (indexPath.row ==2) {
+            LLFaceRecognitionController *FaceRecognitionVc = [LLFaceRecognitionController new];
+            FaceRecognitionVc.title = @"ios人脸识别";
+            [self.navigationController pushViewController:FaceRecognitionVc animated:true];
 
         }
     
