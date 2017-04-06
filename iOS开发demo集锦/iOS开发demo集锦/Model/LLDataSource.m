@@ -36,7 +36,7 @@
                     model.demoArr = [NSMutableArray arrayWithObjects:@"调用相机选择多张图片",@"断点下载，支持后台下载，再次打开程序、异常退出记录下载进度",@"模仿淘宝部分购物界面" ,@"模仿淘宝选衣服",@"时间轴",@"动画的微妙之处之贝塞尔曲线一部分",@"仿新浪微博图片选择器",nil];
                     break;
                     case 4:
-                    model.demoArr = [NSMutableArray arrayWithObjects:@"iOS股票折线图", nil];
+                    model.demoArr = [NSMutableArray arrayWithObjects:@"iOS股票折线图",@"仿京东商品选择器", nil];
                     break;
                 default:
                     break;

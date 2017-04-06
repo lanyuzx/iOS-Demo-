@@ -94,6 +94,8 @@
 		06A15EB71E947DA2001988AF /* JHWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EA81E947DA2001988AF /* JHWaveChart.m */; };
 		06A15EB81E947DA2001988AF /* JHShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EAA1E947DA2001988AF /* JHShowController.m */; };
 		06A15EB91E947DA2001988AF /* LLChartLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EAC1E947DA2001988AF /* LLChartLineController.m */; };
+		06A15EC21E95CEC1001988AF /* SMKDropSelectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EBF1E95CEC1001988AF /* SMKDropSelectMenu.m */; };
+		06A15EC31E95CEC1001988AF /* LLMemunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A15EC11E95CEC1001988AF /* LLMemunViewController.m */; };
 		06BF76321E77941900371E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76311E77941900371E48 /* main.m */; };
 		06BF76351E77941900371E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76341E77941900371E48 /* AppDelegate.m */; };
 		06BF76381E77941900371E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76371E77941900371E48 /* ViewController.m */; };
@@ -611,6 +613,10 @@
 		06A15EAA1E947DA2001988AF /* JHShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowController.m; sourceTree = "<group>"; };
 		06A15EAB1E947DA2001988AF /* LLChartLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChartLineController.h; sourceTree = "<group>"; };
 		06A15EAC1E947DA2001988AF /* LLChartLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChartLineController.m; sourceTree = "<group>"; };
+		06A15EBE1E95CEC1001988AF /* SMKDropSelectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKDropSelectMenu.h; sourceTree = "<group>"; };
+		06A15EBF1E95CEC1001988AF /* SMKDropSelectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKDropSelectMenu.m; sourceTree = "<group>"; };
+		06A15EC01E95CEC1001988AF /* LLMemunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMemunViewController.h; sourceTree = "<group>"; };
+		06A15EC11E95CEC1001988AF /* LLMemunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMemunViewController.m; sourceTree = "<group>"; };
 		06BF762D1E77941800371E48 /* iOS开发demo集锦.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS开发demo集锦.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BF76311E77941900371E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06BF76331E77941900371E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1612,6 +1618,25 @@
 			path = JHChart;
 			sourceTree = "<group>";
 		};
+		06A15EBC1E95CEC1001988AF /* 仿京东商品选择menu */ = {
+			isa = PBXGroup;
+			children = (
+				06A15EBD1E95CEC1001988AF /* SMKDropSelectMenu */,
+				06A15EC01E95CEC1001988AF /* LLMemunViewController.h */,
+				06A15EC11E95CEC1001988AF /* LLMemunViewController.m */,
+			);
+			path = "仿京东商品选择menu";
+			sourceTree = "<group>";
+		};
+		06A15EBD1E95CEC1001988AF /* SMKDropSelectMenu */ = {
+			isa = PBXGroup;
+			children = (
+				06A15EBE1E95CEC1001988AF /* SMKDropSelectMenu.h */,
+				06A15EBF1E95CEC1001988AF /* SMKDropSelectMenu.m */,
+			);
+			path = SMKDropSelectMenu;
+			sourceTree = "<group>";
+		};
 		06BF76241E77941600371E48 = {
 			isa = PBXGroup;
 			children = (
@@ -1680,6 +1705,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				06A15EBC1E95CEC1001988AF /* 仿京东商品选择menu */,
 				06A15E901E947DA2001988AF /* iOS股票折线图 */,
 				06EEEDB61E8E2EDF00E5DCBB /* 仿新浪微博图片选择器 */,
 				06EEED8A1E8E2B5D00E5DCBB /* 动画的微妙之处之贝塞尔曲线一部分 */,
@@ -3308,6 +3334,7 @@
 				06BF78BC1E78CB5200371E48 /* XMGCommentCell.m in Sources */,
 				06EEEE381E8E2EE000E5DCBB /* HXPhotoConst.m in Sources */,
 				06BF77281E77D5C400371E48 /* LLCalendarViewController.m in Sources */,
+				06A15EC31E95CEC1001988AF /* LLMemunViewController.m in Sources */,
 				06BF775F1E77DFC700371E48 /* UIImageView+HighlightedWebCache.m in Sources */,
 				06BF79821E78D42600371E48 /* UIBarButtonItem+XMGExtension.m in Sources */,
 				06BF78D91E78CB5200371E48 /* XMGWebViewController.m in Sources */,
@@ -3400,6 +3427,7 @@
 				06EEEDAB1E8E2B5D00E5DCBB /* XHFocusLayer.m in Sources */,
 				068E63151E7A349D0014636F /* LLLeftViewController.m in Sources */,
 				06BF78181E77F6C500371E48 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				06A15EC21E95CEC1001988AF /* SMKDropSelectMenu.m in Sources */,
 				06EEEE3E1E8E2EE000E5DCBB /* HXPhotoTools.m in Sources */,
 				06A15EB91E947DA2001988AF /* LLChartLineController.m in Sources */,
 				06BF79511E78D04700371E48 /* POPAnimationTracer.mm in Sources */,

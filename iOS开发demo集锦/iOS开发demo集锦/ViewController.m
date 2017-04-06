@@ -42,6 +42,7 @@
 #import "LLBezierPathController.h"
 #import "LLWeiboPhotoController.h"
 #import "LLChartLineController.h"
+#import "LLMemunViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -295,6 +296,11 @@
             LLChartLineController *ChartLineVc = [LLChartLineController new];
             ChartLineVc.title = @"ios股票曲线";
             [self.navigationController pushViewController:ChartLineVc animated:true];
+        }else if (indexPath.row ==1) {
+            LLMemunViewController *MemunVc = [LLMemunViewController new];
+            MemunVc.title = @"仿京东商品选择器";
+            [self.navigationController pushViewController:MemunVc animated:true];
+
         }
     
     
