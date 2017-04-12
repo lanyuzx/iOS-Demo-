@@ -44,6 +44,11 @@
 #import "LLChartLineController.h"
 #import "LLMemunViewController.h"
 #import "LLFaceRecognitionController.h"
+#import "LLEncryptionController.h"
+#import "LLUDIDViewController.h"
+#import "LLWaterFlowLayoutController.h"
+#import "LLGPUImageViewController.h"
+#import "SDupimageViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -307,7 +312,40 @@
             FaceRecognitionVc.title = @"ios人脸识别";
             [self.navigationController pushViewController:FaceRecognitionVc animated:true];
 
+        }else if (indexPath.row == 3) {
+            UIStoryboard * sb = [UIStoryboard storyboardWithName:@"LLEncryptionController" bundle:nil];
+            LLBezierPathController * EncryptionVc = sb.instantiateInitialViewController;
+           
+            EncryptionVc.title = @"ios加密+盐";
+            [self.navigationController pushViewController:EncryptionVc animated:true];
+            
+
+        }else if(indexPath.row == 4) {//获取设备标识符 UDID IDFA等等
+            LLUDIDViewController *UDIDVc = [LLUDIDViewController new];
+            UDIDVc.title = @"获取设备标识符 UDID IDFA等等";
+            [self.navigationController pushViewController:UDIDVc animated:true];
+            
+
+        }else if (indexPath.row == 5) {//很好看的瀑布流展示效果图👍
+            UIStoryboard * sb = [UIStoryboard storyboardWithName:@"LLWaterFlowLayoutController" bundle:nil];
+            LLWaterFlowLayoutController * WaterFlowLayout = sb.instantiateInitialViewController;
+            
+            WaterFlowLayout.title = @"很好看的瀑布流展示效果图👍";
+            [self.navigationController pushViewController:WaterFlowLayout animated:true];
+
+        }else if (indexPath.row == 6) {
+            LLGPUImageViewController *GPUImage = [LLGPUImageViewController new];
+            GPUImage.title = @"使用GPUImage实现人脸美白和人脸识别(磨皮，人脸检测) ";
+            [self.navigationController pushViewController:GPUImage animated:true];
+        }else if (indexPath.row == 7) {
+            UIStoryboard * sb = [UIStoryboard storyboardWithName:@"SDupimage" bundle:nil];
+            SDupimageViewController * upimage = sb.instantiateInitialViewController;
+            
+            upimage.title = @"新版上传照片";
+            [self.navigationController pushViewController:upimage animated:true];
         }
+        
+        
     
     
     }
