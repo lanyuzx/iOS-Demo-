@@ -55,9 +55,11 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
     self.title = @"iOS Demo 集锦";
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -351,6 +353,7 @@
     }
 
 }
+
 
 -(NSMutableArray *)demoTitleArr {
     if (_demoTitleArr == nil) {
