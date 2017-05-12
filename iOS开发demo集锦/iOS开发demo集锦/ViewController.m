@@ -49,6 +49,9 @@
 #import "LLWaterFlowLayoutController.h"
 #import "LLGPUImageViewController.h"
 #import "SDupimageViewController.h"
+#import "LLPDFReaderViewController.h"
+#import "LLCommentStartViewController.h"
+#import "POPTableViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -350,6 +353,35 @@
         
     
     
+    }else if (indexPath.section == 5) {
+        switch (indexPath.row) {
+            case 0:
+            {
+                LLPDFReaderViewController *pdfReader = [LLPDFReaderViewController new];
+                pdfReader.title = @"强大的pdf阅读器";
+                [self.navigationController pushViewController:pdfReader animated:true];
+            }
+                break;
+            case 1:
+            {
+                LLCommentStartViewController *pdfReader = [LLCommentStartViewController new];
+                pdfReader.title = @"星级评论";
+                [self.navigationController pushViewController:pdfReader animated:true];
+            }
+                break;
+            case 2:
+            {
+                POPTableViewController *pop = [POPTableViewController new];
+                pop.title = @"iOSpop动画";
+                [self.navigationController pushViewController:pop animated:true];
+            }
+                break;
+                
+            default:
+                break;
+        }
+        
+        
     }
 
 }

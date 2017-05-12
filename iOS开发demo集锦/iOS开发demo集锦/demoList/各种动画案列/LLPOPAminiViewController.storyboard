@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Amini View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LLPOPAminiViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTV-kD-9qv">
+                                <rect key="frame" x="16" y="94" width="214" height="128"/>
+                                <state key="normal" title="POPBasicAnimation"/>
+                                <connections>
+                                    <action selector="PopBasicAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNc-hD-FVo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TF-4Q-65j">
+                                <rect key="frame" x="23" y="235" width="207" height="30"/>
+                                <state key="normal" title="POPSpringAnimation"/>
+                                <connections>
+                                    <action selector="spingAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="990-MC-tbH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfB-r7-QmZ">
+                                <rect key="frame" x="23" y="411" width="138" height="30"/>
+                                <state key="normal" title="综合小实例"/>
+                                <connections>
+                                    <action selector="OtherAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wq1-Ld-bTn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJ4-hr-LVr">
+                                <rect key="frame" x="23" y="283" width="204" height="30"/>
+                                <state key="normal" title="POPDecayAnimation"/>
+                                <connections>
+                                    <action selector="decayAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cQ8-nc-vEA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIx-Ae-EUm">
+                                <rect key="frame" x="23" y="449" width="181" height="30"/>
+                                <state key="normal" title="Decay结合小实例"/>
+                                <connections>
+                                    <action selector="decayDemoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yCq-s4-K7s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XqH-QP-85k">
+                                <rect key="frame" x="23" y="373" width="138" height="30"/>
+                                <state key="normal" title="伸收小实例"/>
+                                <connections>
+                                    <action selector="demosAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="375-lw-r65"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhX-Zr-ELn">
+                                <rect key="frame" x="23" y="487" width="224" height="30"/>
+                                <state key="normal" title="CoreAnimation普通动画"/>
+                                <connections>
+                                    <action selector="coreAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w25-l6-517"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93R-uO-JJk">
+                                <rect key="frame" x="23" y="532" width="168" height="30"/>
+                                <state key="normal" title="BezierPath实例"/>
+                                <connections>
+                                    <action selector="BezirPathAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ot5-Ij-mHl"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DjW-rx-IoG">
+                                <rect key="frame" x="3" y="484" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45l-8v-XWn">
+                                <rect key="frame" x="236" y="227" width="62" height="30"/>
+                                <state key="normal" title="动画实例"/>
+                                <connections>
+                                    <action selector="DemoTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3W9-1Z-hEh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="45l-8v-XWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="79.5" id="2aX-y1-Bqw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LhX-Zr-ELn" secondAttribute="bottom" constant="150" id="3gQ-nJ-pvs"/>
+                            <constraint firstItem="XqH-QP-85k" firstAttribute="top" secondItem="gJ4-hr-LVr" secondAttribute="bottom" constant="60" id="4G3-mY-Zsp"/>
+                            <constraint firstItem="XqH-QP-85k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="5aW-cD-xu1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zTV-kD-9qv" secondAttribute="trailing" constant="129" id="8gA-PK-jMN"/>
+                            <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="XqH-QP-85k" secondAttribute="bottom" constant="8" id="Emu-6y-40g"/>
+                            <constraint firstItem="LhX-Zr-ELn" firstAttribute="top" secondItem="rIx-Ae-EUm" secondAttribute="bottom" constant="8" id="FB5-cu-TVy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XqH-QP-85k" secondAttribute="trailing" constant="198" id="GfD-MP-TUg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rIx-Ae-EUm" secondAttribute="trailing" constant="155" id="Gtz-bQ-hff"/>
+                            <constraint firstItem="rIx-Ae-EUm" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="8" id="HYf-Qk-ACQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="402" id="IC2-6X-kuC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LhX-Zr-ELn" secondAttribute="trailing" constant="112" id="JTs-A9-yKr"/>
+                            <constraint firstItem="45l-8v-XWn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-91.5" id="JXy-BJ-Tlf"/>
+                            <constraint firstItem="KfB-r7-QmZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="NSG-kE-Hyf"/>
+                            <constraint firstItem="gJ4-hr-LVr" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="18" id="Sof-Yl-7x1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6TF-4Q-65j" secondAttribute="trailing" constant="129" id="UjQ-9D-8db"/>
+                            <constraint firstItem="LhX-Zr-ELn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="asg-ep-dgM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gJ4-hr-LVr" secondAttribute="trailing" constant="132" id="bf8-Jo-JOe"/>
+                            <constraint firstItem="6TF-4Q-65j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="eDM-hl-Ddg"/>
+                            <constraint firstItem="6TF-4Q-65j" firstAttribute="top" secondItem="zTV-kD-9qv" secondAttribute="bottom" constant="13" id="fgj-cC-7ga"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rIx-Ae-EUm" secondAttribute="bottom" constant="188" id="g2d-Gb-KYj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KfB-r7-QmZ" secondAttribute="bottom" constant="226" id="iWM-if-v6s"/>
+                            <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="6TF-4Q-65j" secondAttribute="bottom" constant="146" id="nIb-9s-x1u"/>
+                            <constraint firstItem="93R-uO-JJk" firstAttribute="top" secondItem="LhX-Zr-ELn" secondAttribute="bottom" constant="15" id="ofN-Vi-UJ2"/>
+                            <constraint firstItem="zTV-kD-9qv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p18-LX-d7p"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="93R-uO-JJk" secondAttribute="trailing" constant="168" id="qns-k9-OBh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KfB-r7-QmZ" secondAttribute="trailing" constant="198" id="rKM-zW-mrR"/>
+                            <constraint firstItem="rIx-Ae-EUm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="rkE-Kr-OKh"/>
+                            <constraint firstItem="gJ4-hr-LVr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="slL-t8-F5K"/>
+                            <constraint firstItem="zTV-kD-9qv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="uLd-bB-arm"/>
+                            <constraint firstItem="KfB-r7-QmZ" firstAttribute="top" secondItem="gJ4-hr-LVr" secondAttribute="bottom" constant="98" id="vsy-8T-aB5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zTV-kD-9qv" secondAttribute="bottom" constant="445" id="xuG-nV-fFp"/>
+                            <constraint firstItem="93R-uO-JJk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="yzK-1L-Qn7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="93R-uO-JJk" secondAttribute="bottom" constant="105" id="zIE-ur-ER6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="M4D-3E-uSM"/>
+                    <connections>
+                        <outlet property="demoActions" destination="XqH-QP-85k" id="XIv-6f-mrF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="632.5" y="295.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SsL-2V-BcS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QD9-c4-sBz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xvb-Sh-9dz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Eac-BD-aRB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFu-4M-tdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152.53333333333333" y="921.10666666666668"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
