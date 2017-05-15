@@ -668,6 +668,8 @@
 		B59ABFAB1EC98B4300E72865 /* MiddleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA51EC98B4300E72865 /* MiddleTableViewController.m */; };
 		B59ABFAC1EC98B4300E72865 /* RightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA71EC98B4300E72865 /* RightTableViewController.m */; };
 		B59ABFAF1EC98B7D00E72865 /* LLJSPersonCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFAE1EC98B7D00E72865 /* LLJSPersonCenterController.m */; };
+		B59ABFB41EC9A05800E72865 /* MQLResumeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFB31EC9A05800E72865 /* MQLResumeManager.m */; };
+		B59ABFB71EC9A07F00E72865 /* LLResumeDownLoaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFB61EC9A07F00E72865 /* LLResumeDownLoaderController.m */; };
 		B5C900CE1EC54C220026810D /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C900891EC54C220026810D /* CGPDFDocument.m */; };
 		B5C900CF1EC54C220026810D /* AppIcon-076.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9008B1EC54C220026810D /* AppIcon-076.png */; };
 		B5C900D01EC54C220026810D /* AppIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9008C1EC54C220026810D /* AppIcon-120.png */; };
@@ -1987,6 +1989,10 @@
 		B59ABFA71EC98B4300E72865 /* RightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewController.m; sourceTree = "<group>"; };
 		B59ABFAD1EC98B7D00E72865 /* LLJSPersonCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLJSPersonCenterController.h; sourceTree = "<group>"; };
 		B59ABFAE1EC98B7D00E72865 /* LLJSPersonCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLJSPersonCenterController.m; sourceTree = "<group>"; };
+		B59ABFB21EC9A05800E72865 /* MQLResumeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLResumeManager.h; sourceTree = "<group>"; };
+		B59ABFB31EC9A05800E72865 /* MQLResumeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLResumeManager.m; sourceTree = "<group>"; };
+		B59ABFB51EC9A07F00E72865 /* LLResumeDownLoaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLResumeDownLoaderController.h; sourceTree = "<group>"; };
+		B59ABFB61EC9A07F00E72865 /* LLResumeDownLoaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLResumeDownLoaderController.m; sourceTree = "<group>"; };
 		B5C900881EC54C220026810D /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
 		B5C900891EC54C220026810D /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
 		B5C9008B1EC54C220026810D /* AppIcon-076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-076.png"; sourceTree = "<group>"; };
@@ -3252,6 +3258,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B59ABFB01EC9A04600E72865 /* 断点续传的实现 */,
 				B59ABF9C1EC98B4300E72865 /* 防简书个人中心停靠 */,
 				B5C901ED1EC555E50026810D /* 各种动画案列 */,
 				B5C901051EC550400026810D /* CY - 星级评论 */,
@@ -4577,6 +4584,25 @@
 			path = HomePage;
 			sourceTree = "<group>";
 		};
+		B59ABFB01EC9A04600E72865 /* 断点续传的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				B59ABFB11EC9A05800E72865 /* ResumeManager */,
+				B59ABFB51EC9A07F00E72865 /* LLResumeDownLoaderController.h */,
+				B59ABFB61EC9A07F00E72865 /* LLResumeDownLoaderController.m */,
+			);
+			path = "断点续传的实现";
+			sourceTree = "<group>";
+		};
+		B59ABFB11EC9A05800E72865 /* ResumeManager */ = {
+			isa = PBXGroup;
+			children = (
+				B59ABFB21EC9A05800E72865 /* MQLResumeManager.h */,
+				B59ABFB31EC9A05800E72865 /* MQLResumeManager.m */,
+			);
+			path = ResumeManager;
+			sourceTree = "<group>";
+		};
 		B5C900871EC54C220026810D /* PDFReaderSources */ = {
 			isa = PBXGroup;
 			children = (
@@ -5324,6 +5350,7 @@
 				06859B761E9DFF9E001136A1 /* GPUImageMonochromeFilter.m in Sources */,
 				06859B4B1E9DFF9E001136A1 /* GPUImageFilterGroup.m in Sources */,
 				06BF79821E78D42600371E48 /* UIBarButtonItem+XMGExtension.m in Sources */,
+				B59ABFB41EC9A05800E72865 /* MQLResumeManager.m in Sources */,
 				B5C9024C1EC555E50026810D /* BezierPathViewController.m in Sources */,
 				06BF78D91E78CB5200371E48 /* XMGWebViewController.m in Sources */,
 				06BF76E61E77D2D000371E48 /* GoodsModel.m in Sources */,
@@ -5430,6 +5457,7 @@
 				0632026E1E835AF500AA4B5A /* LLSwitchBaseViewController.m in Sources */,
 				06BF77E51E77E7F600371E48 /* MJRefreshAutoFooter.m in Sources */,
 				06EEEE311E8E2EDF00E5DCBB /* Demo3ViewController.m in Sources */,
+				B59ABFB71EC9A07F00E72865 /* LLResumeDownLoaderController.m in Sources */,
 				06BF78B41E78CB5200371E48 /* XMGRecommendTagsViewController.m in Sources */,
 				B5C9026A1EC555E50026810D /* UIViewController+XLBubbleTransition.m in Sources */,
 				068E63121E7A33DC0014636F /* LLSideBarViewController.m in Sources */,

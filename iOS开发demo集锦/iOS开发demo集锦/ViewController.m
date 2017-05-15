@@ -53,6 +53,7 @@
 #import "LLCommentStartViewController.h"
 #import "POPTableViewController.h"
 #import "LLJSPersonCenterController.h"
+#import "LLResumeDownLoaderController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -382,6 +383,13 @@
                 LLJSPersonCenterController *pop = [LLJSPersonCenterController new];
                 pop.title = @"仿简书个人中心停靠";
                 [self.navigationController pushViewController:pop animated:true];
+            }
+                break;
+            case 4:
+            {
+                LLResumeDownLoaderController *ResumeDownLoader = [LLResumeDownLoaderController new];
+                ResumeDownLoader.title = @"断点续传";
+                [self.navigationController pushViewController:ResumeDownLoader animated:true];
             }
                 break;
                 
