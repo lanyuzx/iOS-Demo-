@@ -52,6 +52,7 @@
 #import "LLPDFReaderViewController.h"
 #import "LLCommentStartViewController.h"
 #import "POPTableViewController.h"
+#import "LLJSPersonCenterController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -373,6 +374,13 @@
             {
                 POPTableViewController *pop = [POPTableViewController new];
                 pop.title = @"iOSpop动画";
+                [self.navigationController pushViewController:pop animated:true];
+            }
+                break;
+            case 3:
+            {
+                LLJSPersonCenterController *pop = [LLJSPersonCenterController new];
+                pop.title = @"仿简书个人中心停靠";
                 [self.navigationController pushViewController:pop animated:true];
             }
                 break;

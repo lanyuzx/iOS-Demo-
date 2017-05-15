@@ -39,7 +39,7 @@
                     model.demoArr = [NSMutableArray arrayWithObjects:@"iOS股票折线图",@"仿京东商品选择器",@"iOS人脸识别",@"iOS加密+加盐",@"获取设备标识符 UDID IDFA等等",@"很好看的瀑布流展示效果图👍",@"使用GPUImage实现人脸美白和人脸识别(磨皮，人脸检测) ",@"新版上传照片功能", nil];
                     break;
                 case 5:
-                    model.demoArr = [NSMutableArray arrayWithObjects:@"强大的pdf阅读器",@"星级评论",@"POP各种动画效果", nil];
+                    model.demoArr = [NSMutableArray arrayWithObjects:@"强大的pdf阅读器",@"星级评论",@"POP各种动画效果",@"跳转仿简书个人中心停靠", nil];
                     break;
                 default:
                     break;

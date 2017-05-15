@@ -662,6 +662,12 @@
 		06EEEE851E8E2EE000E5DCBB /* UIImage+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE291E8E2EDF00E5DCBB /* UIImage+HXExtension.m */; };
 		06EEEE861E8E2EE000E5DCBB /* UIView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE2B1E8E2EDF00E5DCBB /* UIView+HXExtension.m */; };
 		06EEEE871E8E2EE000E5DCBB /* LLWeiboPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE2D1E8E2EDF00E5DCBB /* LLWeiboPhotoController.m */; };
+		B59ABFA81EC98B4300E72865 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABF9F1EC98B4300E72865 /* BaseTableViewController.m */; };
+		B59ABFA91EC98B4300E72865 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA11EC98B4300E72865 /* HomePageViewController.m */; };
+		B59ABFAA1EC98B4300E72865 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA31EC98B4300E72865 /* LeftTableViewController.m */; };
+		B59ABFAB1EC98B4300E72865 /* MiddleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA51EC98B4300E72865 /* MiddleTableViewController.m */; };
+		B59ABFAC1EC98B4300E72865 /* RightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA71EC98B4300E72865 /* RightTableViewController.m */; };
+		B59ABFAF1EC98B7D00E72865 /* LLJSPersonCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFAE1EC98B7D00E72865 /* LLJSPersonCenterController.m */; };
 		B5C900CE1EC54C220026810D /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C900891EC54C220026810D /* CGPDFDocument.m */; };
 		B5C900CF1EC54C220026810D /* AppIcon-076.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9008B1EC54C220026810D /* AppIcon-076.png */; };
 		B5C900D01EC54C220026810D /* AppIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9008C1EC54C220026810D /* AppIcon-120.png */; };
@@ -1969,6 +1975,18 @@
 		06EEEE2B1E8E2EDF00E5DCBB /* UIView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXExtension.m"; sourceTree = "<group>"; };
 		06EEEE2C1E8E2EDF00E5DCBB /* LLWeiboPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLWeiboPhotoController.h; sourceTree = "<group>"; };
 		06EEEE2D1E8E2EDF00E5DCBB /* LLWeiboPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLWeiboPhotoController.m; sourceTree = "<group>"; };
+		B59ABF9E1EC98B4300E72865 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		B59ABF9F1EC98B4300E72865 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		B59ABFA01EC98B4300E72865 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		B59ABFA11EC98B4300E72865 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		B59ABFA21EC98B4300E72865 /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		B59ABFA31EC98B4300E72865 /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		B59ABFA41EC98B4300E72865 /* MiddleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleTableViewController.h; sourceTree = "<group>"; };
+		B59ABFA51EC98B4300E72865 /* MiddleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleTableViewController.m; sourceTree = "<group>"; };
+		B59ABFA61EC98B4300E72865 /* RightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewController.h; sourceTree = "<group>"; };
+		B59ABFA71EC98B4300E72865 /* RightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewController.m; sourceTree = "<group>"; };
+		B59ABFAD1EC98B7D00E72865 /* LLJSPersonCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLJSPersonCenterController.h; sourceTree = "<group>"; };
+		B59ABFAE1EC98B7D00E72865 /* LLJSPersonCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLJSPersonCenterController.m; sourceTree = "<group>"; };
 		B5C900881EC54C220026810D /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
 		B5C900891EC54C220026810D /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
 		B5C9008B1EC54C220026810D /* AppIcon-076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-076.png"; sourceTree = "<group>"; };
@@ -3234,6 +3252,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B59ABF9C1EC98B4300E72865 /* 防简书个人中心停靠 */,
 				B5C901ED1EC555E50026810D /* 各种动画案列 */,
 				B5C901051EC550400026810D /* CY - 星级评论 */,
 				B5C901011EC54C720026810D /* PDFReader */,
@@ -4531,6 +4550,33 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		B59ABF9C1EC98B4300E72865 /* 防简书个人中心停靠 */ = {
+			isa = PBXGroup;
+			children = (
+				B59ABF9D1EC98B4300E72865 /* HomePage */,
+				B59ABFAD1EC98B7D00E72865 /* LLJSPersonCenterController.h */,
+				B59ABFAE1EC98B7D00E72865 /* LLJSPersonCenterController.m */,
+			);
+			path = "防简书个人中心停靠";
+			sourceTree = "<group>";
+		};
+		B59ABF9D1EC98B4300E72865 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				B59ABF9E1EC98B4300E72865 /* BaseTableViewController.h */,
+				B59ABF9F1EC98B4300E72865 /* BaseTableViewController.m */,
+				B59ABFA01EC98B4300E72865 /* HomePageViewController.h */,
+				B59ABFA11EC98B4300E72865 /* HomePageViewController.m */,
+				B59ABFA21EC98B4300E72865 /* LeftTableViewController.h */,
+				B59ABFA31EC98B4300E72865 /* LeftTableViewController.m */,
+				B59ABFA41EC98B4300E72865 /* MiddleTableViewController.h */,
+				B59ABFA51EC98B4300E72865 /* MiddleTableViewController.m */,
+				B59ABFA61EC98B4300E72865 /* RightTableViewController.h */,
+				B59ABFA71EC98B4300E72865 /* RightTableViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
 		B5C900871EC54C220026810D /* PDFReaderSources */ = {
 			isa = PBXGroup;
 			children = (
@@ -5152,6 +5198,7 @@
 				06BF767A1E77CC4000371E48 /* YYDiskCache.m in Sources */,
 				06BF77ED1E77E7F600371E48 /* MJRefreshBackGifFooter.m in Sources */,
 				06BF778B1E77E72B00371E48 /* LLContentHeadView.m in Sources */,
+				B59ABFA91EC98B4300E72865 /* HomePageViewController.m in Sources */,
 				B5C902741EC555E50026810D /* POPSpringAnimationViewController.m in Sources */,
 				B5C900CE1EC54C220026810D /* CGPDFDocument.m in Sources */,
 				06859B921E9DFF9E001136A1 /* GPUImageRGBErosionFilter.m in Sources */,
@@ -5213,6 +5260,7 @@
 				068599A51E9DF791001136A1 /* DYDeviceInfo.m in Sources */,
 				06859B521E9DFF9E001136A1 /* GPUImageGaussianSelectiveBlurFilter.m in Sources */,
 				06BF77F11E77E7F600371E48 /* MJRefreshNormalHeader.m in Sources */,
+				B59ABFAF1EC98B7D00E72865 /* LLJSPersonCenterController.m in Sources */,
 				0632027E1E835F6D00AA4B5A /* LLMVVMTableViewCell.m in Sources */,
 				06859BC11E9DFF9E001136A1 /* GPUImagePicture+TextureSubimage.m in Sources */,
 				06BF78F01E78CB5200371E48 /* XMGAddTagViewController.m in Sources */,
@@ -5364,6 +5412,7 @@
 				06859B591E9DFF9E001136A1 /* GPUImageHighlightShadowFilter.m in Sources */,
 				068599A61E9DF791001136A1 /* LLUDIDViewController.m in Sources */,
 				B5C9025F1EC555E50026810D /* PopBackTopViewController.m in Sources */,
+				B59ABFA81EC98B4300E72865 /* BaseTableViewController.m in Sources */,
 				B5C902641EC555E50026810D /* HYYBubbleButton.m in Sources */,
 				06A15EB01E947DA2001988AF /* JHPieChart.m in Sources */,
 				06859B891E9DFF9E001136A1 /* GPUImagePoissonBlendFilter.m in Sources */,
@@ -5418,6 +5467,7 @@
 				06859B8C1E9DFF9E001136A1 /* GPUImagePosterizeFilter.m in Sources */,
 				06859B9D1E9DFF9E001136A1 /* GPUImageSmoothToonFilter.m in Sources */,
 				06BF772B1E77D71500371E48 /* getData.m in Sources */,
+				B59ABFAC1EC98B4300E72865 /* RightTableViewController.m in Sources */,
 				06A15EB21E947DA2001988AF /* JHPieItemsView.m in Sources */,
 				06BF77841E77E48F00371E48 /* LLButtonViewController.m in Sources */,
 				06859B511E9DFF9E001136A1 /* GPUImageGaussianBlurPositionFilter.m in Sources */,
@@ -5486,6 +5536,7 @@
 				06859B251E9DFF9E001136A1 /* GPUImageAlphaBlendFilter.m in Sources */,
 				06BF77B51E77E7EA00371E48 /* ViewController+MASAdditions.m in Sources */,
 				068599B81E9DFD81001136A1 /* NVBnbCollectionView.m in Sources */,
+				B59ABFAB1EC98B4300E72865 /* MiddleTableViewController.m in Sources */,
 				06859B541E9DFF9E001136A1 /* GPUImageGrayscaleFilter.m in Sources */,
 				06BF775C1E77DFC700371E48 /* UIButton+WebCache.m in Sources */,
 				06BF77561E77DFC700371E48 /* SDWebImageCompat.m in Sources */,
@@ -5495,6 +5546,7 @@
 				06BF77AC1E77E7EA00371E48 /* MASCompositeConstraint.m in Sources */,
 				06BF76E81E77D2D000371E48 /* BadgeView.m in Sources */,
 				06BF78C61E78CB5200371E48 /* XMGTopicVideoView.m in Sources */,
+				B59ABFAA1EC98B4300E72865 /* LeftTableViewController.m in Sources */,
 				06859B751E9DFF9E001136A1 /* GPUImageMissEtikateFilter.m in Sources */,
 				06A15EB31E947DA2001988AF /* JHRingChart.m in Sources */,
 				063E9F661E8B963F00953AC8 /* LLSelectClothesController.m in Sources */,
