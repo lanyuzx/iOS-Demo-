@@ -54,6 +54,8 @@
 #import "POPTableViewController.h"
 #import "LLJSPersonCenterController.h"
 #import "LLResumeDownLoaderController.h"
+#import "LLAsyncNetWorkeViewController.h"
+#import "LLQRCodeTableViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -392,6 +394,22 @@
                 [self.navigationController pushViewController:ResumeDownLoader animated:true];
             }
                 break;
+            case 5:
+            {
+                LLAsyncNetWorkeViewController *AsyncNetWorke = [[LLAsyncNetWorkeViewController alloc]initWithStyle:UITableViewStylePlain];
+                AsyncNetWorke.title = @"iOS多个异步网络请求,完成后,在做其他操作(比如结束刷新)";
+                [self.navigationController pushViewController:AsyncNetWorke animated:true];
+            }
+                break;
+            case 6:
+            {
+                LLQRCodeTableViewController *QRCode = [[LLQRCodeTableViewController alloc]initWithStyle:UITableViewStylePlain];
+                QRCode.title = @"牛逼的二维码扫描框架";
+                [self.navigationController pushViewController:QRCode animated:true];
+            }
+                break;
+
+
                 
             default:
                 break;

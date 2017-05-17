@@ -662,6 +662,29 @@
 		06EEEE851E8E2EE000E5DCBB /* UIImage+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE291E8E2EDF00E5DCBB /* UIImage+HXExtension.m */; };
 		06EEEE861E8E2EE000E5DCBB /* UIView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE2B1E8E2EDF00E5DCBB /* UIView+HXExtension.m */; };
 		06EEEE871E8E2EE000E5DCBB /* LLWeiboPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE2D1E8E2EDF00E5DCBB /* LLWeiboPhotoController.m */; };
+		B543C3891ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3881ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m */; };
+		B543C3E21ECC40B2004EB9A7 /* BMScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B543C3D21ECC40B2004EB9A7 /* BMScan.bundle */; };
+		B543C3E31ECC40B2004EB9A7 /* UIImage+BMScan.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3D51ECC40B2004EB9A7 /* UIImage+BMScan.m */; };
+		B543C3E41ECC40B2004EB9A7 /* BMScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3D81ECC40B2004EB9A7 /* BMScanController.m */; };
+		B543C3E51ECC40B2004EB9A7 /* BMScanDefaultCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3DB1ECC40B2004EB9A7 /* BMScanDefaultCotroller.m */; };
+		B543C3E61ECC40B2004EB9A7 /* BMDefaultUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3E01ECC40B2004EB9A7 /* BMDefaultUIView.m */; };
+		B543C3E71ECC40B2004EB9A7 /* BMDefaultUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B543C3E11ECC40B2004EB9A7 /* BMDefaultUIView.xib */; };
+		B543C3EA1ECC4157004EB9A7 /* LLQRCodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3E91ECC4157004EB9A7 /* LLQRCodeTableViewController.m */; };
+		B543C3ED1ECC441F004EB9A7 /* LLQRDefaultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3EC1ECC441F004EB9A7 /* LLQRDefaultController.m */; };
+		B543C3F01ECC44EF004EB9A7 /* LLQRStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3EF1ECC44EF004EB9A7 /* LLQRStyleViewController.m */; };
+		B543C3F31ECC4646004EB9A7 /* LLQRZDYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3F21ECC4646004EB9A7 /* LLQRZDYViewController.m */; };
+		B543C3F51ECC4675004EB9A7 /* LLQRZDYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B543C3F41ECC4675004EB9A7 /* LLQRZDYViewController.xib */; };
+		B543C3FB1ECC46F4004EB9A7 /* BMColorSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3F71ECC46F4004EB9A7 /* BMColorSelectVC.m */; };
+		B543C3FC1ECC46F4004EB9A7 /* BMColorSelectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B543C3F81ECC46F4004EB9A7 /* BMColorSelectVC.xib */; };
+		B543C3FD1ECC46F4004EB9A7 /* BMZDYScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3FA1ECC46F4004EB9A7 /* BMZDYScanVC.m */; };
+		B543C40F1ECC4757004EB9A7 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C4001ECC4757004EB9A7 /* HRBrightnessCursor.m */; };
+		B543C4101ECC4757004EB9A7 /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C4021ECC4757004EB9A7 /* HRBrightnessSlider.m */; };
+		B543C4111ECC4757004EB9A7 /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C4041ECC4757004EB9A7 /* HRColorCursor.m */; };
+		B543C4121ECC4757004EB9A7 /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C4061ECC4757004EB9A7 /* HRColorInfoView.m */; };
+		B543C4131ECC4757004EB9A7 /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C4081ECC4757004EB9A7 /* HRColorMapView.m */; };
+		B543C4141ECC4757004EB9A7 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C40A1ECC4757004EB9A7 /* HRColorPickerView.m */; };
+		B543C4151ECC4757004EB9A7 /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C40C1ECC4757004EB9A7 /* HRHSVColorUtil.m */; };
+		B543C4161ECC4757004EB9A7 /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C40E1ECC4757004EB9A7 /* UIImage+CoreGraphics.m */; };
 		B59ABFA81EC98B4300E72865 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABF9F1EC98B4300E72865 /* BaseTableViewController.m */; };
 		B59ABFA91EC98B4300E72865 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA11EC98B4300E72865 /* HomePageViewController.m */; };
 		B59ABFAA1EC98B4300E72865 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA31EC98B4300E72865 /* LeftTableViewController.m */; };
@@ -1977,6 +2000,51 @@
 		06EEEE2B1E8E2EDF00E5DCBB /* UIView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXExtension.m"; sourceTree = "<group>"; };
 		06EEEE2C1E8E2EDF00E5DCBB /* LLWeiboPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLWeiboPhotoController.h; sourceTree = "<group>"; };
 		06EEEE2D1E8E2EDF00E5DCBB /* LLWeiboPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLWeiboPhotoController.m; sourceTree = "<group>"; };
+		B543C3871ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAsyncNetWorkeViewController.h; sourceTree = "<group>"; };
+		B543C3881ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAsyncNetWorkeViewController.m; sourceTree = "<group>"; };
+		B543C3D21ECC40B2004EB9A7 /* BMScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BMScan.bundle; sourceTree = "<group>"; };
+		B543C3D41ECC40B2004EB9A7 /* UIImage+BMScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BMScan.h"; sourceTree = "<group>"; };
+		B543C3D51ECC40B2004EB9A7 /* UIImage+BMScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BMScan.m"; sourceTree = "<group>"; };
+		B543C3D71ECC40B2004EB9A7 /* BMScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMScanController.h; sourceTree = "<group>"; };
+		B543C3D81ECC40B2004EB9A7 /* BMScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMScanController.m; sourceTree = "<group>"; };
+		B543C3D91ECC40B2004EB9A7 /* BMScanDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMScanDataSource.h; sourceTree = "<group>"; };
+		B543C3DA1ECC40B2004EB9A7 /* BMScanDefaultCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMScanDefaultCotroller.h; sourceTree = "<group>"; };
+		B543C3DB1ECC40B2004EB9A7 /* BMScanDefaultCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMScanDefaultCotroller.m; sourceTree = "<group>"; };
+		B543C3DC1ECC40B2004EB9A7 /* BMScanDefaultDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMScanDefaultDataSource.h; sourceTree = "<group>"; };
+		B543C3DD1ECC40B2004EB9A7 /* BMScanDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMScanDelegate.h; sourceTree = "<group>"; };
+		B543C3DF1ECC40B2004EB9A7 /* BMDefaultUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDefaultUIView.h; sourceTree = "<group>"; };
+		B543C3E01ECC40B2004EB9A7 /* BMDefaultUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDefaultUIView.m; sourceTree = "<group>"; };
+		B543C3E11ECC40B2004EB9A7 /* BMDefaultUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMDefaultUIView.xib; sourceTree = "<group>"; };
+		B543C3E81ECC4157004EB9A7 /* LLQRCodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQRCodeTableViewController.h; sourceTree = "<group>"; };
+		B543C3E91ECC4157004EB9A7 /* LLQRCodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQRCodeTableViewController.m; sourceTree = "<group>"; };
+		B543C3EB1ECC441F004EB9A7 /* LLQRDefaultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQRDefaultController.h; sourceTree = "<group>"; };
+		B543C3EC1ECC441F004EB9A7 /* LLQRDefaultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQRDefaultController.m; sourceTree = "<group>"; };
+		B543C3EE1ECC44EF004EB9A7 /* LLQRStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQRStyleViewController.h; sourceTree = "<group>"; };
+		B543C3EF1ECC44EF004EB9A7 /* LLQRStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQRStyleViewController.m; sourceTree = "<group>"; };
+		B543C3F11ECC4646004EB9A7 /* LLQRZDYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLQRZDYViewController.h; sourceTree = "<group>"; };
+		B543C3F21ECC4646004EB9A7 /* LLQRZDYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLQRZDYViewController.m; sourceTree = "<group>"; };
+		B543C3F41ECC4675004EB9A7 /* LLQRZDYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLQRZDYViewController.xib; sourceTree = "<group>"; };
+		B543C3F61ECC46F4004EB9A7 /* BMColorSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMColorSelectVC.h; sourceTree = "<group>"; };
+		B543C3F71ECC46F4004EB9A7 /* BMColorSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMColorSelectVC.m; sourceTree = "<group>"; };
+		B543C3F81ECC46F4004EB9A7 /* BMColorSelectVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMColorSelectVC.xib; sourceTree = "<group>"; };
+		B543C3F91ECC46F4004EB9A7 /* BMZDYScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMZDYScanVC.h; sourceTree = "<group>"; };
+		B543C3FA1ECC46F4004EB9A7 /* BMZDYScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMZDYScanVC.m; sourceTree = "<group>"; };
+		B543C3FF1ECC4757004EB9A7 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		B543C4001ECC4757004EB9A7 /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		B543C4011ECC4757004EB9A7 /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
+		B543C4021ECC4757004EB9A7 /* HRBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessSlider.m; sourceTree = "<group>"; };
+		B543C4031ECC4757004EB9A7 /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		B543C4041ECC4757004EB9A7 /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		B543C4051ECC4757004EB9A7 /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
+		B543C4061ECC4757004EB9A7 /* HRColorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorInfoView.m; sourceTree = "<group>"; };
+		B543C4071ECC4757004EB9A7 /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
+		B543C4081ECC4757004EB9A7 /* HRColorMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorMapView.m; sourceTree = "<group>"; };
+		B543C4091ECC4757004EB9A7 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		B543C40A1ECC4757004EB9A7 /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		B543C40B1ECC4757004EB9A7 /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
+		B543C40C1ECC4757004EB9A7 /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
+		B543C40D1ECC4757004EB9A7 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
+		B543C40E1ECC4757004EB9A7 /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
 		B59ABF9E1EC98B4300E72865 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		B59ABF9F1EC98B4300E72865 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		B59ABFA01EC98B4300E72865 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
@@ -3258,6 +3326,8 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B543C3D01ECC40B2004EB9A7 /* 牛逼的二维码扫描框架 */,
+				B543C3861ECC21B6004EB9A7 /* iOS多个异步网络请求,完成后,在做其他操作(比如结束刷新) */,
 				B59ABFB01EC9A04600E72865 /* 断点续传的实现 */,
 				B59ABF9C1EC98B4300E72865 /* 防简书个人中心停靠 */,
 				B5C901ED1EC555E50026810D /* 各种动画案列 */,
@@ -3313,6 +3383,7 @@
 		06BF766F1E77CC3400371E48 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				B543C3FE1ECC4757004EB9A7 /* ColorPicker */,
 				B5C900871EC54C220026810D /* PDFReaderSources */,
 				06BF79171E78D04600371E48 /* pop */,
 				06BF79101E78CEBD00371E48 /* NJKWebViewProgress */,
@@ -4557,6 +4628,104 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		B543C3861ECC21B6004EB9A7 /* iOS多个异步网络请求,完成后,在做其他操作(比如结束刷新) */ = {
+			isa = PBXGroup;
+			children = (
+				B543C3871ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.h */,
+				B543C3881ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m */,
+			);
+			path = "iOS多个异步网络请求,完成后,在做其他操作(比如结束刷新)";
+			sourceTree = "<group>";
+		};
+		B543C3D01ECC40B2004EB9A7 /* 牛逼的二维码扫描框架 */ = {
+			isa = PBXGroup;
+			children = (
+				B543C3D11ECC40B2004EB9A7 /* BMScan */,
+				B543C3E81ECC4157004EB9A7 /* LLQRCodeTableViewController.h */,
+				B543C3E91ECC4157004EB9A7 /* LLQRCodeTableViewController.m */,
+				B543C3EB1ECC441F004EB9A7 /* LLQRDefaultController.h */,
+				B543C3EC1ECC441F004EB9A7 /* LLQRDefaultController.m */,
+				B543C3EE1ECC44EF004EB9A7 /* LLQRStyleViewController.h */,
+				B543C3EF1ECC44EF004EB9A7 /* LLQRStyleViewController.m */,
+				B543C3F11ECC4646004EB9A7 /* LLQRZDYViewController.h */,
+				B543C3F21ECC4646004EB9A7 /* LLQRZDYViewController.m */,
+				B543C3F41ECC4675004EB9A7 /* LLQRZDYViewController.xib */,
+				B543C3F61ECC46F4004EB9A7 /* BMColorSelectVC.h */,
+				B543C3F71ECC46F4004EB9A7 /* BMColorSelectVC.m */,
+				B543C3F81ECC46F4004EB9A7 /* BMColorSelectVC.xib */,
+				B543C3F91ECC46F4004EB9A7 /* BMZDYScanVC.h */,
+				B543C3FA1ECC46F4004EB9A7 /* BMZDYScanVC.m */,
+			);
+			path = "牛逼的二维码扫描框架";
+			sourceTree = "<group>";
+		};
+		B543C3D11ECC40B2004EB9A7 /* BMScan */ = {
+			isa = PBXGroup;
+			children = (
+				B543C3D21ECC40B2004EB9A7 /* BMScan.bundle */,
+				B543C3D31ECC40B2004EB9A7 /* Category */,
+				B543C3D61ECC40B2004EB9A7 /* Cotroller */,
+				B543C3DE1ECC40B2004EB9A7 /* View */,
+			);
+			path = BMScan;
+			sourceTree = "<group>";
+		};
+		B543C3D31ECC40B2004EB9A7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B543C3D41ECC40B2004EB9A7 /* UIImage+BMScan.h */,
+				B543C3D51ECC40B2004EB9A7 /* UIImage+BMScan.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B543C3D61ECC40B2004EB9A7 /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				B543C3D71ECC40B2004EB9A7 /* BMScanController.h */,
+				B543C3D81ECC40B2004EB9A7 /* BMScanController.m */,
+				B543C3D91ECC40B2004EB9A7 /* BMScanDataSource.h */,
+				B543C3DA1ECC40B2004EB9A7 /* BMScanDefaultCotroller.h */,
+				B543C3DB1ECC40B2004EB9A7 /* BMScanDefaultCotroller.m */,
+				B543C3DC1ECC40B2004EB9A7 /* BMScanDefaultDataSource.h */,
+				B543C3DD1ECC40B2004EB9A7 /* BMScanDelegate.h */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		B543C3DE1ECC40B2004EB9A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B543C3DF1ECC40B2004EB9A7 /* BMDefaultUIView.h */,
+				B543C3E01ECC40B2004EB9A7 /* BMDefaultUIView.m */,
+				B543C3E11ECC40B2004EB9A7 /* BMDefaultUIView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B543C3FE1ECC4757004EB9A7 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B543C3FF1ECC4757004EB9A7 /* HRBrightnessCursor.h */,
+				B543C4001ECC4757004EB9A7 /* HRBrightnessCursor.m */,
+				B543C4011ECC4757004EB9A7 /* HRBrightnessSlider.h */,
+				B543C4021ECC4757004EB9A7 /* HRBrightnessSlider.m */,
+				B543C4031ECC4757004EB9A7 /* HRColorCursor.h */,
+				B543C4041ECC4757004EB9A7 /* HRColorCursor.m */,
+				B543C4051ECC4757004EB9A7 /* HRColorInfoView.h */,
+				B543C4061ECC4757004EB9A7 /* HRColorInfoView.m */,
+				B543C4071ECC4757004EB9A7 /* HRColorMapView.h */,
+				B543C4081ECC4757004EB9A7 /* HRColorMapView.m */,
+				B543C4091ECC4757004EB9A7 /* HRColorPickerView.h */,
+				B543C40A1ECC4757004EB9A7 /* HRColorPickerView.m */,
+				B543C40B1ECC4757004EB9A7 /* HRHSVColorUtil.h */,
+				B543C40C1ECC4757004EB9A7 /* HRHSVColorUtil.m */,
+				B543C40D1ECC4757004EB9A7 /* UIImage+CoreGraphics.h */,
+				B543C40E1ECC4757004EB9A7 /* UIImage+CoreGraphics.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
 		B59ABF9C1EC98B4300E72865 /* 防简书个人中心停靠 */ = {
 			isa = PBXGroup;
 			children = (
@@ -4981,8 +5150,10 @@
 				063E9F491E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.xib in Resources */,
 				06A15F151E95DBB2001988AF /* openMouth0.png in Resources */,
 				063202B31E836F2F00AA4B5A /* MVVM in Resources */,
+				B543C3FC1ECC46F4004EB9A7 /* BMColorSelectVC.xib in Resources */,
 				B5C900DC1EC54C220026810D /* Reader-Email@3x.png in Resources */,
 				06EEEDB21E8E2B5D00E5DCBB /* tag-background-right@2x.png in Resources */,
+				B543C3E71ECC40B2004EB9A7 /* BMDefaultUIView.xib in Resources */,
 				06BF78C51E78CB5200371E48 /* XMGTopicPictureView.xib in Resources */,
 				063E9F5D1E8B963F00953AC8 /* 2.jpg in Resources */,
 				B5C900E91EC54C220026810D /* Reader-Thumbs.png in Resources */,
@@ -5013,6 +5184,7 @@
 				06BF76EA1E77D2D000371E48 /* DetailListCell.xib in Resources */,
 				06EEEE7D1E8E2EE000E5DCBB /* video_delete_dustbin@2x.png in Resources */,
 				06EEEE801E8E2EE000E5DCBB /* video_next_button_highlighted@2x.png in Resources */,
+				B543C3E21ECC40B2004EB9A7 /* BMScan.bundle in Resources */,
 				06A15F191E95DBB2001988AF /* shakeHead2.png in Resources */,
 				06BF76401E77941A00371E48 /* LaunchScreen.storyboard in Resources */,
 				B5C900D71EC54C220026810D /* Reader-Button-N.png in Resources */,
@@ -5035,6 +5207,7 @@
 				B5C900E71EC54C220026810D /* Reader-Print@2x.png in Resources */,
 				068E62E31E7A26FD0014636F /* clothes.plist in Resources */,
 				063E9F631E8B963F00953AC8 /* shangdaohang.png in Resources */,
+				B543C3F51ECC4675004EB9A7 /* LLQRZDYViewController.xib in Resources */,
 				06EEEE6D1E8E2EE000E5DCBB /* compose_photo_preview_highlighted@2x.png in Resources */,
 				063E9F101E8B88E200953AC8 /* add-img.png in Resources */,
 				06EEEE531E8E2EE000E5DCBB /* camera_image_capture_background_highlighted@2x.png in Resources */,
@@ -5175,6 +5348,7 @@
 				06BF777C1E77E20800371E48 /* LLSDCycleScrollView.m in Sources */,
 				06859B821E9DFF9E001136A1 /* GPUImageOutput.m in Sources */,
 				06BF78111E77F6B600371E48 /* TableViewCell.m in Sources */,
+				B543C3F01ECC44EF004EB9A7 /* LLQRStyleViewController.m in Sources */,
 				06EEEDAC1E8E2B5D00E5DCBB /* XHBranchPoint.m in Sources */,
 				06BF795D1E78D04700371E48 /* TransformationMatrix.cpp in Sources */,
 				06BF77F51E77E7F600371E48 /* NSBundle+MJRefresh.m in Sources */,
@@ -5194,6 +5368,7 @@
 				06859B401E9DFF9E001136A1 /* GPUImageDirectionalNonMaximumSuppressionFilter.m in Sources */,
 				06BF770E1E77D36000371E48 /* NSObject+MJClass.m in Sources */,
 				06BF78F71E78CB5200371E48 /* XMGTagButton.m in Sources */,
+				B543C3891ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m in Sources */,
 				06859B941E9DFF9E001136A1 /* GPUImageRGBOpeningFilter.m in Sources */,
 				06859BAE1E9DFF9E001136A1 /* GPUImageTiltShiftFilter.m in Sources */,
 				B5C900F01EC54C220026810D /* ReaderDocument.m in Sources */,
@@ -5221,6 +5396,7 @@
 				06BF78CC1E78CB5200371E48 /* XMGLoginRegisterViewController.m in Sources */,
 				06BF78C81E78CB5200371E48 /* XMGTopicVoiceView.m in Sources */,
 				06859B211E9DFF9E001136A1 /* GPUImage3x3ConvolutionFilter.m in Sources */,
+				B543C4151ECC4757004EB9A7 /* HRHSVColorUtil.m in Sources */,
 				06BF767A1E77CC4000371E48 /* YYDiskCache.m in Sources */,
 				06BF77ED1E77E7F600371E48 /* MJRefreshBackGifFooter.m in Sources */,
 				06BF778B1E77E72B00371E48 /* LLContentHeadView.m in Sources */,
@@ -5229,6 +5405,7 @@
 				B5C900CE1EC54C220026810D /* CGPDFDocument.m in Sources */,
 				06859B921E9DFF9E001136A1 /* GPUImageRGBErosionFilter.m in Sources */,
 				06BF798E1E78D42600371E48 /* XMGConst.m in Sources */,
+				B543C4121ECC4757004EB9A7 /* HRColorInfoView.m in Sources */,
 				06859BBC1E9DFF9E001136A1 /* GPUImageWhiteBalanceFilter.m in Sources */,
 				06BF78B91E78CB5200371E48 /* XMGRecommendTag.m in Sources */,
 				06EEEE3D1E8E2EE000E5DCBB /* HXPhotoSubViewCell.m in Sources */,
@@ -5243,6 +5420,7 @@
 				063E9F311E8B8F2800953AC8 /* ZFListViewController.m in Sources */,
 				06BF77541E77DFC700371E48 /* NSData+ImageContentType.m in Sources */,
 				06EEED7E1E8C9BFF00E5DCBB /* KTOneFingerRotationGestureRecognizer.m in Sources */,
+				B543C3FD1ECC46F4004EB9A7 /* BMZDYScanVC.m in Sources */,
 				06BF78D01E78CB5200371E48 /* XMGRecommendCategory.m in Sources */,
 				06859B331E9DFF9E001136A1 /* GPUImageColorBlendFilter.m in Sources */,
 				068E62FA1E7A2C0C0014636F /* MJRefreshGifHeader+LLRefeshGitHeader.m in Sources */,
@@ -5302,9 +5480,11 @@
 				063E9F461E8B93A900953AC8 /* MerchandiseCommentTableViewCell.m in Sources */,
 				B5C902671EC555E50026810D /* TNActivityIndicator.m in Sources */,
 				06BF77F81E77E7F600371E48 /* UIView+MJExtension.m in Sources */,
+				B543C4111ECC4757004EB9A7 /* HRColorCursor.m in Sources */,
 				B5C900EC1EC54C220026810D /* ReaderConstants.m in Sources */,
 				06EEEE351E8E2EE000E5DCBB /* HXCameraPreviewViewController.m in Sources */,
 				06A15F061E95DBB2001988AF /* CaptureManager.m in Sources */,
+				B543C40F1ECC4757004EB9A7 /* HRBrightnessCursor.m in Sources */,
 				06859BB91E9DFF9E001136A1 /* GPUImageVignetteFilter.m in Sources */,
 				06859BBB1E9DFF9E001136A1 /* GPUImageWeakPixelInclusionFilter.m in Sources */,
 				06BF76AD1E77CC4B00371E48 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -5322,6 +5502,7 @@
 				06EEED851E8CA1FB00E5DCBB /* LLTransformCell.m in Sources */,
 				06A15EB81E947DA2001988AF /* JHShowController.m in Sources */,
 				06BF77241E77D58E00371E48 /* GFCalendarView.m in Sources */,
+				B543C3F31ECC4646004EB9A7 /* LLQRZDYViewController.m in Sources */,
 				06BF78C21E78CB5200371E48 /* XMGTopicCell.m in Sources */,
 				06859BA51E9DFF9E001136A1 /* GPUImageStretchDistortionFilter.m in Sources */,
 				06BF77B31E77E7EA00371E48 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -5394,6 +5575,7 @@
 				B5C900FB1EC54C220026810D /* ReaderViewController.m in Sources */,
 				06BF76B31E77CC4B00371E48 /* UIWebView+AFNetworking.m in Sources */,
 				06BF77B41E77E7EA00371E48 /* View+MASAdditions.m in Sources */,
+				B543C3ED1ECC441F004EB9A7 /* LLQRDefaultController.m in Sources */,
 				06859B471E9DFF9E001136A1 /* GPUImageExposureFilter.m in Sources */,
 				06859BA71E9DFF9E001136A1 /* GPUImageSwirlFilter.m in Sources */,
 				06859BAC1E9DFF9E001136A1 /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */,
@@ -5434,6 +5616,8 @@
 				B5C902691EC555E50026810D /* WclEmitterButton.m in Sources */,
 				06859B461E9DFF9E001136A1 /* GPUImageExclusionBlendFilter.m in Sources */,
 				06BF77211E77D58E00371E48 /* GFCalendarCell.m in Sources */,
+				B543C3E61ECC40B2004EB9A7 /* BMDefaultUIView.m in Sources */,
+				B543C3FB1ECC46F4004EB9A7 /* BMColorSelectVC.m in Sources */,
 				B5C9025E1EC555E50026810D /* POPTableViewController.m in Sources */,
 				06BF798F1E78D42600371E48 /* XMGExtensionConfig.m in Sources */,
 				06859B591E9DFF9E001136A1 /* GPUImageHighlightShadowFilter.m in Sources */,
@@ -5484,6 +5668,7 @@
 				06BF76351E77941900371E48 /* AppDelegate.m in Sources */,
 				063E9F741E8B97C000953AC8 /* TimelineCellTableViewCell.m in Sources */,
 				06EEEE361E8E2EE000E5DCBB /* HXCameraViewController.m in Sources */,
+				B543C3E31ECC40B2004EB9A7 /* UIImage+BMScan.m in Sources */,
 				06BF78D61E78CB5200371E48 /* XMGTextField.m in Sources */,
 				B5C900F21EC54C220026810D /* ReaderMainPagebar.m in Sources */,
 				06BF794D1E78D04700371E48 /* POPAnimation.mm in Sources */,
@@ -5491,6 +5676,7 @@
 				06EEEE411E8E2EE000E5DCBB /* HXPhotoViewController.m in Sources */,
 				06BF78F11E78CB5200371E48 /* XMGPostWordViewController.m in Sources */,
 				06BF78DD1E78CB5200371E48 /* XMGMeFooterView.m in Sources */,
+				B543C4161ECC4757004EB9A7 /* UIImage+CoreGraphics.m in Sources */,
 				B5C901081EC550510026810D /* HCSStarRatingView.m in Sources */,
 				06859B8C1E9DFF9E001136A1 /* GPUImagePosterizeFilter.m in Sources */,
 				06859B9D1E9DFF9E001136A1 /* GPUImageSmoothToonFilter.m in Sources */,
@@ -5656,6 +5842,7 @@
 				06859BA01E9DFF9E001136A1 /* GPUImageSoftLightBlendFilter.m in Sources */,
 				06859B271E9DFF9E001136A1 /* GPUImageAverageColor.m in Sources */,
 				068E63081E7A32780014636F /* LLHeadFootView.m in Sources */,
+				B543C3E41ECC40B2004EB9A7 /* BMScanController.m in Sources */,
 				06859BC71E9DFF9E001136A1 /* LLGPUImageViewController.m in Sources */,
 				06BF77351E77DF9700371E48 /* TestViewController.m in Sources */,
 				06BF79581E78D04700371E48 /* POPLayerExtras.mm in Sources */,
@@ -5683,6 +5870,7 @@
 				06EEED891E8CA41800E5DCBB /* LLMainTableViewCell.m in Sources */,
 				06BF77F61E77E7F600371E48 /* UIScrollView+MJExtension.m in Sources */,
 				06859B731E9DFF9E001136A1 /* GPUImageMaskFilter.m in Sources */,
+				B543C3E51ECC40B2004EB9A7 /* BMScanDefaultCotroller.m in Sources */,
 				06BF77581E77DFC700371E48 /* SDWebImageDownloader.m in Sources */,
 				06859BA11E9DFF9E001136A1 /* GPUImageSolidColorGenerator.m in Sources */,
 				063E9F481E8B93A900953AC8 /* MerchandiseShopBasicInfoTableViewCell.m in Sources */,
@@ -5718,8 +5906,10 @@
 				B5C9024F1EC555E50026810D /* DecayViewController.m in Sources */,
 				06859B711E9DFF9E001136A1 /* GPUImageLuminosity.m in Sources */,
 				B5C9025A1EC555E50026810D /* POPBasicAnimationViewController.m in Sources */,
+				B543C3EA1ECC4157004EB9A7 /* LLQRCodeTableViewController.m in Sources */,
 				06859B3B1E9DFF9E001136A1 /* GPUImageCrosshairGenerator.m in Sources */,
 				B5C901041EC54C890026810D /* LLPDFReaderViewController.m in Sources */,
+				B543C4101ECC4757004EB9A7 /* HRBrightnessSlider.m in Sources */,
 				06EEEE3F1E8E2EE000E5DCBB /* HXPhotoView.m in Sources */,
 				B5C900F51EC54C220026810D /* ReaderThumbFetch.m in Sources */,
 				06EEEE3B1E8E2EE000E5DCBB /* HXPhotoPreviewViewCell.m in Sources */,
@@ -5735,6 +5925,7 @@
 				06859B351E9DFF9E001136A1 /* GPUImageColorDodgeBlendFilter.m in Sources */,
 				068E62E81E7A26FD0014636F /* ZZXWaterfalllayout.m in Sources */,
 				06BF76791E77CC3F00371E48 /* YYCache.m in Sources */,
+				B543C4141ECC4757004EB9A7 /* HRColorPickerView.m in Sources */,
 				06A15EB71E947DA2001988AF /* JHWaveChart.m in Sources */,
 				06BF775D1E77DFC700371E48 /* UIImage+GIF.m in Sources */,
 				06859B5A1E9DFF9E001136A1 /* GPUImageHighPassFilter.m in Sources */,
@@ -5742,6 +5933,7 @@
 				06BF770B1E77D36000371E48 /* MJProperty.m in Sources */,
 				0632026F1E835AF500AA4B5A /* LLSwitchViewController.m in Sources */,
 				B5C902651EC555E50026810D /* YDWaveLoadingView.m in Sources */,
+				B543C4131ECC4757004EB9A7 /* HRColorMapView.m in Sources */,
 				06859B881E9DFF9E001136A1 /* GPUImagePixellatePositionFilter.m in Sources */,
 				06BF77781E77E1F000371E48 /* SDCycleScrollView.m in Sources */,
 			);
