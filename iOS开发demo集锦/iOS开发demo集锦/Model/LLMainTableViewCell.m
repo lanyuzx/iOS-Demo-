@@ -43,8 +43,8 @@
         _nameLable.sd_layout
         .leftSpaceToView(self.contentView,12)
         .topSpaceToView(self.contentView,12)
-        .rightSpaceToView(self.contentView,12)
         .autoHeightRatio(0);
+        [_nameLable setSingleLineAutoResizeWithMaxWidth:[UIScreen mainScreen].bounds.size.width - 24];
 
     }
     return self;
