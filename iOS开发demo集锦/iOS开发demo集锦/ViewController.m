@@ -56,6 +56,8 @@
 #import "LLResumeDownLoaderController.h"
 #import "LLAsyncNetWorkeViewController.h"
 #import "LLQRCodeTableViewController.h"
+#import "LLTaoBaoOrderViewController.h"
+#import "LLSelectMenuController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -408,7 +410,21 @@
                 [self.navigationController pushViewController:QRCode animated:true];
             }
                 break;
-
+            case 7:
+            {
+                LLTaoBaoOrderViewController *TaoBaoOrder = [[LLTaoBaoOrderViewController alloc]init];
+                TaoBaoOrder.title = @"放淘宝订单页(tabView的使用)";
+                [self.navigationController pushViewController:TaoBaoOrder animated:true];
+            }
+                break;
+            case 8:
+            {
+                UIStoryboard * sb = [UIStoryboard storyboardWithName:@"LLSelectMenuController" bundle:nil];
+                LLSelectMenuController * SelectMenu = sb.instantiateInitialViewController;
+                
+                SelectMenu.title = @"多级下拉多选";
+                [self.navigationController pushViewController:SelectMenu animated:true];            }
+                break;
 
                 
             default:

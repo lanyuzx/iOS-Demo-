@@ -362,17 +362,6 @@
 		06BF76ED1E77D2D000371E48 /* OrderDetailListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76DD1E77D2D000371E48 /* OrderDetailListView.m */; };
 		06BF76EE1E77D2D000371E48 /* PopOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76DF1E77D2D000371E48 /* PopOutView.m */; };
 		06BF76EF1E77D2D000371E48 /* ShopCartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76E11E77D2D000371E48 /* ShopCartView.m */; };
-		06BF77081E77D36000371E48 /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76F21E77D36000371E48 /* MJDictionaryCache.m */; };
-		06BF77091E77D36000371E48 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76F51E77D36000371E48 /* MJExtensionConst.m */; };
-		06BF770A1E77D36000371E48 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76F71E77D36000371E48 /* MJFoundation.m */; };
-		06BF770B1E77D36000371E48 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76F91E77D36000371E48 /* MJProperty.m */; };
-		06BF770C1E77D36000371E48 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76FB1E77D36000371E48 /* MJPropertyKey.m */; };
-		06BF770D1E77D36000371E48 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76FD1E77D36000371E48 /* MJPropertyType.m */; };
-		06BF770E1E77D36000371E48 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF76FF1E77D36000371E48 /* NSObject+MJClass.m */; };
-		06BF770F1E77D36000371E48 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF77011E77D36000371E48 /* NSObject+MJCoding.m */; };
-		06BF77101E77D36000371E48 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF77031E77D36000371E48 /* NSObject+MJKeyValue.m */; };
-		06BF77111E77D36000371E48 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF77051E77D36000371E48 /* NSObject+MJProperty.m */; };
-		06BF77121E77D36000371E48 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF77071E77D36000371E48 /* NSString+MJExtension.m */; };
 		06BF77141E77D3EC00371E48 /* goods.json in Resources */ = {isa = PBXBuildFile; fileRef = 06BF77131E77D3EC00371E48 /* goods.json */; };
 		06BF77211E77D58E00371E48 /* GFCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF77181E77D58E00371E48 /* GFCalendarCell.m */; };
 		06BF77221E77D58E00371E48 /* GFCalendarMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF771A1E77D58E00371E48 /* GFCalendarMonth.m */; };
@@ -685,6 +674,29 @@
 		B543C4141ECC4757004EB9A7 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C40A1ECC4757004EB9A7 /* HRColorPickerView.m */; };
 		B543C4151ECC4757004EB9A7 /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C40C1ECC4757004EB9A7 /* HRHSVColorUtil.m */; };
 		B543C4161ECC4757004EB9A7 /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C40E1ECC4757004EB9A7 /* UIImage+CoreGraphics.m */; };
+		B564FEF81ECD818E00B633A6 /* LLCartVoListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FEED1ECD818E00B633A6 /* LLCartVoListModel.m */; };
+		B564FEF91ECD818E00B633A6 /* LLListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FEEF1ECD818E00B633A6 /* LLListModel.m */; };
+		B564FEFA1ECD818E00B633A6 /* LLOrderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FEF11ECD818E00B633A6 /* LLOrderFooterView.m */; };
+		B564FEFB1ECD818E00B633A6 /* LLOrderHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FEF31ECD818E00B633A6 /* LLOrderHeaderView.m */; };
+		B564FEFC1ECD818E00B633A6 /* LLOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FEF51ECD818E00B633A6 /* LLOrderTableViewCell.m */; };
+		B564FEFD1ECD818E00B633A6 /* LLTaoBaoOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FEF71ECD818E00B633A6 /* LLTaoBaoOrderViewController.m */; };
+		B564FEFF1ECD819800B633A6 /* shopping_json.txt in Resources */ = {isa = PBXBuildFile; fileRef = B564FEFE1ECD819800B633A6 /* shopping_json.txt */; };
+		B564FF161ECD83E100B633A6 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF031ECD83E100B633A6 /* MJExtensionConst.m */; };
+		B564FF171ECD83E100B633A6 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF051ECD83E100B633A6 /* MJFoundation.m */; };
+		B564FF181ECD83E200B633A6 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF071ECD83E100B633A6 /* MJProperty.m */; };
+		B564FF191ECD83E200B633A6 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF091ECD83E100B633A6 /* MJPropertyKey.m */; };
+		B564FF1A1ECD83E200B633A6 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF0B1ECD83E100B633A6 /* MJPropertyType.m */; };
+		B564FF1B1ECD83E200B633A6 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF0D1ECD83E100B633A6 /* NSObject+MJClass.m */; };
+		B564FF1C1ECD83E200B633A6 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF0F1ECD83E100B633A6 /* NSObject+MJCoding.m */; };
+		B564FF1D1ECD83E200B633A6 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF111ECD83E100B633A6 /* NSObject+MJKeyValue.m */; };
+		B564FF1E1ECD83E200B633A6 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF131ECD83E100B633A6 /* NSObject+MJProperty.m */; };
+		B564FF1F1ECD83E200B633A6 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF151ECD83E100B633A6 /* NSString+MJExtension.m */; };
+		B564FF301ECD865C00B633A6 /* TYGSelectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF2A1ECD865C00B633A6 /* TYGSelectMenu.m */; };
+		B564FF311ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF2C1ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.m */; };
+		B564FF321ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B564FF2D1ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.xib */; };
+		B564FF331ECD865C00B633A6 /* TYGSelectMenuEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF2F1ECD865C00B633A6 /* TYGSelectMenuEntity.m */; };
+		B564FF361ECD869B00B633A6 /* LLSelectMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B564FF351ECD869B00B633A6 /* LLSelectMenuController.m */; };
+		B564FF381ECD86AB00B633A6 /* LLSelectMenuController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B564FF371ECD86AB00B633A6 /* LLSelectMenuController.storyboard */; };
 		B59ABFA81EC98B4300E72865 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABF9F1EC98B4300E72865 /* BaseTableViewController.m */; };
 		B59ABFA91EC98B4300E72865 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA11EC98B4300E72865 /* HomePageViewController.m */; };
 		B59ABFAA1EC98B4300E72865 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFA31EC98B4300E72865 /* LeftTableViewController.m */; };
@@ -1466,29 +1478,6 @@
 		06BF76DF1E77D2D000371E48 /* PopOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOutView.m; sourceTree = "<group>"; };
 		06BF76E01E77D2D000371E48 /* ShopCartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCartView.h; sourceTree = "<group>"; };
 		06BF76E11E77D2D000371E48 /* ShopCartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCartView.m; sourceTree = "<group>"; };
-		06BF76F11E77D36000371E48 /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
-		06BF76F21E77D36000371E48 /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
-		06BF76F31E77D36000371E48 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
-		06BF76F41E77D36000371E48 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
-		06BF76F51E77D36000371E48 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
-		06BF76F61E77D36000371E48 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
-		06BF76F71E77D36000371E48 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
-		06BF76F81E77D36000371E48 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
-		06BF76F91E77D36000371E48 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
-		06BF76FA1E77D36000371E48 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
-		06BF76FB1E77D36000371E48 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
-		06BF76FC1E77D36000371E48 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
-		06BF76FD1E77D36000371E48 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
-		06BF76FE1E77D36000371E48 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
-		06BF76FF1E77D36000371E48 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
-		06BF77001E77D36000371E48 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		06BF77011E77D36000371E48 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		06BF77021E77D36000371E48 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		06BF77031E77D36000371E48 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		06BF77041E77D36000371E48 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		06BF77051E77D36000371E48 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		06BF77061E77D36000371E48 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
-		06BF77071E77D36000371E48 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		06BF77131E77D3EC00371E48 /* goods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goods.json; sourceTree = "<group>"; };
 		06BF77161E77D58E00371E48 /* GFCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCalendar.h; sourceTree = "<group>"; };
 		06BF77171E77D58E00371E48 /* GFCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCalendarCell.h; sourceTree = "<group>"; };
@@ -2045,6 +2034,50 @@
 		B543C40C1ECC4757004EB9A7 /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
 		B543C40D1ECC4757004EB9A7 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
 		B543C40E1ECC4757004EB9A7 /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
+		B564FEEC1ECD818E00B633A6 /* LLCartVoListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCartVoListModel.h; sourceTree = "<group>"; };
+		B564FEED1ECD818E00B633A6 /* LLCartVoListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCartVoListModel.m; sourceTree = "<group>"; };
+		B564FEEE1ECD818E00B633A6 /* LLListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLListModel.h; sourceTree = "<group>"; };
+		B564FEEF1ECD818E00B633A6 /* LLListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLListModel.m; sourceTree = "<group>"; };
+		B564FEF01ECD818E00B633A6 /* LLOrderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLOrderFooterView.h; sourceTree = "<group>"; };
+		B564FEF11ECD818E00B633A6 /* LLOrderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLOrderFooterView.m; sourceTree = "<group>"; };
+		B564FEF21ECD818E00B633A6 /* LLOrderHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLOrderHeaderView.h; sourceTree = "<group>"; };
+		B564FEF31ECD818E00B633A6 /* LLOrderHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLOrderHeaderView.m; sourceTree = "<group>"; };
+		B564FEF41ECD818E00B633A6 /* LLOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLOrderTableViewCell.h; sourceTree = "<group>"; };
+		B564FEF51ECD818E00B633A6 /* LLOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLOrderTableViewCell.m; sourceTree = "<group>"; };
+		B564FEF61ECD818E00B633A6 /* LLTaoBaoOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTaoBaoOrderViewController.h; sourceTree = "<group>"; };
+		B564FEF71ECD818E00B633A6 /* LLTaoBaoOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTaoBaoOrderViewController.m; sourceTree = "<group>"; };
+		B564FEFE1ECD819800B633A6 /* shopping_json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shopping_json.txt; sourceTree = "<group>"; };
+		B564FF011ECD83E100B633A6 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		B564FF021ECD83E100B633A6 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		B564FF031ECD83E100B633A6 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		B564FF041ECD83E100B633A6 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		B564FF051ECD83E100B633A6 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		B564FF061ECD83E100B633A6 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		B564FF071ECD83E100B633A6 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		B564FF081ECD83E100B633A6 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		B564FF091ECD83E100B633A6 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		B564FF0A1ECD83E100B633A6 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		B564FF0B1ECD83E100B633A6 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		B564FF0C1ECD83E100B633A6 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		B564FF0D1ECD83E100B633A6 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		B564FF0E1ECD83E100B633A6 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		B564FF0F1ECD83E100B633A6 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		B564FF101ECD83E100B633A6 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		B564FF111ECD83E100B633A6 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		B564FF121ECD83E100B633A6 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		B564FF131ECD83E100B633A6 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		B564FF141ECD83E100B633A6 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		B564FF151ECD83E100B633A6 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		B564FF291ECD865C00B633A6 /* TYGSelectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGSelectMenu.h; sourceTree = "<group>"; };
+		B564FF2A1ECD865C00B633A6 /* TYGSelectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGSelectMenu.m; sourceTree = "<group>"; };
+		B564FF2B1ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGSelectMenuCellTableViewCell.h; sourceTree = "<group>"; };
+		B564FF2C1ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGSelectMenuCellTableViewCell.m; sourceTree = "<group>"; };
+		B564FF2D1ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYGSelectMenuCellTableViewCell.xib; sourceTree = "<group>"; };
+		B564FF2E1ECD865C00B633A6 /* TYGSelectMenuEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGSelectMenuEntity.h; sourceTree = "<group>"; };
+		B564FF2F1ECD865C00B633A6 /* TYGSelectMenuEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGSelectMenuEntity.m; sourceTree = "<group>"; };
+		B564FF341ECD869B00B633A6 /* LLSelectMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSelectMenuController.h; sourceTree = "<group>"; };
+		B564FF351ECD869B00B633A6 /* LLSelectMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSelectMenuController.m; sourceTree = "<group>"; };
+		B564FF371ECD86AB00B633A6 /* LLSelectMenuController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LLSelectMenuController.storyboard; path = class/LLSelectMenuController.storyboard; sourceTree = "<group>"; };
 		B59ABF9E1EC98B4300E72865 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		B59ABF9F1EC98B4300E72865 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		B59ABFA01EC98B4300E72865 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
@@ -3326,6 +3359,8 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B564FF271ECD864D00B633A6 /* 多级下拉多选 */,
+				B564FEEB1ECD817200B633A6 /* 放淘宝订单页(tabView的使用) */,
 				B543C3D01ECC40B2004EB9A7 /* 牛逼的二维码扫描框架 */,
 				B543C3861ECC21B6004EB9A7 /* iOS多个异步网络请求,完成后,在做其他操作(比如结束刷新) */,
 				B59ABFB01EC9A04600E72865 /* 断点续传的实现 */,
@@ -3383,6 +3418,7 @@
 		06BF766F1E77CC3400371E48 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				B564FF001ECD83E100B633A6 /* MJExtension */,
 				B543C3FE1ECC4757004EB9A7 /* ColorPicker */,
 				B5C900871EC54C220026810D /* PDFReaderSources */,
 				06BF79171E78D04600371E48 /* pop */,
@@ -3392,7 +3428,6 @@
 				06BF77B61E77E7F600371E48 /* MJRefresh */,
 				06BF77921E77E7EA00371E48 /* Masonry */,
 				06BF77361E77DFC700371E48 /* SDWebImage */,
-				06BF76F01E77D36000371E48 /* MJExtension */,
 				06BF767D1E77CC4B00371E48 /* AFNetworking */,
 				06BF76701E77CC3F00371E48 /* YYCache */,
 			);
@@ -3562,36 +3597,6 @@
 				06BF76E11E77D2D000371E48 /* ShopCartView.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		06BF76F01E77D36000371E48 /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				06BF76F11E77D36000371E48 /* MJDictionaryCache.h */,
-				06BF76F21E77D36000371E48 /* MJDictionaryCache.m */,
-				06BF76F31E77D36000371E48 /* MJExtension.h */,
-				06BF76F41E77D36000371E48 /* MJExtensionConst.h */,
-				06BF76F51E77D36000371E48 /* MJExtensionConst.m */,
-				06BF76F61E77D36000371E48 /* MJFoundation.h */,
-				06BF76F71E77D36000371E48 /* MJFoundation.m */,
-				06BF76F81E77D36000371E48 /* MJProperty.h */,
-				06BF76F91E77D36000371E48 /* MJProperty.m */,
-				06BF76FA1E77D36000371E48 /* MJPropertyKey.h */,
-				06BF76FB1E77D36000371E48 /* MJPropertyKey.m */,
-				06BF76FC1E77D36000371E48 /* MJPropertyType.h */,
-				06BF76FD1E77D36000371E48 /* MJPropertyType.m */,
-				06BF76FE1E77D36000371E48 /* NSObject+MJClass.h */,
-				06BF76FF1E77D36000371E48 /* NSObject+MJClass.m */,
-				06BF77001E77D36000371E48 /* NSObject+MJCoding.h */,
-				06BF77011E77D36000371E48 /* NSObject+MJCoding.m */,
-				06BF77021E77D36000371E48 /* NSObject+MJKeyValue.h */,
-				06BF77031E77D36000371E48 /* NSObject+MJKeyValue.m */,
-				06BF77041E77D36000371E48 /* NSObject+MJProperty.h */,
-				06BF77051E77D36000371E48 /* NSObject+MJProperty.m */,
-				06BF77061E77D36000371E48 /* NSString+MJExtension.h */,
-				06BF77071E77D36000371E48 /* NSString+MJExtension.m */,
-			);
-			path = MJExtension;
 			sourceTree = "<group>";
 		};
 		06BF77151E77D58E00371E48 /* GFCalendar */ = {
@@ -4726,6 +4731,80 @@
 			path = ColorPicker;
 			sourceTree = "<group>";
 		};
+		B564FEEB1ECD817200B633A6 /* 放淘宝订单页(tabView的使用) */ = {
+			isa = PBXGroup;
+			children = (
+				B564FEFE1ECD819800B633A6 /* shopping_json.txt */,
+				B564FEEC1ECD818E00B633A6 /* LLCartVoListModel.h */,
+				B564FEED1ECD818E00B633A6 /* LLCartVoListModel.m */,
+				B564FEEE1ECD818E00B633A6 /* LLListModel.h */,
+				B564FEEF1ECD818E00B633A6 /* LLListModel.m */,
+				B564FEF01ECD818E00B633A6 /* LLOrderFooterView.h */,
+				B564FEF11ECD818E00B633A6 /* LLOrderFooterView.m */,
+				B564FEF21ECD818E00B633A6 /* LLOrderHeaderView.h */,
+				B564FEF31ECD818E00B633A6 /* LLOrderHeaderView.m */,
+				B564FEF41ECD818E00B633A6 /* LLOrderTableViewCell.h */,
+				B564FEF51ECD818E00B633A6 /* LLOrderTableViewCell.m */,
+				B564FEF61ECD818E00B633A6 /* LLTaoBaoOrderViewController.h */,
+				B564FEF71ECD818E00B633A6 /* LLTaoBaoOrderViewController.m */,
+			);
+			name = "放淘宝订单页(tabView的使用)";
+			path = "放淘宝订单页tabView的使用";
+			sourceTree = "<group>";
+		};
+		B564FF001ECD83E100B633A6 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B564FF011ECD83E100B633A6 /* MJExtension.h */,
+				B564FF021ECD83E100B633A6 /* MJExtensionConst.h */,
+				B564FF031ECD83E100B633A6 /* MJExtensionConst.m */,
+				B564FF041ECD83E100B633A6 /* MJFoundation.h */,
+				B564FF051ECD83E100B633A6 /* MJFoundation.m */,
+				B564FF061ECD83E100B633A6 /* MJProperty.h */,
+				B564FF071ECD83E100B633A6 /* MJProperty.m */,
+				B564FF081ECD83E100B633A6 /* MJPropertyKey.h */,
+				B564FF091ECD83E100B633A6 /* MJPropertyKey.m */,
+				B564FF0A1ECD83E100B633A6 /* MJPropertyType.h */,
+				B564FF0B1ECD83E100B633A6 /* MJPropertyType.m */,
+				B564FF0C1ECD83E100B633A6 /* NSObject+MJClass.h */,
+				B564FF0D1ECD83E100B633A6 /* NSObject+MJClass.m */,
+				B564FF0E1ECD83E100B633A6 /* NSObject+MJCoding.h */,
+				B564FF0F1ECD83E100B633A6 /* NSObject+MJCoding.m */,
+				B564FF101ECD83E100B633A6 /* NSObject+MJKeyValue.h */,
+				B564FF111ECD83E100B633A6 /* NSObject+MJKeyValue.m */,
+				B564FF121ECD83E100B633A6 /* NSObject+MJProperty.h */,
+				B564FF131ECD83E100B633A6 /* NSObject+MJProperty.m */,
+				B564FF141ECD83E100B633A6 /* NSString+MJExtension.h */,
+				B564FF151ECD83E100B633A6 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		B564FF271ECD864D00B633A6 /* 多级下拉多选 */ = {
+			isa = PBXGroup;
+			children = (
+				B564FF371ECD86AB00B633A6 /* LLSelectMenuController.storyboard */,
+				B564FF281ECD865C00B633A6 /* class */,
+				B564FF341ECD869B00B633A6 /* LLSelectMenuController.h */,
+				B564FF351ECD869B00B633A6 /* LLSelectMenuController.m */,
+			);
+			path = "多级下拉多选";
+			sourceTree = "<group>";
+		};
+		B564FF281ECD865C00B633A6 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				B564FF291ECD865C00B633A6 /* TYGSelectMenu.h */,
+				B564FF2A1ECD865C00B633A6 /* TYGSelectMenu.m */,
+				B564FF2B1ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.h */,
+				B564FF2C1ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.m */,
+				B564FF2D1ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.xib */,
+				B564FF2E1ECD865C00B633A6 /* TYGSelectMenuEntity.h */,
+				B564FF2F1ECD865C00B633A6 /* TYGSelectMenuEntity.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
 		B59ABF9C1EC98B4300E72865 /* 防简书个人中心停靠 */ = {
 			isa = PBXGroup;
 			children = (
@@ -5257,6 +5336,7 @@
 				06BF78DA1E78CB5200371E48 /* XMGWebViewController.xib in Resources */,
 				06EEEE481E8E2EE000E5DCBB /* camera_camera_background@2x.png in Resources */,
 				06EEEE651E8E2EE000E5DCBB /* compose_live_photo_open_only_icon@2x.png in Resources */,
+				B564FEFF1ECD819800B633A6 /* shopping_json.txt in Resources */,
 				B5C900E81EC54C220026810D /* Reader-Print@3x.png in Resources */,
 				06EEEE471E8E2EE000E5DCBB /* camera_ Focusing@2x.png in Resources */,
 				06EEEE811E8E2EE000E5DCBB /* VideoSendIcon@2x.png in Resources */,
@@ -5317,6 +5397,8 @@
 				B5C900D41EC54C220026810D /* Reader-Button-H.png in Resources */,
 				06EEEE691E8E2EE000E5DCBB /* compose_photo_original_highlighted@2x.png in Resources */,
 				06859BC41E9DFF9E001136A1 /* License.txt in Resources */,
+				B564FF381ECD86AB00B633A6 /* LLSelectMenuController.storyboard in Resources */,
+				B564FF321ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.xib in Resources */,
 				06BF78B61E78CB5200371E48 /* XMGShowPictureViewController.xib in Resources */,
 				B5C900EB1EC54C220026810D /* Reader-Thumbs@3x.png in Resources */,
 				06EEEE821E8E2EE000E5DCBB /* 椭圆-1-拷贝@2x.png in Resources */,
@@ -5358,6 +5440,7 @@
 				06859B841E9DFF9E001136A1 /* GPUImageParallelCoordinateLineTransformFilter.m in Sources */,
 				06BF78BF1E78CB5200371E48 /* XMGProgressView.m in Sources */,
 				06859B501E9DFF9E001136A1 /* GPUImageGaussianBlurFilter.m in Sources */,
+				B564FF1B1ECD83E200B633A6 /* NSObject+MJClass.m in Sources */,
 				06859B221E9DFF9E001136A1 /* GPUImage3x3TextureSamplingFilter.m in Sources */,
 				06BF78D21E78CB5200371E48 /* XMGRecommendCategoryCell.m in Sources */,
 				06859B621E9DFF9E001136A1 /* GPUImageiOSBlurFilter.m in Sources */,
@@ -5366,7 +5449,6 @@
 				06BF78DF1E78CB5200371E48 /* XMGNewViewController.m in Sources */,
 				06BF76381E77941900371E48 /* ViewController.m in Sources */,
 				06859B401E9DFF9E001136A1 /* GPUImageDirectionalNonMaximumSuppressionFilter.m in Sources */,
-				06BF770E1E77D36000371E48 /* NSObject+MJClass.m in Sources */,
 				06BF78F71E78CB5200371E48 /* XMGTagButton.m in Sources */,
 				B543C3891ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m in Sources */,
 				06859B941E9DFF9E001136A1 /* GPUImageRGBOpeningFilter.m in Sources */,
@@ -5382,6 +5464,7 @@
 				063E9F161E8B88E200953AC8 /* postPicViewController.m in Sources */,
 				06EEEE371E8E2EE000E5DCBB /* HXCollectionView.m in Sources */,
 				06BF77911E77E7A000371E48 /* LLContentTableView.m in Sources */,
+				B564FEFD1ECD818E00B633A6 /* LLTaoBaoOrderViewController.m in Sources */,
 				06BF780E1E77F6B600371E48 /* LLModel.m in Sources */,
 				06EEEE341E8E2EE000E5DCBB /* HXAlbumTitleButton.m in Sources */,
 				063202B61E837A3300AA4B5A /* MovieViewController.m in Sources */,
@@ -5424,7 +5507,6 @@
 				06BF78D01E78CB5200371E48 /* XMGRecommendCategory.m in Sources */,
 				06859B331E9DFF9E001136A1 /* GPUImageColorBlendFilter.m in Sources */,
 				068E62FA1E7A2C0C0014636F /* MJRefreshGifHeader+LLRefeshGitHeader.m in Sources */,
-				06BF77081E77D36000371E48 /* MJDictionaryCache.m in Sources */,
 				06859BEB1E9E0633001136A1 /* MBProgressHUD.m in Sources */,
 				06859B991E9DFF9E001136A1 /* GPUImageSharpenFilter.m in Sources */,
 				B5C902601EC555E50026810D /* BLEProgressBar.m in Sources */,
@@ -5485,6 +5567,7 @@
 				06EEEE351E8E2EE000E5DCBB /* HXCameraPreviewViewController.m in Sources */,
 				06A15F061E95DBB2001988AF /* CaptureManager.m in Sources */,
 				B543C40F1ECC4757004EB9A7 /* HRBrightnessCursor.m in Sources */,
+				B564FF1F1ECD83E200B633A6 /* NSString+MJExtension.m in Sources */,
 				06859BB91E9DFF9E001136A1 /* GPUImageVignetteFilter.m in Sources */,
 				06859BBB1E9DFF9E001136A1 /* GPUImageWeakPixelInclusionFilter.m in Sources */,
 				06BF76AD1E77CC4B00371E48 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -5493,7 +5576,6 @@
 				06A15F1B1E95DBB2001988AF /* LLFaceRecognitionController.m in Sources */,
 				063E9F611E8B963F00953AC8 /* ChoseView.m in Sources */,
 				068E62E51E7A26FD0014636F /* ZZXClothers.m in Sources */,
-				06BF77101E77D36000371E48 /* NSObject+MJKeyValue.m in Sources */,
 				06BF76EB1E77D2D000371E48 /* MenuItemCell.m in Sources */,
 				06859B201E9DFF9E001136A1 /* GLProgram.m in Sources */,
 				06859BA31E9DFF9E001136A1 /* GPUImageSphereRefractionFilter.m in Sources */,
@@ -5514,6 +5596,7 @@
 				06859B2B1E9DFF9E001136A1 /* GPUImageBrightnessFilter.m in Sources */,
 				06BF77F41E77E7F600371E48 /* MJRefreshConst.m in Sources */,
 				06859BBE1E9DFF9E001136A1 /* GPUImageZoomBlurFilter.m in Sources */,
+				B564FF191ECD83E200B633A6 /* MJPropertyKey.m in Sources */,
 				0632027B1E835F5900AA4B5A /* LLMVVMModel.m in Sources */,
 				06BF77EB1E77E7F600371E48 /* MJRefreshAutoNormalFooter.m in Sources */,
 				B5C900FA1EC54C220026810D /* ReaderThumbView.m in Sources */,
@@ -5538,6 +5621,7 @@
 				068599B61E9DFD81001136A1 /* GridCell.m in Sources */,
 				06BF77741E77E1F000371E48 /* TAAnimatedDotView.m in Sources */,
 				06859B951E9DFF9E001136A1 /* GPUImageSaturationBlendFilter.m in Sources */,
+				B564FEF91ECD818E00B633A6 /* LLListModel.m in Sources */,
 				06EEEE321E8E2EDF00E5DCBB /* HXAlbumListView.m in Sources */,
 				06BF79851E78D42600371E48 /* UIView+XMGExtension.m in Sources */,
 				B5C902661EC555E50026810D /* RYCuteView.m in Sources */,
@@ -5546,6 +5630,7 @@
 				068E630A1E7A32780014636F /* LLLoadingCellController.m in Sources */,
 				B5C902571EC555E50026810D /* MPTelescopicViewController.m in Sources */,
 				06BF78B81E78CB5200371E48 /* XMGComment.m in Sources */,
+				B564FF1D1ECD83E200B633A6 /* NSObject+MJKeyValue.m in Sources */,
 				06859B611E9DFF9E001136A1 /* GPUImageHueFilter.m in Sources */,
 				06859B961E9DFF9E001136A1 /* GPUImageSaturationFilter.m in Sources */,
 				06859BB61E9DFF9E001136A1 /* GPUImageUIElement.m in Sources */,
@@ -5554,6 +5639,7 @@
 				06859BC31E9DFF9E001136A1 /* GPUImageView.m in Sources */,
 				06859B5C1E9DFF9E001136A1 /* GPUImageHistogramFilter.m in Sources */,
 				06859B9E1E9DFF9E001136A1 /* GPUImageSobelEdgeDetectionFilter.m in Sources */,
+				B564FF161ECD83E100B633A6 /* MJExtensionConst.m in Sources */,
 				06859B8E1E9DFF9E001136A1 /* GPUImageRawDataInput.m in Sources */,
 				06BF78D11E78CB5200371E48 /* XMGRecommendUser.m in Sources */,
 				06BF77E91E77E7F600371E48 /* MJRefreshHeader.m in Sources */,
@@ -5564,7 +5650,6 @@
 				06EEED7C1E8C9BFF00E5DCBB /* Demo.m in Sources */,
 				06BF76A71E77CC4B00371E48 /* AFURLResponseSerialization.m in Sources */,
 				06BF77321E77DF8A00371E48 /* WMDragView.m in Sources */,
-				06BF77121E77D36000371E48 /* NSString+MJExtension.m in Sources */,
 				06BF78DC1E78CB5200371E48 /* XMGMeCell.m in Sources */,
 				06BF79831E78D42600371E48 /* UIImage+XMGExtension.m in Sources */,
 				06BF76AE1E77CC4B00371E48 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -5578,6 +5663,7 @@
 				B543C3ED1ECC441F004EB9A7 /* LLQRDefaultController.m in Sources */,
 				06859B471E9DFF9E001136A1 /* GPUImageExposureFilter.m in Sources */,
 				06859BA71E9DFF9E001136A1 /* GPUImageSwirlFilter.m in Sources */,
+				B564FF1C1ECD83E200B633A6 /* NSObject+MJCoding.m in Sources */,
 				06859BAC1E9DFF9E001136A1 /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */,
 				06BF79501E78D04700371E48 /* POPAnimationRuntime.mm in Sources */,
 				06A15F081E95DBB2001988AF /* IFlyFaceImage.m in Sources */,
@@ -5588,9 +5674,9 @@
 				06BF79521E78D04700371E48 /* POPAnimator.mm in Sources */,
 				06EEED7D1E8C9BFF00E5DCBB /* FTT_Roundview.m in Sources */,
 				06859B7A1E9DFF9E001136A1 /* GPUImageMovie.m in Sources */,
+				B564FEFA1ECD818E00B633A6 /* LLOrderFooterView.m in Sources */,
 				06859B4D1E9DFF9E001136A1 /* GPUImageFramebuffer.m in Sources */,
 				06BF76ED1E77D2D000371E48 /* OrderDetailListView.m in Sources */,
-				06BF77091E77D36000371E48 /* MJExtensionConst.m in Sources */,
 				06A15EB51E947DA2001988AF /* JHTableChart.m in Sources */,
 				06EEEE871E8E2EE000E5DCBB /* LLWeiboPhotoController.m in Sources */,
 				06EEEE851E8E2EE000E5DCBB /* UIImage+HXExtension.m in Sources */,
@@ -5625,6 +5711,7 @@
 				B5C9025F1EC555E50026810D /* PopBackTopViewController.m in Sources */,
 				B59ABFA81EC98B4300E72865 /* BaseTableViewController.m in Sources */,
 				B5C902641EC555E50026810D /* HYYBubbleButton.m in Sources */,
+				B564FF361ECD869B00B633A6 /* LLSelectMenuController.m in Sources */,
 				06A15EB01E947DA2001988AF /* JHPieChart.m in Sources */,
 				06859B891E9DFF9E001136A1 /* GPUImagePoissonBlendFilter.m in Sources */,
 				06859B231E9DFF9E001136A1 /* GPUImageAdaptiveThresholdFilter.m in Sources */,
@@ -5661,7 +5748,6 @@
 				06BF77611E77DFC700371E48 /* UIView+WebCacheOperation.m in Sources */,
 				06859B9A1E9DFF9E001136A1 /* GPUImageShiTomasiFeatureDetectionFilter.m in Sources */,
 				B5C900EF1EC54C220026810D /* ReaderContentView.m in Sources */,
-				06BF770D1E77D36000371E48 /* MJPropertyType.m in Sources */,
 				06BF79151E78CEBD00371E48 /* NJKWebViewProgress.m in Sources */,
 				06859B4A1E9DFF9E001136A1 /* GPUImageFilter.m in Sources */,
 				06BF790F1E78CE2E00371E48 /* SVProgressHUD.m in Sources */,
@@ -5684,10 +5770,10 @@
 				B59ABFAC1EC98B4300E72865 /* RightTableViewController.m in Sources */,
 				06A15EB21E947DA2001988AF /* JHPieItemsView.m in Sources */,
 				06BF77841E77E48F00371E48 /* LLButtonViewController.m in Sources */,
+				B564FF311ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.m in Sources */,
 				06859B511E9DFF9E001136A1 /* GPUImageGaussianBlurPositionFilter.m in Sources */,
 				06BF78DB1E78CB5200371E48 /* XMGSquare.m in Sources */,
 				06859B911E9DFF9E001136A1 /* GPUImageRGBDilationFilter.m in Sources */,
-				06BF770C1E77D36000371E48 /* MJPropertyKey.m in Sources */,
 				06859B341E9DFF9E001136A1 /* GPUImageColorBurnBlendFilter.m in Sources */,
 				06BF76A81E77CC4B00371E48 /* AFURLSessionManager.m in Sources */,
 				06859B2F1E9DFF9E001136A1 /* GPUImageCGAColorspaceFilter.m in Sources */,
@@ -5731,6 +5817,7 @@
 				06A15EB41E947DA2001988AF /* JHShowInfoView.m in Sources */,
 				0685999D1E9DD1DF001136A1 /* SSKeychainQuery.m in Sources */,
 				06859B2E1E9DFF9E001136A1 /* GPUImageCannyEdgeDetectionFilter.m in Sources */,
+				B564FF1E1ECD83E200B633A6 /* NSObject+MJProperty.m in Sources */,
 				06BF78B31E78CB5200371E48 /* XMGEssenceViewController.m in Sources */,
 				063E9F271E8B8CD900953AC8 /* ZFDownloadingCell.m in Sources */,
 				B5C902721EC555E50026810D /* POPProgressBarViewController.m in Sources */,
@@ -5748,6 +5835,7 @@
 				06BF77601E77DFC700371E48 /* UIImageView+WebCache.m in Sources */,
 				06BF78D71E78CB5200371E48 /* XMGVerticalButton.m in Sources */,
 				06859B251E9DFF9E001136A1 /* GPUImageAlphaBlendFilter.m in Sources */,
+				B564FF181ECD83E200B633A6 /* MJProperty.m in Sources */,
 				06BF77B51E77E7EA00371E48 /* ViewController+MASAdditions.m in Sources */,
 				068599B81E9DFD81001136A1 /* NVBnbCollectionView.m in Sources */,
 				B59ABFAB1EC98B4300E72865 /* MiddleTableViewController.m in Sources */,
@@ -5761,11 +5849,13 @@
 				06BF76E81E77D2D000371E48 /* BadgeView.m in Sources */,
 				06BF78C61E78CB5200371E48 /* XMGTopicVideoView.m in Sources */,
 				B59ABFAA1EC98B4300E72865 /* LeftTableViewController.m in Sources */,
+				B564FEFB1ECD818E00B633A6 /* LLOrderHeaderView.m in Sources */,
 				06859B751E9DFF9E001136A1 /* GPUImageMissEtikateFilter.m in Sources */,
+				B564FF331ECD865C00B633A6 /* TYGSelectMenuEntity.m in Sources */,
 				06A15EB31E947DA2001988AF /* JHRingChart.m in Sources */,
+				B564FEF81ECD818E00B633A6 /* LLCartVoListModel.m in Sources */,
 				063E9F661E8B963F00953AC8 /* LLSelectClothesController.m in Sources */,
 				063E9F181E8B88E200953AC8 /* LLSelectPhotoController.m in Sources */,
-				06BF770A1E77D36000371E48 /* MJFoundation.m in Sources */,
 				06BF76B11E77CC4B00371E48 /* UIProgressView+AFNetworking.m in Sources */,
 				06BF76E41E77D2D000371E48 /* ZXShopCartViewController.m in Sources */,
 				06859B2A1E9DFF9E001136A1 /* GPUImageBoxBlurFilter.m in Sources */,
@@ -5782,7 +5872,7 @@
 				06BF77791E77E1F000371E48 /* UIView+SDExtension.m in Sources */,
 				B5C902611EC555E50026810D /* BLEProgressBaseView.m in Sources */,
 				06BF78BB1E78CB5200371E48 /* XMGUser.m in Sources */,
-				06BF77111E77D36000371E48 /* NSObject+MJProperty.m in Sources */,
+				B564FF171ECD83E100B633A6 /* MJFoundation.m in Sources */,
 				06859B4F1E9DFF9E001136A1 /* GPUImageGammaFilter.m in Sources */,
 				06859BB31E9DFF9E001136A1 /* GPUImageTwoInputFilter.m in Sources */,
 				06BF79881E78D42600371E48 /* Foundation+Log.m in Sources */,
@@ -5841,6 +5931,7 @@
 				06859B411E9DFF9E001136A1 /* GPUImageDirectionalSobelEdgeDetectionFilter.m in Sources */,
 				06859BA01E9DFF9E001136A1 /* GPUImageSoftLightBlendFilter.m in Sources */,
 				06859B271E9DFF9E001136A1 /* GPUImageAverageColor.m in Sources */,
+				B564FEFC1ECD818E00B633A6 /* LLOrderTableViewCell.m in Sources */,
 				068E63081E7A32780014636F /* LLHeadFootView.m in Sources */,
 				B543C3E41ECC40B2004EB9A7 /* BMScanController.m in Sources */,
 				06859BC71E9DFF9E001136A1 /* LLGPUImageViewController.m in Sources */,
@@ -5859,6 +5950,7 @@
 				06BF79841E78D42600371E48 /* UIImageView+XMGExtension.m in Sources */,
 				06EEEE2E1E8E2EDF00E5DCBB /* Demo1ViewController.m in Sources */,
 				068E63181E7A34AA0014636F /* LLRightViewController.m in Sources */,
+				B564FF301ECD865C00B633A6 /* TYGSelectMenu.m in Sources */,
 				06BF78191E77F6C500371E48 /* UIView+SDAutoLayout.m in Sources */,
 				B5C9024D1EC555E50026810D /* CAEmitterLayerViewController.m in Sources */,
 				06859B601E9DFF9E001136A1 /* GPUImageHueBlendFilter.m in Sources */,
@@ -5878,6 +5970,7 @@
 				063E9F171E8B88E200953AC8 /* SelectedCell.m in Sources */,
 				06BF77EF1E77E7F600371E48 /* MJRefreshBackStateFooter.m in Sources */,
 				06859BC01E9DFF9E001136A1 /* GPUImageMovieWriter.m in Sources */,
+				B564FF1A1ECD83E200B633A6 /* MJPropertyType.m in Sources */,
 				06EEEDAF1E8E2B5D00E5DCBB /* XHTagView.m in Sources */,
 				06859B6A1E9DFF9E001136A1 /* GPUImageLinearBurnBlendFilter.m in Sources */,
 				063202BC1E83886D00AA4B5A /* LLMVVMTabView.m in Sources */,
@@ -5915,7 +6008,6 @@
 				06EEEE3B1E8E2EE000E5DCBB /* HXPhotoPreviewViewCell.m in Sources */,
 				063202701E835AF500AA4B5A /* UIView+Frame.m in Sources */,
 				06BF77F71E77E7F600371E48 /* UIScrollView+MJRefresh.m in Sources */,
-				06BF770F1E77D36000371E48 /* NSObject+MJCoding.m in Sources */,
 				06BF77571E77DFC700371E48 /* SDWebImageDecoder.m in Sources */,
 				06859B671E9DFF9E001136A1 /* GPUImageLaplacianFilter.m in Sources */,
 				06BF76A41E77CC4B00371E48 /* AFNetworkReachabilityManager.m in Sources */,
@@ -5930,7 +6022,6 @@
 				06BF775D1E77DFC700371E48 /* UIImage+GIF.m in Sources */,
 				06859B5A1E9DFF9E001136A1 /* GPUImageHighPassFilter.m in Sources */,
 				063E9F141E8B88E200953AC8 /* PhotoCell.m in Sources */,
-				06BF770B1E77D36000371E48 /* MJProperty.m in Sources */,
 				0632026F1E835AF500AA4B5A /* LLSwitchViewController.m in Sources */,
 				B5C902651EC555E50026810D /* YDWaveLoadingView.m in Sources */,
 				B543C4131ECC4757004EB9A7 /* HRColorMapView.m in Sources */,
