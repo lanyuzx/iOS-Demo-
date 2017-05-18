@@ -24,7 +24,8 @@
     
     //初始化表格
     if (!_myTableView) {
-        _myTableView                                = [[UITableView alloc] initWithFrame:CGRectMake(0,0.5, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height) style:UITableViewStylePlain];
+        CGFloat topHeight = [[UIApplication sharedApplication] statusBarFrame].size.height + self.navigationController.navigationBar.frame.size.height;
+        _myTableView                                = [[UITableView alloc] initWithFrame:CGRectMake(0,0.5, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height - topHeight) style:UITableViewStylePlain];
         _myTableView.showsVerticalScrollIndicator   = NO;
         _myTableView.showsHorizontalScrollIndicator = NO;
         _myTableView.dataSource                     = self;
