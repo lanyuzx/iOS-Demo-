@@ -27,6 +27,11 @@
     _category.text = model.category ;
     _price.text =[NSString stringWithFormat:@"¥%@",model.realPrice] ;
     _realPrice.text = [NSString stringWithFormat:@"¥%@",model.price];
+    //中划线
+    NSDictionary *attribtDic = @{NSStrikethroughStyleAttributeName: [NSNumber numberWithInteger:NSUnderlineStyleSingle]};
+    NSMutableAttributedString *attribtStr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"¥%@",model.realPrice] attributes:attribtDic];
+    _realPrice.attributedText = attribtStr;
+
     
     [self setupAutoHeightWithBottomView:_prductImage bottomMargin:8];
     
@@ -57,7 +62,7 @@
         .widthIs(100);
         
         _price = [UILabel new];
-        _price.textColor = [UIColor darkGrayColor];
+        _price.textColor = [UIColor blackColor];
         _price.font = [UIFont boldSystemFontOfSize:14];
         _price.textAlignment = NSTextAlignmentCenter;
         [self.contentView addSubview:_price];
@@ -73,7 +78,7 @@
         _realPrice.textAlignment = NSTextAlignmentCenter;
         [self.contentView addSubview:_realPrice];
         _realPrice.sd_layout
-        .topSpaceToView(_price, 8)
+        .topSpaceToView(_price, 3)
         .rightSpaceToView(self.contentView, 5)
         .widthIs(80)
         .heightIs(25);

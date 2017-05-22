@@ -6175,7 +6175,7 @@
 					"$(PROJECT_DIR)/iOS开发demo集锦/demoList/iOS人脸识别/FaceRecognition/frameworks",
 				);
 				INFOPLIST_FILE = "iOS开发demo集锦/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.iOS--dem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6198,7 +6198,7 @@
 					"$(PROJECT_DIR)/iOS开发demo集锦/demoList/iOS人脸识别/FaceRecognition/frameworks",
 				);
 				INFOPLIST_FILE = "iOS开发demo集锦/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.iOS--dem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
