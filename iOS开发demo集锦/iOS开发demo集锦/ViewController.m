@@ -58,6 +58,8 @@
 #import "LLQRCodeTableViewController.h"
 #import "LLTaoBaoOrderViewController.h"
 #import "LLSelectMenuController.h"
+#import "LLLEEAlterViewController.h"
+#import "CentralController.h" //蓝牙demo的控制器
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -432,6 +434,27 @@
         }
         
         
+    }else if (indexPath.section == 6){
+        
+        switch (indexPath.row) {
+            case 0:
+            {
+            LLLEEAlterViewController *AlterView = [[LLLEEAlterViewController alloc]init];
+            AlterView.title = @"LEE弹框神器";
+            [self.navigationController pushViewController:AlterView animated:true];
+            }
+            break;
+            case 1:
+            {
+                CentralController *Central = [[CentralController alloc]init];
+                [self.navigationController pushViewController:Central animated:true];
+            }
+                break;
+
+            
+            default:
+            break;
+        }
     }
 
 }
