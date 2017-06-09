@@ -60,6 +60,7 @@
 #import "LLSelectMenuController.h"
 #import "LLLEEAlterViewController.h"
 #import "CentralController.h" //蓝牙demo的控制器
+#import "LLChainViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -448,6 +449,12 @@
             {
                 CentralController *Central = [[CentralController alloc]init];
                 [self.navigationController pushViewController:Central animated:true];
+            }
+                break;
+            case 2:
+            {
+                LLChainViewController *ChainView = [[LLChainViewController alloc]init];
+                [self.navigationController pushViewController:ChainView animated:true];
             }
                 break;
 

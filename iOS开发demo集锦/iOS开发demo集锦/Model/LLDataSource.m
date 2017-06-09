@@ -43,7 +43,7 @@
                     break;
                 //LEEAlter弹框神器
                 case 6:
-                model.demoArr = [NSMutableArray arrayWithObjects:@"LEEAlter弹框神器",@"蓝牙开发的demo", nil];
+                model.demoArr = [NSMutableArray arrayWithObjects:@"LEEAlter弹框神器",@"蓝牙开发的demo",@"iOS中链式语法(Block)", nil];
                 break;
                 default:
                     break;

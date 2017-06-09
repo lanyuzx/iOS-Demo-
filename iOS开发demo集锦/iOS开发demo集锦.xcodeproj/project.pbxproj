@@ -800,8 +800,6 @@
 		B5C902741EC555E50026810D /* POPSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C902471EC555E50026810D /* POPSpringAnimationViewController.m */; };
 		B5C902761EC555E50026810D /* WaterWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C9024B1EC555E50026810D /* WaterWaveViewController.m */; };
 		B5D1FDF41EE9496700FF5103 /* LEEAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D1FDF21EE9496700FF5103 /* LEEAlert.m */; };
-		B5D1FDFA1EE949AA00FF5103 /* ActionSheetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D1FDF71EE949AA00FF5103 /* ActionSheetTableViewController.m */; };
-		B5D1FDFB1EE949AA00FF5103 /* AlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D1FDF91EE949AA00FF5103 /* AlertTableViewController.m */; };
 		B5D1FE121EE949CE00FF5103 /* FontSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D1FE031EE949CE00FF5103 /* FontSizeView.m */; };
 		B5D1FE131EE949CE00FF5103 /* OpenPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D1FE061EE949CE00FF5103 /* OpenPushView.m */; };
 		B5D1FE141EE949CE00FF5103 /* SelectedListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D1FE091EE949CE00FF5103 /* SelectedListModel.m */; };
@@ -847,6 +845,10 @@
 		B5FA56B01EE94FF100983E40 /* CentralController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AB1EE94FF100983E40 /* CentralController.m */; };
 		B5FA56B11EE94FF100983E40 /* LanYaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AD1EE94FF100983E40 /* LanYaViewController.m */; };
 		B5FA56B21EE94FF100983E40 /* PeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AF1EE94FF100983E40 /* PeripheralController.m */; };
+		B5FA56B71EE9554000983E40 /* ActionSheetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56B41EE9554000983E40 /* ActionSheetTableViewController.m */; };
+		B5FA56B81EE9554000983E40 /* AlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56B61EE9554000983E40 /* AlertTableViewController.m */; };
+		B5FA56BE1EE9558E00983E40 /* LLRedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56BB1EE9558E00983E40 /* LLRedView.m */; };
+		B5FA56BF1EE9558E00983E40 /* LLChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56BD1EE9558E00983E40 /* LLChainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2303,10 +2305,6 @@
 		B5D1FDF11EE9496700FF5103 /* LEEAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlert.h; sourceTree = "<group>"; };
 		B5D1FDF21EE9496700FF5103 /* LEEAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEEAlert.m; sourceTree = "<group>"; };
 		B5D1FDF31EE9496700FF5103 /* LEEAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlertHelper.h; sourceTree = "<group>"; };
-		B5D1FDF61EE949AA00FF5103 /* ActionSheetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetTableViewController.h; sourceTree = "<group>"; };
-		B5D1FDF71EE949AA00FF5103 /* ActionSheetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetTableViewController.m; sourceTree = "<group>"; };
-		B5D1FDF81EE949AA00FF5103 /* AlertTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableViewController.h; sourceTree = "<group>"; };
-		B5D1FDF91EE949AA00FF5103 /* AlertTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableViewController.m; sourceTree = "<group>"; };
 		B5D1FE021EE949CE00FF5103 /* FontSizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizeView.h; sourceTree = "<group>"; };
 		B5D1FE031EE949CE00FF5103 /* FontSizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizeView.m; sourceTree = "<group>"; };
 		B5D1FE051EE949CE00FF5103 /* OpenPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenPushView.h; sourceTree = "<group>"; };
@@ -2362,6 +2360,14 @@
 		B5FA56AD1EE94FF100983E40 /* LanYaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanYaViewController.m; sourceTree = "<group>"; };
 		B5FA56AE1EE94FF100983E40 /* PeripheralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralController.h; sourceTree = "<group>"; };
 		B5FA56AF1EE94FF100983E40 /* PeripheralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralController.m; sourceTree = "<group>"; };
+		B5FA56B31EE9554000983E40 /* ActionSheetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetTableViewController.h; sourceTree = "<group>"; };
+		B5FA56B41EE9554000983E40 /* ActionSheetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetTableViewController.m; sourceTree = "<group>"; };
+		B5FA56B51EE9554000983E40 /* AlertTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableViewController.h; sourceTree = "<group>"; };
+		B5FA56B61EE9554000983E40 /* AlertTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableViewController.m; sourceTree = "<group>"; };
+		B5FA56BA1EE9558E00983E40 /* LLRedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRedView.h; sourceTree = "<group>"; };
+		B5FA56BB1EE9558E00983E40 /* LLRedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRedView.m; sourceTree = "<group>"; };
+		B5FA56BC1EE9558E00983E40 /* LLChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChainViewController.h; sourceTree = "<group>"; };
+		B5FA56BD1EE9558E00983E40 /* LLChainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3469,12 +3475,9 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B5FA56B91EE9557400983E40 /* iOS中链式语法(Block) */,
 				B5FA56A91EE94FD600983E40 /* 蓝牙开发 */,
 				B5D1FDF51EE9499300FF5103 /* LEEAlter弹框神器 */,
-				B5D1FDF61EE949AA00FF5103 /* ActionSheetTableViewController.h */,
-				B5D1FDF71EE949AA00FF5103 /* ActionSheetTableViewController.m */,
-				B5D1FDF81EE949AA00FF5103 /* AlertTableViewController.h */,
-				B5D1FDF91EE949AA00FF5103 /* AlertTableViewController.m */,
 				B564FF271ECD864D00B633A6 /* 多级下拉多选 */,
 				B564FEEB1ECD817200B633A6 /* 放淘宝订单页(tabView的使用) */,
 				B543C3D01ECC40B2004EB9A7 /* 牛逼的二维码扫描框架 */,
@@ -5246,10 +5249,14 @@
 		B5D1FDF51EE9499300FF5103 /* LEEAlter弹框神器 */ = {
 			isa = PBXGroup;
 			children = (
-				B5D1FE1B1EE94B3E00FF5103 /* image */,
-				B5D1FE001EE949CE00FF5103 /* Views */,
 				B5D1FE181EE94A5C00FF5103 /* LLLEEAlterViewController.h */,
 				B5D1FE191EE94A5C00FF5103 /* LLLEEAlterViewController.m */,
+				B5FA56B31EE9554000983E40 /* ActionSheetTableViewController.h */,
+				B5FA56B41EE9554000983E40 /* ActionSheetTableViewController.m */,
+				B5FA56B51EE9554000983E40 /* AlertTableViewController.h */,
+				B5FA56B61EE9554000983E40 /* AlertTableViewController.m */,
+				B5D1FE1B1EE94B3E00FF5103 /* image */,
+				B5D1FE001EE949CE00FF5103 /* Views */,
 			);
 			path = "LEEAlter弹框神器";
 			sourceTree = "<group>";
@@ -5366,6 +5373,17 @@
 				B5FA56AF1EE94FF100983E40 /* PeripheralController.m */,
 			);
 			path = "蓝牙开发";
+			sourceTree = "<group>";
+		};
+		B5FA56B91EE9557400983E40 /* iOS中链式语法(Block) */ = {
+			isa = PBXGroup;
+			children = (
+				B5FA56BA1EE9558E00983E40 /* LLRedView.h */,
+				B5FA56BB1EE9558E00983E40 /* LLRedView.m */,
+				B5FA56BC1EE9558E00983E40 /* LLChainViewController.h */,
+				B5FA56BD1EE9558E00983E40 /* LLChainViewController.m */,
+			);
+			path = "iOS中链式语法(Block)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -5719,7 +5737,6 @@
 				06BF78111E77F6B600371E48 /* TableViewCell.m in Sources */,
 				B543C3F01ECC44EF004EB9A7 /* LLQRStyleViewController.m in Sources */,
 				06EEEDAC1E8E2B5D00E5DCBB /* XHBranchPoint.m in Sources */,
-				B5D1FDFB1EE949AA00FF5103 /* AlertTableViewController.m in Sources */,
 				06BF795D1E78D04700371E48 /* TransformationMatrix.cpp in Sources */,
 				06BF77F51E77E7F600371E48 /* NSBundle+MJRefresh.m in Sources */,
 				06BF77591E77DFC700371E48 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -5761,6 +5778,7 @@
 				06859B381E9DFF9E001136A1 /* GPUImageColorPackingFilter.m in Sources */,
 				068599B91E9DFD81001136A1 /* NVBnbCollectionViewLayout.m in Sources */,
 				06859B6B1E9DFF9E001136A1 /* GPUImageLineGenerator.m in Sources */,
+				B5FA56BE1EE9558E00983E40 /* LLRedView.m in Sources */,
 				06859BA81E9DFF9E001136A1 /* GPUImageTextureInput.m in Sources */,
 				B5FA56B11EE94FF100983E40 /* LanYaViewController.m in Sources */,
 				B5D1FE1A1EE94A5C00FF5103 /* LLLEEAlterViewController.m in Sources */,
@@ -6049,6 +6067,7 @@
 				063E9F741E8B97C000953AC8 /* TimelineCellTableViewCell.m in Sources */,
 				06EEEE361E8E2EE000E5DCBB /* HXCameraViewController.m in Sources */,
 				B543C3E31ECC40B2004EB9A7 /* UIImage+BMScan.m in Sources */,
+				B5FA56B71EE9554000983E40 /* ActionSheetTableViewController.m in Sources */,
 				06BF78D61E78CB5200371E48 /* XMGTextField.m in Sources */,
 				B5C900F21EC54C220026810D /* ReaderMainPagebar.m in Sources */,
 				06BF794D1E78D04700371E48 /* POPAnimation.mm in Sources */,
@@ -6082,6 +6101,7 @@
 				06859B801E9DFF9E001136A1 /* GPUImageOpacityFilter.m in Sources */,
 				068599BB1E9DFD81001136A1 /* ParallaxCell.m in Sources */,
 				06BF78F81E78CB5200371E48 /* XMGTagTextField.m in Sources */,
+				B5FA56BF1EE9558E00983E40 /* LLChainViewController.m in Sources */,
 				063202B91E837B8D00AA4B5A /* LLMVVMDetailModel.m in Sources */,
 				06A15F031E95DBB2001988AF /* FaceStreamDetectorViewController.m in Sources */,
 				06EEEDAE1E8E2B5D00E5DCBB /* XHCenterView.m in Sources */,
@@ -6141,6 +6161,7 @@
 				06BF77EE1E77E7F600371E48 /* MJRefreshBackNormalFooter.m in Sources */,
 				06BF78C41E78CB5200371E48 /* XMGTopicPictureView.m in Sources */,
 				06BF76EF1E77D2D000371E48 /* ShopCartView.m in Sources */,
+				B5FA56B81EE9554000983E40 /* AlertTableViewController.m in Sources */,
 				06BF77AC1E77E7EA00371E48 /* MASCompositeConstraint.m in Sources */,
 				06BF76E81E77D2D000371E48 /* BadgeView.m in Sources */,
 				06BF78C61E78CB5200371E48 /* XMGTopicVideoView.m in Sources */,
@@ -6230,7 +6251,6 @@
 				06859BA01E9DFF9E001136A1 /* GPUImageSoftLightBlendFilter.m in Sources */,
 				06859B271E9DFF9E001136A1 /* GPUImageAverageColor.m in Sources */,
 				B564FEFC1ECD818E00B633A6 /* LLOrderTableViewCell.m in Sources */,
-				B5D1FDFA1EE949AA00FF5103 /* ActionSheetTableViewController.m in Sources */,
 				068E63081E7A32780014636F /* LLHeadFootView.m in Sources */,
 				B543C3E41ECC40B2004EB9A7 /* BMScanController.m in Sources */,
 				06859BC71E9DFF9E001136A1 /* LLGPUImageViewController.m in Sources */,
