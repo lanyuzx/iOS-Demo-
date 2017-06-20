@@ -61,6 +61,7 @@
 #import "LLLEEAlterViewController.h"
 #import "CentralController.h" //蓝牙demo的控制器
 #import "LLChainViewController.h"
+#import "LLTextLoopController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -457,7 +458,14 @@
                 [self.navigationController pushViewController:ChainView animated:true];
             }
                 break;
-
+            case 3:
+            {
+                LLTextLoopController *TextLoop = [[LLTextLoopController alloc]init];
+                TextLoop.view.backgroundColor = [UIColor whiteColor];
+                TextLoop.title = @"仿京东文字轮播";
+                [self.navigationController pushViewController:TextLoop animated:true];
+            }
+                break;
             
             default:
             break;

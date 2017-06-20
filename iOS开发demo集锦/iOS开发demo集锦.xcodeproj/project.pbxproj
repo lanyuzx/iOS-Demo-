@@ -651,6 +651,9 @@
 		06EEEE851E8E2EE000E5DCBB /* UIImage+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE291E8E2EDF00E5DCBB /* UIImage+HXExtension.m */; };
 		06EEEE861E8E2EE000E5DCBB /* UIView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE2B1E8E2EDF00E5DCBB /* UIView+HXExtension.m */; };
 		06EEEE871E8E2EE000E5DCBB /* LLWeiboPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEEE2D1E8E2EDF00E5DCBB /* LLWeiboPhotoController.m */; };
+		B52EC43C1EF8CBFD0008C687 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EC4371EF8CBFD0008C687 /* DetailViewController.m */; };
+		B52EC43D1EF8CBFD0008C687 /* HRAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EC4391EF8CBFD0008C687 /* HRAdView.m */; };
+		B52EC43E1EF8CBFD0008C687 /* LLTextLoopController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EC43B1EF8CBFD0008C687 /* LLTextLoopController.m */; };
 		B543C3891ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3881ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m */; };
 		B543C3E21ECC40B2004EB9A7 /* BMScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B543C3D21ECC40B2004EB9A7 /* BMScan.bundle */; };
 		B543C3E31ECC40B2004EB9A7 /* UIImage+BMScan.m in Sources */ = {isa = PBXBuildFile; fileRef = B543C3D51ECC40B2004EB9A7 /* UIImage+BMScan.m */; };
@@ -2039,6 +2042,12 @@
 		06EEEE2B1E8E2EDF00E5DCBB /* UIView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXExtension.m"; sourceTree = "<group>"; };
 		06EEEE2C1E8E2EDF00E5DCBB /* LLWeiboPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLWeiboPhotoController.h; sourceTree = "<group>"; };
 		06EEEE2D1E8E2EDF00E5DCBB /* LLWeiboPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLWeiboPhotoController.m; sourceTree = "<group>"; };
+		B52EC4361EF8CBFD0008C687 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B52EC4371EF8CBFD0008C687 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B52EC4381EF8CBFD0008C687 /* HRAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRAdView.h; sourceTree = "<group>"; };
+		B52EC4391EF8CBFD0008C687 /* HRAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRAdView.m; sourceTree = "<group>"; };
+		B52EC43A1EF8CBFD0008C687 /* LLTextLoopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTextLoopController.h; sourceTree = "<group>"; };
+		B52EC43B1EF8CBFD0008C687 /* LLTextLoopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTextLoopController.m; sourceTree = "<group>"; };
 		B543C3871ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAsyncNetWorkeViewController.h; sourceTree = "<group>"; };
 		B543C3881ECC2202004EB9A7 /* LLAsyncNetWorkeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAsyncNetWorkeViewController.m; sourceTree = "<group>"; };
 		B543C3D21ECC40B2004EB9A7 /* BMScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BMScan.bundle; sourceTree = "<group>"; };
@@ -3475,6 +3484,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B52EC4331EF8CBDF0008C687 /* 仿京东文字轮播,监听点击跳转 */,
 				B5FA56B91EE9557400983E40 /* iOS中链式语法(Block) */,
 				B5FA56A91EE94FD600983E40 /* 蓝牙开发 */,
 				B5D1FDF51EE9499300FF5103 /* LEEAlter弹框神器 */,
@@ -4753,6 +4763,19 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		B52EC4331EF8CBDF0008C687 /* 仿京东文字轮播,监听点击跳转 */ = {
+			isa = PBXGroup;
+			children = (
+				B52EC4361EF8CBFD0008C687 /* DetailViewController.h */,
+				B52EC4371EF8CBFD0008C687 /* DetailViewController.m */,
+				B52EC4381EF8CBFD0008C687 /* HRAdView.h */,
+				B52EC4391EF8CBFD0008C687 /* HRAdView.m */,
+				B52EC43A1EF8CBFD0008C687 /* LLTextLoopController.h */,
+				B52EC43B1EF8CBFD0008C687 /* LLTextLoopController.m */,
+			);
+			path = "仿京东文字轮播,监听点击跳转";
+			sourceTree = "<group>";
+		};
 		B543C3861ECC21B6004EB9A7 /* iOS多个异步网络请求,完成后,在做其他操作(比如结束刷新) */ = {
 			isa = PBXGroup;
 			children = (
@@ -5871,6 +5894,7 @@
 				063E9F461E8B93A900953AC8 /* MerchandiseCommentTableViewCell.m in Sources */,
 				B5C902671EC555E50026810D /* TNActivityIndicator.m in Sources */,
 				06BF77F81E77E7F600371E48 /* UIView+MJExtension.m in Sources */,
+				B52EC43C1EF8CBFD0008C687 /* DetailViewController.m in Sources */,
 				B543C4111ECC4757004EB9A7 /* HRColorCursor.m in Sources */,
 				B5C900EC1EC54C220026810D /* ReaderConstants.m in Sources */,
 				06EEEE351E8E2EE000E5DCBB /* HXCameraPreviewViewController.m in Sources */,
@@ -6139,6 +6163,7 @@
 				06BF77B01E77E7EA00371E48 /* MASViewAttribute.m in Sources */,
 				B5C900F41EC54C220026810D /* ReaderThumbCache.m in Sources */,
 				06859BA61E9DFF9E001136A1 /* GPUImageSubtractBlendFilter.m in Sources */,
+				B52EC43E1EF8CBFD0008C687 /* LLTextLoopController.m in Sources */,
 				06BF794E1E78D04700371E48 /* POPAnimationEvent.mm in Sources */,
 				06BF775B1E77DFC700371E48 /* SDWebImagePrefetcher.m in Sources */,
 				06BF77F21E77E7F600371E48 /* MJRefreshStateHeader.m in Sources */,
@@ -6305,6 +6330,7 @@
 				06859B631E9DFF9E001136A1 /* GPUImageJFAVoronoiFilter.m in Sources */,
 				06BF778E1E77E74D00371E48 /* LLContentScrollView.m in Sources */,
 				06859B321E9DFF9E001136A1 /* GPUImageClosingFilter.m in Sources */,
+				B52EC43D1EF8CBFD0008C687 /* HRAdView.m in Sources */,
 				06BF79531E78D04700371E48 /* POPBasicAnimation.mm in Sources */,
 				06859B371E9DFF9E001136A1 /* GPUImageColorMatrixFilter.m in Sources */,
 				06A15EAF1E947DA2001988AF /* JHLineChart.m in Sources */,
