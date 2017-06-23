@@ -14,7 +14,7 @@
     
     
        
-        NSArray * timeArr = @[@"2017-03-14更新",@"2017-03-15更新",@"2017-03-23更新",@"2017-03-29更新",@"2017-04-05更新",@"2017-05-12更新"];
+        NSArray * timeArr = @[@"2017-03-14更新",@"2017-03-15更新",@"2017-03-23更新",@"2017-03-29更新",@"2017-04-05更新",@"2017-05-12更新",@"2017-06-08更新"];
         
         NSMutableArray * tempArr = [NSMutableArray array];
         
@@ -39,8 +39,12 @@
                     model.demoArr = [NSMutableArray arrayWithObjects:@"iOS股票折线图",@"仿京东商品选择器",@"iOS人脸识别",@"iOS加密+加盐",@"获取设备标识符 UDID IDFA等等",@"很好看的瀑布流展示效果图👍",@"使用GPUImage实现人脸美白和人脸识别(磨皮，人脸检测) ",@"新版上传照片功能", nil];
                     break;
                 case 5:
-                    model.demoArr = [NSMutableArray arrayWithObjects:@"强大的pdf阅读器",@"星级评论",@"POP各种动画效果",@"跳转仿简书个人中心停靠",@"使用NSURLSession断点续传的实现",@"iOS多个异步网络请求,完成后,在做其他操作(比如结束刷新)",@"牛逼的二维码扫描框架", nil];
+                    model.demoArr = [NSMutableArray arrayWithObjects:@"强大的pdf阅读器",@"星级评论",@"POP各种动画效果",@"跳转仿简书个人中心停靠",@"使用NSURLSession断点续传的实现",@"iOS多个异步网络请求,完成后,在做其他操作(比如结束刷新)",@"牛逼的二维码扫描框架",@"放淘宝订单页(tabView的使用)",@"多级下拉多选", nil];
                     break;
+                //LEEAlter弹框神器
+                case 6:
+                model.demoArr = [NSMutableArray arrayWithObjects:@"LEEAlter弹框神器",@"蓝牙开发的demo",@"iOS中链式语法(Block)",@"仿京东文字轮播,监听点击跳转", nil];
+                break;
                 default:
                     break;
             }

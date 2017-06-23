@@ -10,23 +10,27 @@
 #import "MJExtension.h"
 #import "MJFoundation.h"
 #import "MJExtensionConst.h"
-#import "MJDictionaryCache.h"
 
 @implementation MJPropertyType
+
+static NSMutableDictionary *types_;
++ (void)initialize
+{
+    types_ = [NSMutableDictionary dictionary];
+}
 
 + (instancetype)cachedTypeWithCode:(NSString *)code
 {
     MJExtensionAssertParamNotNil2(code, nil);
-    
-    static const char MJCachedTypesKey = '\0';
-    
-    MJPropertyType *type = [MJDictionaryCache objectForKey:code forDictId:&MJCachedTypesKey];
-    if (type == nil) {
-        type = [[self alloc] init];
-        type.code = code;
-        [MJDictionaryCache setObject:type forKey:code forDictId:&MJCachedTypesKey];
+    @synchronized (self) {
+        MJPropertyType *type = types_[code];
+        if (type == nil) {
+            type = [[self alloc] init];
+            type.code = code;
+            types_[code] = type;
+        }
+        return type;
     }
-    return type;
 }
 
 #pragma mark - 公共方法
@@ -45,7 +49,8 @@
         _code = [code substringWithRange:NSMakeRange(2, code.length - 3)];
         _typeClass = NSClassFromString(_code);
         _fromFoundation = [MJFoundation isClassFromFoundation:_typeClass];
-        _numberType = (_typeClass == [NSNumber class] || [_typeClass isSubclassOfClass:[NSNumber class]]);
+        _numberType = [_typeClass isSubclassOfClass:[NSNumber class]];
+        
     } else if ([code isEqualToString:MJPropertyTypeSEL] ||
                [code isEqualToString:MJPropertyTypeIvar] ||
                [code isEqualToString:MJPropertyTypeMethod]) {

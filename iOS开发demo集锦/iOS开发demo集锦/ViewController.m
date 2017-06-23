@@ -56,6 +56,12 @@
 #import "LLResumeDownLoaderController.h"
 #import "LLAsyncNetWorkeViewController.h"
 #import "LLQRCodeTableViewController.h"
+#import "LLTaoBaoOrderViewController.h"
+#import "LLSelectMenuController.h"
+#import "LLLEEAlterViewController.h"
+#import "CentralController.h" //蓝牙demo的控制器
+#import "LLChainViewController.h"
+#import "LLTextLoopController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -408,7 +414,21 @@
                 [self.navigationController pushViewController:QRCode animated:true];
             }
                 break;
-
+            case 7:
+            {
+                LLTaoBaoOrderViewController *TaoBaoOrder = [[LLTaoBaoOrderViewController alloc]init];
+                TaoBaoOrder.title = @"放淘宝订单页(tabView的使用)";
+                [self.navigationController pushViewController:TaoBaoOrder animated:true];
+            }
+                break;
+            case 8:
+            {
+                UIStoryboard * sb = [UIStoryboard storyboardWithName:@"LLSelectMenuController" bundle:nil];
+                LLSelectMenuController * SelectMenu = sb.instantiateInitialViewController;
+                
+                SelectMenu.title = @"多级下拉多选";
+                [self.navigationController pushViewController:SelectMenu animated:true];            }
+                break;
 
                 
             default:
@@ -416,6 +436,40 @@
         }
         
         
+    }else if (indexPath.section == 6){
+        
+        switch (indexPath.row) {
+            case 0:
+            {
+            LLLEEAlterViewController *AlterView = [[LLLEEAlterViewController alloc]init];
+            AlterView.title = @"LEE弹框神器";
+            [self.navigationController pushViewController:AlterView animated:true];
+            }
+            break;
+            case 1:
+            {
+                CentralController *Central = [[CentralController alloc]init];
+                [self.navigationController pushViewController:Central animated:true];
+            }
+                break;
+            case 2:
+            {
+                LLChainViewController *ChainView = [[LLChainViewController alloc]init];
+                [self.navigationController pushViewController:ChainView animated:true];
+            }
+                break;
+            case 3:
+            {
+                LLTextLoopController *TextLoop = [[LLTextLoopController alloc]init];
+                TextLoop.view.backgroundColor = [UIColor whiteColor];
+                TextLoop.title = @"仿京东文字轮播";
+                [self.navigationController pushViewController:TextLoop animated:true];
+            }
+                break;
+            
+            default:
+            break;
+        }
     }
 
 }
