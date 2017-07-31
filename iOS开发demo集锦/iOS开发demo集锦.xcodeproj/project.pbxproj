@@ -849,6 +849,8 @@
 		B5F8557C1F2EC523008B102C /* LLFanView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8557B1F2EC523008B102C /* LLFanView.m */; };
 		B5F8557F1F2EC54D008B102C /* UILabel+LLLable.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8557E1F2EC54D008B102C /* UILabel+LLLable.m */; };
 		B5F855861F2EC9A2008B102C /* LLMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F855851F2EC9A2008B102C /* LLMainNavigationController.m */; };
+		B5F8559A1F2ECF4A008B102C /* LLDownSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F855951F2ECF4A008B102C /* LLDownSelectedView.m */; };
+		B5F8559B1F2ECF4A008B102C /* LLDownSelecteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F855971F2ECF4A008B102C /* LLDownSelecteController.m */; };
 		B5FA56B01EE94FF100983E40 /* CentralController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AB1EE94FF100983E40 /* CentralController.m */; };
 		B5FA56B11EE94FF100983E40 /* LanYaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AD1EE94FF100983E40 /* LanYaViewController.m */; };
 		B5FA56B21EE94FF100983E40 /* PeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AF1EE94FF100983E40 /* PeripheralController.m */; };
@@ -2375,6 +2377,10 @@
 		B5F8557E1F2EC54D008B102C /* UILabel+LLLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LLLable.m"; sourceTree = "<group>"; };
 		B5F855841F2EC9A2008B102C /* LLMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMainNavigationController.h; sourceTree = "<group>"; };
 		B5F855851F2EC9A2008B102C /* LLMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMainNavigationController.m; sourceTree = "<group>"; };
+		B5F855941F2ECF4A008B102C /* LLDownSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDownSelectedView.h; sourceTree = "<group>"; };
+		B5F855951F2ECF4A008B102C /* LLDownSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDownSelectedView.m; sourceTree = "<group>"; };
+		B5F855961F2ECF4A008B102C /* LLDownSelecteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDownSelecteController.h; sourceTree = "<group>"; };
+		B5F855971F2ECF4A008B102C /* LLDownSelecteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDownSelecteController.m; sourceTree = "<group>"; };
 		B5FA56AA1EE94FF100983E40 /* CentralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralController.h; sourceTree = "<group>"; };
 		B5FA56AB1EE94FF100983E40 /* CentralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralController.m; sourceTree = "<group>"; };
 		B5FA56AC1EE94FF100983E40 /* LanYaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanYaViewController.h; sourceTree = "<group>"; };
@@ -3497,6 +3503,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B5F855921F2ECF4A008B102C /* 下拉选中效果 */,
 				B5F855761F2EC4AD008B102C /* iOS使用CGContextRef画扇子 */,
 				B52EC4331EF8CBDF0008C687 /* 仿京东文字轮播,监听点击跳转 */,
 				B5FA56B91EE9557400983E40 /* iOS中链式语法(Block) */,
@@ -5421,6 +5428,17 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		B5F855921F2ECF4A008B102C /* 下拉选中效果 */ = {
+			isa = PBXGroup;
+			children = (
+				B5F855941F2ECF4A008B102C /* LLDownSelectedView.h */,
+				B5F855951F2ECF4A008B102C /* LLDownSelectedView.m */,
+				B5F855961F2ECF4A008B102C /* LLDownSelecteController.h */,
+				B5F855971F2ECF4A008B102C /* LLDownSelecteController.m */,
+			);
+			path = "下拉选中效果";
+			sourceTree = "<group>";
+		};
 		B5FA56A91EE94FD600983E40 /* 蓝牙开发 */ = {
 			isa = PBXGroup;
 			children = (
@@ -6037,6 +6055,7 @@
 				06859B471E9DFF9E001136A1 /* GPUImageExposureFilter.m in Sources */,
 				06859BA71E9DFF9E001136A1 /* GPUImageSwirlFilter.m in Sources */,
 				B564FF1C1ECD83E200B633A6 /* NSObject+MJCoding.m in Sources */,
+				B5F8559A1F2ECF4A008B102C /* LLDownSelectedView.m in Sources */,
 				06859BAC1E9DFF9E001136A1 /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */,
 				06BF79501E78D04700371E48 /* POPAnimationRuntime.mm in Sources */,
 				06A15F081E95DBB2001988AF /* IFlyFaceImage.m in Sources */,
@@ -6107,6 +6126,7 @@
 				06BF78B41E78CB5200371E48 /* XMGRecommendTagsViewController.m in Sources */,
 				B5C9026A1EC555E50026810D /* UIViewController+XLBubbleTransition.m in Sources */,
 				068E63121E7A33DC0014636F /* LLSideBarViewController.m in Sources */,
+				B5F8559B1F2ECF4A008B102C /* LLDownSelecteController.m in Sources */,
 				06859B6D1E9DFF9E001136A1 /* GPUImageLookupFilter.m in Sources */,
 				06859B7B1E9DFF9E001136A1 /* GPUImageMovieComposition.m in Sources */,
 				06859B5F1E9DFF9E001136A1 /* GPUImageHSBFilter.m in Sources */,

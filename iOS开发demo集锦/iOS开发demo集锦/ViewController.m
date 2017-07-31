@@ -63,6 +63,7 @@
 #import "LLChainViewController.h"
 #import "LLTextLoopController.h"
 #import "LLFanViewController.h"
+#import "LLDownSelecteController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @property (nonatomic,strong) UITableView * tabView;
@@ -474,6 +475,14 @@
                 fanVc.view.backgroundColor = [UIColor whiteColor];
                 fanVc.title = @"iOS使用CGContextRef画扇子";
                 [self.navigationController pushViewController:fanVc animated:true];
+            }
+                break;
+            case 5:
+            {
+                LLDownSelecteController *DownSelecte = [[LLDownSelecteController alloc]init];
+                DownSelecte.view.backgroundColor = [UIColor whiteColor];
+                DownSelecte.title = @"下拉选中效果";
+                [self.navigationController pushViewController:DownSelecte animated:true];
             }
                 break;
 
