@@ -10,6 +10,8 @@
 #import "ViewController.h"
 #import <iflyMSC/IFlyFaceSDK.h>
 #define USER_APPID           @"56ce54a5"
+
+#import "LLMainNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -28,7 +30,7 @@
 
     self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
    
-    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController: [[ViewController alloc]initWithStyle:UITableViewStyleGrouped]];
+    UINavigationController * nav = [[LLMainNavigationController alloc]initWithRootViewController: [[ViewController alloc]initWithStyle:UITableViewStyleGrouped]];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     //配置文件

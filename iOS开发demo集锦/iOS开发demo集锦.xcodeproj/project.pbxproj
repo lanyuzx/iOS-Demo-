@@ -848,6 +848,7 @@
 		B5F855791F2EC50C008B102C /* LLFanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F855781F2EC50C008B102C /* LLFanViewController.m */; };
 		B5F8557C1F2EC523008B102C /* LLFanView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8557B1F2EC523008B102C /* LLFanView.m */; };
 		B5F8557F1F2EC54D008B102C /* UILabel+LLLable.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8557E1F2EC54D008B102C /* UILabel+LLLable.m */; };
+		B5F855861F2EC9A2008B102C /* LLMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F855851F2EC9A2008B102C /* LLMainNavigationController.m */; };
 		B5FA56B01EE94FF100983E40 /* CentralController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AB1EE94FF100983E40 /* CentralController.m */; };
 		B5FA56B11EE94FF100983E40 /* LanYaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AD1EE94FF100983E40 /* LanYaViewController.m */; };
 		B5FA56B21EE94FF100983E40 /* PeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AF1EE94FF100983E40 /* PeripheralController.m */; };
@@ -2372,6 +2373,8 @@
 		B5F8557B1F2EC523008B102C /* LLFanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLFanView.m; path = "../仿京东文字轮播,监听点击跳转/LLFanView.m"; sourceTree = "<group>"; };
 		B5F8557D1F2EC54D008B102C /* UILabel+LLLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LLLable.h"; sourceTree = "<group>"; };
 		B5F8557E1F2EC54D008B102C /* UILabel+LLLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LLLable.m"; sourceTree = "<group>"; };
+		B5F855841F2EC9A2008B102C /* LLMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMainNavigationController.h; sourceTree = "<group>"; };
+		B5F855851F2EC9A2008B102C /* LLMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMainNavigationController.m; sourceTree = "<group>"; };
 		B5FA56AA1EE94FF100983E40 /* CentralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralController.h; sourceTree = "<group>"; };
 		B5FA56AB1EE94FF100983E40 /* CentralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralController.m; sourceTree = "<group>"; };
 		B5FA56AC1EE94FF100983E40 /* LanYaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanYaViewController.h; sourceTree = "<group>"; };
@@ -3448,6 +3451,7 @@
 		06BF762F1E77941800371E48 /* iOS开发demo集锦 */ = {
 			isa = PBXGroup;
 			children = (
+				B5F855801F2EC94A008B102C /* Main */,
 				06BF766F1E77CC3400371E48 /* resources */,
 				06BF766C1E77CBB600371E48 /* demoList */,
 				06BF76331E77941900371E48 /* AppDelegate.h */,
@@ -5408,6 +5412,15 @@
 			path = "iOS使用CGContextRef画扇子";
 			sourceTree = "<group>";
 		};
+		B5F855801F2EC94A008B102C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B5F855841F2EC9A2008B102C /* LLMainNavigationController.h */,
+				B5F855851F2EC9A2008B102C /* LLMainNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		B5FA56A91EE94FD600983E40 /* 蓝牙开发 */ = {
 			isa = PBXGroup;
 			children = (
@@ -6165,6 +6178,7 @@
 				06BF78F21E78CB5200371E48 /* XMGPublishViewController.m in Sources */,
 				06BF76AA1E77CC4B00371E48 /* README.md in Sources */,
 				B5C900FD1EC54C220026810D /* ThumbsViewController.m in Sources */,
+				B5F855861F2EC9A2008B102C /* LLMainNavigationController.m in Sources */,
 				06EEEDAB1E8E2B5D00E5DCBB /* XHFocusLayer.m in Sources */,
 				068E63151E7A349D0014636F /* LLLeftViewController.m in Sources */,
 				06859B721E9DFF9E001136A1 /* GPUImageLuminosityBlendFilter.m in Sources */,
@@ -6546,6 +6560,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOS开发demo集锦/demoList/iOS人脸识别/FaceRecognition/frameworks",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "iOS开发demo集锦/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6569,6 +6585,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOS开发demo集锦/demoList/iOS人脸识别/FaceRecognition/frameworks",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "iOS开发demo集锦/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

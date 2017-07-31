@@ -65,6 +65,7 @@
 #import "LLFanViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
+@property (nonatomic,strong) UITableView * tabView;
 @end
 
 @implementation ViewController
