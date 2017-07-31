@@ -62,6 +62,7 @@
 #import "CentralController.h" //蓝牙demo的控制器
 #import "LLChainViewController.h"
 #import "LLTextLoopController.h"
+#import "LLFanViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @end
@@ -466,7 +467,15 @@
                 [self.navigationController pushViewController:TextLoop animated:true];
             }
                 break;
-            
+            case 4:
+            {
+                LLFanViewController *fanVc = [[LLFanViewController alloc]init];
+                fanVc.view.backgroundColor = [UIColor whiteColor];
+                fanVc.title = @"iOS使用CGContextRef画扇子";
+                [self.navigationController pushViewController:fanVc animated:true];
+            }
+                break;
+
             default:
             break;
         }

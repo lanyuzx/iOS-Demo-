@@ -845,6 +845,9 @@
 		B5D1FE5F1EE94B3E00FF5103 /* smile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D1FE3C1EE94B3E00FF5103 /* smile@3x.png */; };
 		B5D1FE601EE94B3E00FF5103 /* tongue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D1FE3D1EE94B3E00FF5103 /* tongue@2x.png */; };
 		B5D1FE611EE94B3E00FF5103 /* tongue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D1FE3E1EE94B3E00FF5103 /* tongue@3x.png */; };
+		B5F855791F2EC50C008B102C /* LLFanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F855781F2EC50C008B102C /* LLFanViewController.m */; };
+		B5F8557C1F2EC523008B102C /* LLFanView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8557B1F2EC523008B102C /* LLFanView.m */; };
+		B5F8557F1F2EC54D008B102C /* UILabel+LLLable.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8557E1F2EC54D008B102C /* UILabel+LLLable.m */; };
 		B5FA56B01EE94FF100983E40 /* CentralController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AB1EE94FF100983E40 /* CentralController.m */; };
 		B5FA56B11EE94FF100983E40 /* LanYaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AD1EE94FF100983E40 /* LanYaViewController.m */; };
 		B5FA56B21EE94FF100983E40 /* PeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA56AF1EE94FF100983E40 /* PeripheralController.m */; };
@@ -2363,6 +2366,12 @@
 		B5D1FE3C1EE94B3E00FF5103 /* smile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smile@3x.png"; sourceTree = "<group>"; };
 		B5D1FE3D1EE94B3E00FF5103 /* tongue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tongue@2x.png"; sourceTree = "<group>"; };
 		B5D1FE3E1EE94B3E00FF5103 /* tongue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tongue@3x.png"; sourceTree = "<group>"; };
+		B5F855771F2EC50C008B102C /* LLFanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFanViewController.h; sourceTree = "<group>"; };
+		B5F855781F2EC50C008B102C /* LLFanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFanViewController.m; sourceTree = "<group>"; };
+		B5F8557A1F2EC523008B102C /* LLFanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLFanView.h; path = "../仿京东文字轮播,监听点击跳转/LLFanView.h"; sourceTree = "<group>"; };
+		B5F8557B1F2EC523008B102C /* LLFanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLFanView.m; path = "../仿京东文字轮播,监听点击跳转/LLFanView.m"; sourceTree = "<group>"; };
+		B5F8557D1F2EC54D008B102C /* UILabel+LLLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LLLable.h"; sourceTree = "<group>"; };
+		B5F8557E1F2EC54D008B102C /* UILabel+LLLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LLLable.m"; sourceTree = "<group>"; };
 		B5FA56AA1EE94FF100983E40 /* CentralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralController.h; sourceTree = "<group>"; };
 		B5FA56AB1EE94FF100983E40 /* CentralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralController.m; sourceTree = "<group>"; };
 		B5FA56AC1EE94FF100983E40 /* LanYaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanYaViewController.h; sourceTree = "<group>"; };
@@ -3484,6 +3493,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B5F855761F2EC4AD008B102C /* iOS使用CGContextRef画扇子 */,
 				B52EC4331EF8CBDF0008C687 /* 仿京东文字轮播,监听点击跳转 */,
 				B5FA56B91EE9557400983E40 /* iOS中链式语法(Block) */,
 				B5FA56A91EE94FD600983E40 /* 蓝牙开发 */,
@@ -5385,6 +5395,19 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		B5F855761F2EC4AD008B102C /* iOS使用CGContextRef画扇子 */ = {
+			isa = PBXGroup;
+			children = (
+				B5F855771F2EC50C008B102C /* LLFanViewController.h */,
+				B5F855781F2EC50C008B102C /* LLFanViewController.m */,
+				B5F8557A1F2EC523008B102C /* LLFanView.h */,
+				B5F8557B1F2EC523008B102C /* LLFanView.m */,
+				B5F8557D1F2EC54D008B102C /* UILabel+LLLable.h */,
+				B5F8557E1F2EC54D008B102C /* UILabel+LLLable.m */,
+			);
+			path = "iOS使用CGContextRef画扇子";
+			sourceTree = "<group>";
+		};
 		B5FA56A91EE94FD600983E40 /* 蓝牙开发 */ = {
 			isa = PBXGroup;
 			children = (
@@ -5826,6 +5849,7 @@
 				06BF795A1E78D04700371E48 /* POPPropertyAnimation.mm in Sources */,
 				063E9F601E8B963F00953AC8 /* BuyCountView.m in Sources */,
 				06EEEE391E8E2EE000E5DCBB /* HXPhotoManager.m in Sources */,
+				B5F855791F2EC50C008B102C /* LLFanViewController.m in Sources */,
 				063E9F731E8B97C000953AC8 /* LLTimeLineController.m in Sources */,
 				06859BAF1E9DFF9E001136A1 /* GPUImageToneCurveFilter.m in Sources */,
 				06859B4C1E9DFF9E001136A1 /* GPUImageFilterPipeline.m in Sources */,
@@ -5908,6 +5932,7 @@
 				06859B241E9DFF9E001136A1 /* GPUImageAddBlendFilter.m in Sources */,
 				06A15F1B1E95DBB2001988AF /* LLFaceRecognitionController.m in Sources */,
 				063E9F611E8B963F00953AC8 /* ChoseView.m in Sources */,
+				B5F8557C1F2EC523008B102C /* LLFanView.m in Sources */,
 				068E62E51E7A26FD0014636F /* ZZXClothers.m in Sources */,
 				06BF76EB1E77D2D000371E48 /* MenuItemCell.m in Sources */,
 				06859B201E9DFF9E001136A1 /* GLProgram.m in Sources */,
@@ -5924,6 +5949,7 @@
 				063E9F351E8B902700953AC8 /* ZFDownloadViewController.m in Sources */,
 				06BF79541E78D04700371E48 /* POPCGUtils.mm in Sources */,
 				06EEEE441E8E2EE000E5DCBB /* HXVideoPresentTransition.m in Sources */,
+				B5F8557F1F2EC54D008B102C /* UILabel+LLLable.m in Sources */,
 				06EEEE451E8E2EE000E5DCBB /* HXVideoPreviewViewController.m in Sources */,
 				06BF77AE1E77E7EA00371E48 /* MASConstraintMaker.m in Sources */,
 				06859B2B1E9DFF9E001136A1 /* GPUImageBrightnessFilter.m in Sources */,
