@@ -708,6 +708,9 @@
 		B59ABFAF1EC98B7D00E72865 /* LLJSPersonCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFAE1EC98B7D00E72865 /* LLJSPersonCenterController.m */; };
 		B59ABFB41EC9A05800E72865 /* MQLResumeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFB31EC9A05800E72865 /* MQLResumeManager.m */; };
 		B59ABFB71EC9A07F00E72865 /* LLResumeDownLoaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59ABFB61EC9A07F00E72865 /* LLResumeDownLoaderController.m */; };
+		B5BD64351F745ABB004FBCC7 /* LLExcelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BD642E1F745ABB004FBCC7 /* LLExcelViewController.m */; };
+		B5BD64361F745ABB004FBCC7 /* LLLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BD64321F745ABB004FBCC7 /* LLLeftTableViewCell.m */; };
+		B5BD64371F745ABB004FBCC7 /* LLRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BD64341F745ABB004FBCC7 /* LLRightTableViewCell.m */; };
 		B5C900CE1EC54C220026810D /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C900891EC54C220026810D /* CGPDFDocument.m */; };
 		B5C900CF1EC54C220026810D /* AppIcon-076.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9008B1EC54C220026810D /* AppIcon-076.png */; };
 		B5C900D01EC54C220026810D /* AppIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C9008C1EC54C220026810D /* AppIcon-120.png */; };
@@ -2159,6 +2162,12 @@
 		B59ABFB31EC9A05800E72865 /* MQLResumeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLResumeManager.m; sourceTree = "<group>"; };
 		B59ABFB51EC9A07F00E72865 /* LLResumeDownLoaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLResumeDownLoaderController.h; sourceTree = "<group>"; };
 		B59ABFB61EC9A07F00E72865 /* LLResumeDownLoaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLResumeDownLoaderController.m; sourceTree = "<group>"; };
+		B5BD642D1F745ABB004FBCC7 /* LLExcelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLExcelViewController.h; sourceTree = "<group>"; };
+		B5BD642E1F745ABB004FBCC7 /* LLExcelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLExcelViewController.m; sourceTree = "<group>"; };
+		B5BD64311F745ABB004FBCC7 /* LLLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLeftTableViewCell.h; sourceTree = "<group>"; };
+		B5BD64321F745ABB004FBCC7 /* LLLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLeftTableViewCell.m; sourceTree = "<group>"; };
+		B5BD64331F745ABB004FBCC7 /* LLRightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRightTableViewCell.h; sourceTree = "<group>"; };
+		B5BD64341F745ABB004FBCC7 /* LLRightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRightTableViewCell.m; sourceTree = "<group>"; };
 		B5C900881EC54C220026810D /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
 		B5C900891EC54C220026810D /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
 		B5C9008B1EC54C220026810D /* AppIcon-076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-076.png"; sourceTree = "<group>"; };
@@ -3503,6 +3512,7 @@
 		06BF766C1E77CBB600371E48 /* demoList */ = {
 			isa = PBXGroup;
 			children = (
+				B5BD642A1F745ABB004FBCC7 /* iOS表格原生实现左固定右滑动 */,
 				B5F855921F2ECF4A008B102C /* 下拉选中效果 */,
 				B5F855761F2EC4AD008B102C /* iOS使用CGContextRef画扇子 */,
 				B52EC4331EF8CBDF0008C687 /* 仿京东文字轮播,监听点击跳转 */,
@@ -5015,6 +5025,51 @@
 			path = ResumeManager;
 			sourceTree = "<group>";
 		};
+		B5BD642A1F745ABB004FBCC7 /* iOS表格原生实现左固定右滑动 */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD642B1F745ABB004FBCC7 /* Excel */,
+			);
+			path = "iOS表格原生实现左固定右滑动";
+			sourceTree = "<group>";
+		};
+		B5BD642B1F745ABB004FBCC7 /* Excel */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD642C1F745ABB004FBCC7 /* Controller */,
+				B5BD642F1F745ABB004FBCC7 /* Model */,
+				B5BD64301F745ABB004FBCC7 /* View */,
+			);
+			path = Excel;
+			sourceTree = "<group>";
+		};
+		B5BD642C1F745ABB004FBCC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD642D1F745ABB004FBCC7 /* LLExcelViewController.h */,
+				B5BD642E1F745ABB004FBCC7 /* LLExcelViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5BD642F1F745ABB004FBCC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5BD64301F745ABB004FBCC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD64311F745ABB004FBCC7 /* LLLeftTableViewCell.h */,
+				B5BD64321F745ABB004FBCC7 /* LLLeftTableViewCell.m */,
+				B5BD64331F745ABB004FBCC7 /* LLRightTableViewCell.h */,
+				B5BD64341F745ABB004FBCC7 /* LLRightTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B5C900871EC54C220026810D /* PDFReaderSources */ = {
 			isa = PBXGroup;
 			children = (
@@ -5989,6 +6044,7 @@
 				B564FF191ECD83E200B633A6 /* MJPropertyKey.m in Sources */,
 				B5D1FE161EE949CE00FF5103 /* ShareView.m in Sources */,
 				0632027B1E835F5900AA4B5A /* LLMVVMModel.m in Sources */,
+				B5BD64351F745ABB004FBCC7 /* LLExcelViewController.m in Sources */,
 				06BF77EB1E77E7F600371E48 /* MJRefreshAutoNormalFooter.m in Sources */,
 				B5C900FA1EC54C220026810D /* ReaderThumbView.m in Sources */,
 				06859BC61E9DFF9E001136A1 /* GPUImageBeautifyFilter.m in Sources */,
@@ -6101,6 +6157,7 @@
 				B5C9025E1EC555E50026810D /* POPTableViewController.m in Sources */,
 				06BF798F1E78D42600371E48 /* XMGExtensionConfig.m in Sources */,
 				06859B591E9DFF9E001136A1 /* GPUImageHighlightShadowFilter.m in Sources */,
+				B5BD64371F745ABB004FBCC7 /* LLRightTableViewCell.m in Sources */,
 				068599A61E9DF791001136A1 /* LLUDIDViewController.m in Sources */,
 				B5C9025F1EC555E50026810D /* PopBackTopViewController.m in Sources */,
 				B59ABFA81EC98B4300E72865 /* BaseTableViewController.m in Sources */,
@@ -6164,6 +6221,7 @@
 				06859B9D1E9DFF9E001136A1 /* GPUImageSmoothToonFilter.m in Sources */,
 				06BF772B1E77D71500371E48 /* getData.m in Sources */,
 				B59ABFAC1EC98B4300E72865 /* RightTableViewController.m in Sources */,
+				B5BD64361F745ABB004FBCC7 /* LLLeftTableViewCell.m in Sources */,
 				06A15EB21E947DA2001988AF /* JHPieItemsView.m in Sources */,
 				06BF77841E77E48F00371E48 /* LLButtonViewController.m in Sources */,
 				B564FF311ECD865C00B633A6 /* TYGSelectMenuCellTableViewCell.m in Sources */,

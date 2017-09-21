@@ -64,6 +64,7 @@
 #import "LLTextLoopController.h"
 #import "LLFanViewController.h"
 #import "LLDownSelecteController.h"
+#import "LLExcelViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)  NSMutableArray * demoTitleArr;
 @property (nonatomic,strong) UITableView * tabView;
@@ -488,6 +489,20 @@
 
             default:
             break;
+        }
+    }else if (indexPath.section ==7){
+        switch (indexPath.row) {
+            case 0:
+            {
+                LLExcelViewController *excleVc = [[LLExcelViewController alloc]init];
+                excleVc.view.backgroundColor = [UIColor whiteColor];
+                excleVc.title = @"iOS表格原生实现左固定右滑动";
+                [self.navigationController pushViewController:excleVc animated:true];
+            }
+                break;
+                
+            default:
+                break;
         }
     }
 

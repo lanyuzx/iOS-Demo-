@@ -14,7 +14,7 @@
     
     
        
-        NSArray * timeArr = @[@"2017-03-14更新",@"2017-03-15更新",@"2017-03-23更新",@"2017-03-29更新",@"2017-04-05更新",@"2017-05-12更新",@"2017-06-08更新"];
+        NSArray * timeArr = @[@"2017-03-14更新",@"2017-03-15更新",@"2017-03-23更新",@"2017-03-29更新",@"2017-04-05更新",@"2017-05-12更新",@"2017-06-08更新",@"2017-09-22更新"];
         
         NSMutableArray * tempArr = [NSMutableArray array];
         
@@ -45,6 +45,9 @@
                 case 6:
                 model.demoArr = [NSMutableArray arrayWithObjects:@"LEEAlter弹框神器",@"蓝牙开发的demo",@"iOS中链式语法(Block)",@"仿京东文字轮播,监听点击跳转",@"iOS使用CGContextRef画扇子",@"下拉选中效果",nil];
                 break;
+                case 7:
+                    model.demoArr = [NSMutableArray arrayWithObjects:@"iOS表格原生实现左固定右滑动",nil];
+                    break;
                 default:
                     break;
             }
